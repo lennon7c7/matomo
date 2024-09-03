@@ -39,9 +39,9 @@ class Menu extends \Piwik\Plugin\Menu
     {
         $tagManagerTeaser = new TagManagerTeaser(Piwik::getCurrentUserLogin());
 
-        if ($tagManagerTeaser->shouldShowTeaser()) {
-            $menu->addItem('Tag Manager', null, $this->urlForAction('tagManagerTeaser'));
-        }
+//        if ($tagManagerTeaser->shouldShowTeaser()) {
+//            $menu->addItem('Tag Manager', null, $this->urlForAction('tagManagerTeaser'));
+//        }
     }
 
     public function configureAdminMenu(MenuAdmin $menu)

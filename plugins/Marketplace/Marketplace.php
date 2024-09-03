@@ -193,9 +193,9 @@ class Marketplace extends \Piwik\Plugin
      */
     public function filterWidgets($list)
     {
-        if (!SettingsPiwik::isInternetEnabled()) {
+//        if (!SettingsPiwik::isInternetEnabled()) {
             $list->remove('Marketplace_Marketplace');
-        }
+//        }
     }
 
     public function dismissPluginTrialNotification(): void
