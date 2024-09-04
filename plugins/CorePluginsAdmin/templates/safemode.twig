@@ -34,7 +34,7 @@
 
         {% if isAllowedToTroubleshootAsSuperUser or not isAnonymousUser %}
             <p>
-                The following error just broke Matomo{% if showVersion %} (v{{ piwikVersion }}){% endif %}:
+                The following error just broke {% if showVersion %} (v{{ piwikVersion }}){% endif %}:
             </p>
             <pre>{{ lastError.message }}
 {% if lastError.backtrace is defined %}{{ lastError.backtrace }}{% else %}in {{ lastError.file }} line {{ lastError.line }}{% endif %}
@@ -53,9 +53,7 @@
                     If this is the first time you see this error, please try refresh the page.
                 </li>
                 <li>
-                    <strong>If this error continues to happen</strong>, we appreciate if you send the
-                    <a href="mailto:hello@matomo.org?subject={{ 'Fatal error in ' ~ piwikVersion|e('url') }}&body={{ lastError.message|e('url') }}%20in%20{{ lastError.file|e('url') }}%20{{ lastError.line|e('url') }}%20using%20PHP%20{{ constant('PHP_VERSION') }}">error report</a>
-                    to the team.
+                    <strong>If this error continues to happen</strong>, we appreciate if you send to the team.
                 </li>
             </ul>
             <hr/>
@@ -67,7 +65,7 @@
             <h3>Further troubleshooting</h3>
             <p>
                 If this error continues to happen, you may be able to fix this issue by disabling one or more of
-                the Third-Party plugins. If you don't know which plugin is causing this error, we recommend to first disable any plugin not created by "Matomo" and not created by "InnoCraft".
+                the Third-Party plugins. If you don't know which plugin is causing this error, we recommend to first disable any plugin not created by "InnoCraft".
                 You can enable plugin again afterwards in the
                 <a rel="noreferrer noopener" target="_blank" href="index.php?module=CorePluginsAdmin&action=plugins">Plugins</a>
                 or <a target="_blank" href="index.php?module=CorePluginsAdmin&action=themes">Themes</a> page under
