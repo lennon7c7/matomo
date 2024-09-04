@@ -641,7 +641,7 @@ class Manager
     public function uninstallPlugin($pluginName)
     {
         if ($this->isPluginLoaded($pluginName)) {
-            throw new \Exception("To uninstall the plugin $pluginName, first disable it in Matomo > Settings > Plugins");
+            throw new \Exception("To uninstall the plugin $pluginName, first disable it in > Settings > Plugins");
         }
         $this->loadAllPluginsAndGetTheirInfo();
 

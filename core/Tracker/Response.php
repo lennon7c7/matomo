@@ -75,9 +75,9 @@ class Response
             if (!$this->isHttpGetRequest() || !empty($_GET) || !empty($_POST)) {
                 Common::sendResponseCode(400);
             }
-            Common::printDebug("Empty request => Matomo page");
+            Common::printDebug("Empty request => page");
             echo "This resource is part of Matomo. Keep full control of your data with the leading free and open source <a href='https://matomo.org' target='_blank' rel='noopener noreferrer nofollow'>web analytics & conversion optimisation platform</a>.<br>\n";
-            echo "This file is the endpoint for the Matomo tracking API. If you want to access the Matomo UI or use the Reporting API, please use <a href='index.php'>index.php</a> instead.\n";
+            echo "This file is the endpoint for the tracking API. If you want to access the UI or use the Reporting API, please use <a href='index.php'>index.php</a> instead.\n";
         } else {
             $this->outputApiResponse($tracker);
             Common::printDebug("Nothing to notice => default behaviour");
@@ -214,7 +214,7 @@ class Response
         // Note: duplicated from FormDatabaseSetup.isAccessDenied
         // Avoid leaking the username/db name when access denied
         if ($e->getCode() == 1044 || $e->getCode() == 42000) {
-            return "Error while connecting to the Matomo database - please check your credentials in config/config.ini.php file";
+            return "Error while connecting to the database - please check your credentials in config/config.ini.php file";
         }
 
         if (Common::isPhpCliMode()) {
@@ -228,6 +228,6 @@ class Response
     {
         $hostname = Url::getRFCValidHostname();
         $hostStr = $hostname ? "[$hostname]" : '-';
-        error_log(sprintf("$hostStr Error in Matomo (tracker): %s", str_replace("\n", " ", $this->getMessageFromException($e))));
+        error_log(sprintf("$hostStr Error in (tracker): %s", str_replace("\n", " ", $this->getMessageFromException($e))));
     }
 }

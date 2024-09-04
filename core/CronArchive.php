@@ -348,7 +348,7 @@ class CronArchive
         $timer = new Timer();
 
         $this->logSection("START");
-        $this->logger->info("Starting Matomo reports archiving...");
+        $this->logger->info("Starting reports archiving...");
 
         $numArchivesFinished = 0;
 
@@ -1263,7 +1263,7 @@ class CronArchive
     private function logInitInfo()
     {
         $this->logSection("INIT");
-        $this->logger->info("Running Matomo " . Version::VERSION . " as Super User");
+        $this->logger->info("Running " . Version::VERSION . " as Super User");
     }
 
     private function logArchiveTimeoutInfo()
@@ -1272,7 +1272,7 @@ class CronArchive
 
         // Recommend to disable browser archiving when using this script
         if (Rules::isBrowserTriggerEnabled()) {
-            $this->logger->info("- If you execute this script at least once per hour (or more often) in a crontab, you may disable 'Browser trigger archiving' in Matomo UI > Settings > General Settings.");
+            $this->logger->info("- If you execute this script at least once per hour (or more often) in a crontab, you may disable 'Browser trigger archiving' in UI > Settings > General Settings.");
             $this->logger->info("  See the doc at: https://matomo.org/docs/setup-auto-archiving/");
         }
 
@@ -1281,7 +1281,7 @@ class CronArchive
         $this->logger->info("- " . ($supportsAsync ? 'Async process archiving supported, using CliMulti.' : 'Async process archiving not supported, using curl requests.'));
 
         $this->logger->info("- Reports for today will be processed at most every " . $this->todayArchiveTimeToLive
-            . " seconds. You can change this value in Matomo UI > Settings > General Settings.");
+            . " seconds. You can change this value in UI > Settings > General Settings.");
 
         foreach (['week', 'month', 'year', 'range'] as $period) {
             $ttl = Rules::getPeriodArchiveTimeToLiveDefault($period);

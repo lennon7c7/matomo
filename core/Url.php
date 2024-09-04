@@ -523,7 +523,7 @@ class Url
         }
 
         if (Common::isPhpCliMode()) {
-            throw new Exception("If you were using a browser, Matomo would redirect you to this URL: $url \n\n");
+            throw new Exception("If you were using a browser, would redirect you to this URL: $url \n\n");
         }
     }
 
@@ -661,7 +661,7 @@ class Url
     public static function getHostSanitized($host)
     {
         if (!class_exists("Matomo\\Network\\IPUtils")) {
-            throw new Exception("Matomo\\Network\\IPUtils could not be found, maybe you are using Matomo from git and need to update Composer. $ php composer.phar update");
+            throw new Exception("Matomo\\Network\\IPUtils could not be found, maybe you are using from git and need to update Composer. $ php composer.phar update");
         }
         return IPUtils::sanitizeIp($host);
     }

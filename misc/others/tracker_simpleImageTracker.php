@@ -21,7 +21,7 @@ $trackingURL = Matomo_getUrlTrackPageView($idSite = 16, $customTitle = 'This tit
 </script>
 <!-- End Matomo Code -->
 
-This page loads a Simple Tracker request to Matomo website id=1
+This page loads a Simple Tracker request to website id=1
 
 <?php
 echo '<img src="' . htmlentities($trackingURL, ENT_COMPAT | ENT_HTML401, 'UTF-8') . '" alt="" />';

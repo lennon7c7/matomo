@@ -62,7 +62,7 @@ class UIAssetMinifier extends Singleton
     private static function validateDependency()
     {
         if (!class_exists("JShrink\\Minifier")) {
-            throw new Exception("JShrink could not be found, maybe you are using Matomo from git and need to update Composer. $ php composer.phar update");
+            throw new Exception("JShrink could not be found, maybe you are using from git and need to update Composer. $ php composer.phar update");
         }
     }
 }

@@ -27,9 +27,9 @@ $piwik_minimumPHPVersion = '7.2.5';
 $piwik_currentPHPVersion = PHP_VERSION;
 $minimumPhpInvalid = version_compare($piwik_minimumPHPVersion, $piwik_currentPHPVersion) > 0;
 if ($minimumPhpInvalid) {
-    $piwik_errorMessage .= "<p><strong>To run Matomo you need at least PHP version $piwik_minimumPHPVersion</strong></p>
+    $piwik_errorMessage .= "<p><strong>To run you need at least PHP version $piwik_minimumPHPVersion</strong></p>
 				<p>Unfortunately it seems your webserver is using PHP version $piwik_currentPHPVersion. </p>
-				<p>Please try to update your PHP version, Matomo is really worth it! Nowadays most web hosts
+				<p>Please try to update your PHP version, is really worth it! Nowadays most web hosts
 				support PHP $piwik_minimumPHPVersion.</p>";
 } else {
     if (!extension_loaded('session')) {
@@ -57,18 +57,18 @@ if ($minimumPhpInvalid) {
     }
 
     if (!file_exists(PIWIK_VENDOR_PATH . '/autoload.php')) {
-        $composerInstall = "In the matomo directory, run in the command line the following (eg. via ssh): \n\n"
+        $composerInstall = "In the directory, run in the command line the following (eg. via ssh): \n\n"
             . "<pre> curl -sS https://getcomposer.org/installer | php \n\n php composer.phar install\n\n</pre> ";
         if (DIRECTORY_SEPARATOR === '\\' /* ::isWindows() */) {
             $composerInstall = "Download and run <a href=\"https://getcomposer.org/Composer-Setup.exe\"><b>Composer-Setup.exe</b></a>, it will install the latest Composer version and set up your PATH so that you can just call composer from any directory in your command line. "
-                . " <br>Then run this command in a terminal in the matomo directory: <br> $ php composer.phar install ";
+                . " <br>Then run this command in a terminal in the directory: <br> $ php composer.phar install ";
         }
         $piwik_errorMessage .= "<p>It appears the <a href='https://getcomposer.org/' rel='noreferrer noopener' target='_blank'>composer</a> tool is not yet installed. You can install Composer in a few easy steps:\n\n" .
                     "<br/>" . $composerInstall .
-                    " This will initialize composer for Matomo and download libraries we use in vendor/* directory." .
+                    " This will initialize composer for and download libraries we use in vendor/* directory." .
                     "\n\n<br/><br/>Then reload this page to access your analytics reports." .
-                    "\n\n<br/><br/>For more information check out this FAQ: <a href='" . Url::addCampaignParametersToMatomoLink('https://matomo.org/faq/how-to-install/faq_18271/') . "' rel='noreferrer noopener' target='_blank'>How do I use Matomo from the Git repository?</a>." .
-                    "\n\n<br/><br/>Note: if for some reasons you cannot install composer, instead install the latest Matomo release from " .
+                    "\n\n<br/><br/>For more information check out this FAQ: <a href='" . Url::addCampaignParametersToMatomoLink('https://matomo.org/faq/how-to-install/faq_18271/') . "' rel='noreferrer noopener' target='_blank'>How do I use from the Git repository?</a>." .
+                    "\n\n<br/><br/>Note: if for some reasons you cannot install composer, instead install the latest release from " .
                     "<a href='https://builds.matomo.org/piwik.zip' rel='noreferrer noopener'>builds.matomo.org</a>.</p>";
     }
 }

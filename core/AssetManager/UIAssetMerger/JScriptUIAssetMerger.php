@@ -43,7 +43,7 @@ class JScriptUIAssetMerger extends UIAssetMerger
     protected function generateCacheBuster()
     {
         $cacheBuster = $this->cacheBuster->piwikVersionBasedCacheBuster($this->getPlugins());
-        return "/* Matomo Javascript - cb=" . $cacheBuster . "*/\n";
+        return "/* Javascript - cb=" . $cacheBuster . "*/\n";
     }
 
     protected function getPreamble()
