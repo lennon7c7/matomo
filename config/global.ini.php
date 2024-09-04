@@ -40,9 +40,9 @@ ssl_cipher =
 ssl_no_verify =
 ; Database SSL Options END
 
-; if charset is set to utf8, Matomo will ensure that it is storing its data using UTF8 charset.
+; if charset is set to utf8, will ensure that it is storing its data using UTF8 charset.
 ; it will add a sql query SET at each page view.
-; Matomo should work correctly without this setting but we recommend to have a charset set.
+; should work correctly without this setting but we recommend to have a charset set.
 charset = utf8
 
 ; Database error codes to ignore during updates
@@ -94,7 +94,7 @@ ssl_no_verify = 1
 
 [tests]
 ; needed in order to run tests.
-; if Matomo is available at http://localhost/dev/matomo/ replace @REQUEST_URI@ with /dev/matomo/
+; if is available at http://localhost/dev/matomo/ replace @REQUEST_URI@ with /dev/matomo/
 ; note: the REQUEST_URI should not contain "plugins" or "tests" in the PATH
 http_host   = localhost
 remote_addr = "127.0.0.1"
@@ -131,7 +131,7 @@ logger_syslog_ident = 'matomo'
 ; 'array' will cache data only during one request
 ; 'null' will not cache anything at all
 ; 'file' will cache on the filesystem
-; 'redis' will cache on a Redis server, use this if you are running Matomo with multiple servers. Further configuration in [RedisCache] is needed
+; 'redis' will cache on a Redis server, use this if you are running with multiple servers. Further configuration in [RedisCache] is needed
 ; 'chained' will chain multiple cache backends. Further configuration in [ChainedCache] is needed
 backend = chained
 
@@ -203,12 +203,12 @@ enabled = 0
 
 ; if set to 1, javascript files will be included individually and neither merged nor minified.
 ; this option must be set to 1 when adding, removing or modifying javascript files
-; Note that for quick debugging, instead of using below setting, you can add `&disable_merged_assets=1` to the Matomo URL
+; Note that for quick debugging, instead of using below setting, you can add `&disable_merged_assets=1` to the URL
 disable_merged_assets = 0
 
 [General]
 ; the following settings control whether Unique Visitors `nb_uniq_visitors` and Unique users `nb_users` will be processed for different period types.
-; year and range periods are disabled by default, to ensure optimal performance for high traffic Matomo instances
+; year and range periods are disabled by default, to ensure optimal performance for high traffic instances
 ; if you set it to 1 and want the Unique Visitors to be re-processed for reports in the past, drop all matomo_archive_* tables
 ; it is recommended to always enable Unique Visitors and Unique Users processing for 'day' periods
 enable_processing_unique_visitors_day = 1
@@ -222,7 +222,7 @@ enable_processing_unique_visitors_range = 0
 ; would still only be counted as one. only relevant when using plugins that group sites together
 enable_processing_unique_visitors_multiple_sites = 0
 
-; The list of periods that are available in the Matomo calendar
+; The list of periods that are available in the calendar
 ; Example use case: custom date range requests are processed in real time,
 ; so they may take a few minutes on very high traffic website: you may remove "range" below to disable this period
 enabled_periods_UI = "day,week,month,year,range"
@@ -234,12 +234,12 @@ enabled_periods_UI = "day,week,month,year,range"
 enabled_periods_API = "day,week,month,year,range"
 
 ; whether to enable segment archiving cache
-; Note: if you use any plugins, this need to be compliant with Matomo and
+; Note: if you use any plugins, this need to be compliant with and
 ; * depending on the segment you create you may need a newer MySQL version (eg 5.7 or newer)
 ; * use a reader database for archiving in case you have configured a database reader
 enable_segments_cache = 1
 
-; when set to 1, all requests to Matomo will return a maintenance message without connecting to the DB
+; when set to 1, all requests to will return a maintenance message without connecting to the DB
 ; this is useful when upgrading using the shell command, to prevent other users from accessing the UI while Upgrade is in progress
 maintenance_mode = 0
 
@@ -298,7 +298,7 @@ default_invite_user_token_expiry_days = 7
 enable_create_realtime_segments = 1
 
 ; Whether to enable the "Suggest values for segment" in the Segment Editor panel.
-; Set this to 0 in case your Matomo database is very big, and suggested values may not appear in time
+; Set this to 0 in case your database is very big, and suggested values may not appear in time
 enable_segment_suggested_values = 1
 
 ; By default, any user with a "view" access for a website can create segment assigned to this website.
@@ -309,7 +309,7 @@ adding_segment_requires_access = "view"
 
 ; Whether it is allowed for users to add segments that affect all websites or not. If there are many websites
 ; this admin option can be used to prevent users from performing an action that will have a major impact
-; on Matomo performance.
+; on performance.
 allow_adding_segments_for_all_websites = 1
 
 ; When archiving segments for the first time, this determines the oldest date that will be archived.
@@ -348,7 +348,7 @@ API_datatable_default_limit = 100
 datatable_export_range_as_day = "rss"
 
 ; This setting is overridden in the UI, under "User Settings".
-; The date and period loaded by Matomo uses the defaults below. Possible values: yesterday, today.
+; The date and period loaded by uses the defaults below. Possible values: yesterday, today.
 default_day = yesterday
 ; Possible values: day, week, month, year.
 default_period = day
@@ -377,18 +377,18 @@ time_before_range_archive_considered_outdated = -1
 archive_failure_recovery_timeout = 86400
 
 ; This setting is overridden in the UI, under "General Settings".
-; The default value is to allow browsers to trigger the Matomo archiving process.
+; The default value is to allow browsers to trigger the archiving process.
 ; This setting is only used if it hasn't been overridden via the UI yet, or if enable_general_settings_admin=0
 enable_browser_archiving_triggering = 1
 
-; By default, Matomo will force archiving of range periods from browser requests, even if enable_browser_archiving_triggering
+; By default, will force archiving of range periods from browser requests, even if enable_browser_archiving_triggering
 ; is set to 0. This can sometimes create too much of a demand on system resources. Setting this option to 0 and
 ; disabling browser trigger archiving will make sure ranges are not archived on browser request. Since the cron
 ; archiver does not archive any custom date ranges, you must either disable range (using enabled_periods_API and enabled_periods_UI)
 ; or make sure the date ranges users' want to see will be processed somehow.
 archiving_range_force_on_browser_request = 1
 
-; By default Matomo will automatically archive all date ranges any user has chosen in their account settings.
+; By default will automatically archive all date ranges any user has chosen in their account settings.
 ; This is limited to the available options last7, previous7, last30 and previous30.
 ; If you need any other period, or want to ensure one of those is always archived, you can define them here
 archiving_custom_ranges[] =
@@ -403,17 +403,17 @@ archiving_query_max_execution_time = 7200
 ; Here you can specify the comma separated list eg: "plugin1,plugin2"
 disable_archiving_segment_for_plugins = ""
 
-; By default Matomo will archive data showing the contribution of each action to goal conversions, for sites tracking millions
+; By default will archive data showing the contribution of each action to goal conversions, for sites tracking millions
 ; of visits with a large number of goals this may negatively impact archiving performance. You can disable archiving of action
 ; goal contribution here:
 disable_archive_actions_goals = 0
 
-; By default Matomo runs OPTIMIZE TABLE SQL queries to free spaces after deleting some data.
-; If your Matomo tracks millions of pages, the OPTIMIZE TABLE queries might run for hours (seen in "SHOW FULL PROCESSLIST \g")
+; By default runs OPTIMIZE TABLE SQL queries to free spaces after deleting some data.
+; If your tracks millions of pages, the OPTIMIZE TABLE queries might run for hours (seen in "SHOW FULL PROCESSLIST \g")
 ; so you can disable these special queries here:
 enable_sql_optimize_queries = 1
 
-; By default Matomo is purging complete date range archives to free spaces after deleting some data.
+; By default is purging complete date range archives to free spaces after deleting some data.
 ; If you are pre-processing custom ranges using CLI task to make them easily available in UI,
 ; you can prevent this action from happening by setting this parameter to value bigger than 1
 purge_date_range_archives_after_X_days = 1
@@ -431,11 +431,11 @@ minimum_memory_limit = 128
 ; Set to "-1" to always use the configured memory_limit value in php.ini file.
 minimum_memory_limit_when_archiving = 768
 
-; Matomo will check that usernames and password have a minimum length, and will check that characters are "allowed"
-; This can be disabled, if for example you wish to import an existing User database in Matomo and your rules are less restrictive
+; will check that usernames and password have a minimum length, and will check that characters are "allowed"
+; This can be disabled, if for example you wish to import an existing User database in and your rules are less restrictive
 disable_checks_usernames_attributes = 0
 
-; Matomo will use the configured hash algorithm where possible.
+; will use the configured hash algorithm where possible.
 ; For legacy data, fallback or non-security scenarios, we use md5.
 hash_algorithm = whirlpool
 
@@ -458,20 +458,20 @@ password_hash_argon2_memory_cost = default
 ; The number of iterations for calculating the hash
 password_hash_argon2_time_cost = default
 
-; If set to 1, Matomo will automatically redirect all http:// requests to https://
+; If set to 1, will automatically redirect all http:// requests to https://
 ; If SSL / https is not correctly configured on the server, this will break Matomo
 ; If you set this to 1, and your SSL configuration breaks later on, you can always edit this back to 0
-; it is recommended for security reasons to always use Matomo over https
+; it is recommended for security reasons to always use over https
 force_ssl = 0
 
-; If set to 1, Matomo will send a Content-Security-Policy header
+; If set to 1, will send a Content-Security-Policy header
 csp_enabled = 1
 
-; If set, and csp_enabled is on, Matomo will send a report-uri in the Content-Security-Policy-Report-Only header
+; If set, and csp_enabled is on, will send a report-uri in the Content-Security-Policy-Report-Only header
 ; instead of a Content-Security-Policy header.
 csp_report_only = 0
 
-; If set to 1 Matomo will prefer using SERVER_NAME variable over HTTP_HOST.
+; If set to 1 will prefer using SERVER_NAME variable over HTTP_HOST.
 ; This can add an additional layer of security as SERVER_NAME can not be manipulated by sending custom host headers when configure correctly.
 host_validation_use_server_name = 0
 
@@ -498,7 +498,7 @@ login_cookie_path =
 login_session_not_remembered_idle_timeout = 3600
 
 ; email address that appears as a Reply-to in the password recovery email
-; if specified, {DOMAIN} will be replaced by the current Matomo domain
+; if specified, {DOMAIN} will be replaced by the current domain
 login_password_recovery_replyto_email_address = "no-reply@{DOMAIN}"
 ; name that appears as a Reply-to in the password recovery email
 login_password_recovery_replyto_email_name = "No-reply"
@@ -523,7 +523,7 @@ login_password_recovery_replyto_email_name = "No-reply"
 ; Set this setting to "0" to allow HTTP Reporting API requests from any IP address.
 login_allowlist_apply_to_reporting_api_requests = 1
 
-; By default when user logs out they are redirected to Matomo "homepage" usually the Login form.
+; By default when user logs out they are redirected to "homepage" usually the Login form.
 ; Uncomment the next line to set a URL to redirect the user to after they log out of Matomo.
 ; login_logout_url = http://...
 
@@ -583,7 +583,7 @@ scheduled_reports_replyto_is_user_email_and_alias = 0
 ; 23 rows table fits in one portrait page
 scheduled_reports_truncate = 23
 
-; during archiving, Matomo will limit the number of results recorded, for performance reasons
+; during archiving, will limit the number of results recorded, for performance reasons
 ; maximum number of rows for any of the Referrers tables (keywords, search engines, campaigns, etc.)
 datatable_archiving_maximum_rows_referrers = 1000
 ; maximum number of rows for any of the Referrers subtable (search engines by keyword, keyword by campaign, etc.)
@@ -649,25 +649,25 @@ live_query_max_execution_time = -1
 ; the page will automatically refresh every 5 minutes. Set to 0 to disable automatic refresh
 multisites_refresh_after_seconds = 300
 
-; by default, an update notification for a new version of Matomo is shown to every user. Set to 1 if only
+; by default, an update notification for a new version of is shown to every user. Set to 1 if only
 ; the superusers should see the notification.
 show_update_notification_to_superusers_only = 0
 
-; Set to 1 if you're using https on your Matomo server and Matomo can't detect it,
+; Set to 1 if you're using https on your server and can't detect it,
 ; e.g., a reverse proxy using https-to-http, or a web server that doesn't
 ; set the HTTPS environment variable.
 assume_secure_protocol = 0
 
-; Set to 1 if you're using more than one server for your Matomo installation. For example if you are using Matomo in a
+; Set to 1 if you're using more than one server for your installation. For example if you are using in a
 ; load balanced environment, if you have configured failover or if you're just using multiple servers in general.
 ; By enabling this flag we will for example not allow the installation of a plugin via the UI as a plugin would be only
 ; installed on one server or a config one change would be only made on one server instead of all servers.
 ; This flag doesn't need to be enabled when the config file is on a shared filesystem such as NFS or EFS.
-; When enabled, Matomo will return the response code 200 instead of 503 in maintenance mode.
+; When enabled, will return the response code 200 instead of 503 in maintenance mode.
 multi_server_environment = 0
 
 ; List of proxy headers for client IP addresses
-; Matomo will determine the user IP by extracting the first IP address found in this proxy header.
+; will determine the user IP by extracting the first IP address found in this proxy header.
 ;
 ; CloudFlare (CF-Connecting-IP)
 ;proxy_client_headers[] = HTTP_CF_CONNECTING_IP
@@ -706,7 +706,7 @@ proxy_ip_read_last_in_list = 1
 enable_trusted_host_check = 1
 
 ; List of trusted hosts (eg domain or subdomain names) when generating absolute URLs.
-; This only needs to be set for any hostnames that the Matomo UI will be accessed from. It is not necessary to set this
+; This only needs to be set for any hostnames that the UI will be accessed from. It is not necessary to set this
 ; for other additional hostnames (For example tracking, API, etc.)
 ; Examples:
 ;trusted_hosts[] = example.com
@@ -722,19 +722,19 @@ enable_trusted_host_check = 1
 ; Or you may allow cross domain requests for all domains with:
 ;cors_domains[] = *
 
-; If you use this Matomo instance over multiple hostnames, Matomo will need to know a unique instance_id for this
-; instance, so that Matomo can serve the right custom logo and tmp/* assets, independently of the hostname Matomo is
+; If you use this instance over multiple hostnames, will need to know a unique instance_id for this
+; instance, so that can serve the right custom logo and tmp/* assets, independently of the hostname is
 ; currently running under. Only the characters `a-z`, `0-9` and the special characters `._-` are supported.
 ; instance_id = stats.example.com
 
-; The API server is an essential part of the Matomo infrastructure/ecosystem to
-; provide services to Matomo installations, e.g., getLatestVersion and
+; The API server is an essential part of the infrastructure/ecosystem to
+; provide services to installations, e.g., getLatestVersion and
 ; subscribeNewsletter.
 api_service_url = https://api.matomo.org
 
 ; When the ImageGraph plugin is activated, report metadata have an additional entry : 'imageGraphUrl'.
 ; This entry can be used to request a static graph for the requested report.
-; When requesting report metadata with $period=range, Matomo needs to translate it to multiple periods for evolution graphs.
+; When requesting report metadata with $period=range, needs to translate it to multiple periods for evolution graphs.
 ; eg. $period=range&date=previous10 becomes $period=day&date=previous10. Use this setting to override the $period value.
 graphs_default_period_to_plot_when_period_range = day
 
@@ -752,7 +752,7 @@ overlay_following_pages_limit = 300
 ; With this option, you can disable the framed mode of the Overlay plugin. Use it if your website contains a framebuster.
 overlay_disable_framed_mode = 0
 
-; Controls whether the user is able to upload a custom logo for their Matomo install
+; Controls whether the user is able to upload a custom logo for their install
 enable_custom_logo = 1
 
 ; By default we check whether the Custom logo is writable or not, before we display the Custom logo file uploader
@@ -763,16 +763,16 @@ enable_custom_logo_check = 1
 ; absolute path to the chroot environment. eg. '/path/to/matomo/chrooted/'
 absolute_chroot_path =
 
-; The path (relative to the Matomo directory) in which Matomo temporary files are stored.
-; Defaults to ./tmp (the tmp/ folder inside the Matomo directory)
+; The path (relative to the directory) in which temporary files are stored.
+; Defaults to ./tmp (the tmp/ folder inside the directory)
 tmp_path = "/tmp"
 
-; The absolute path to a PHP binary file in case Matomo cannot detect your PHP binary. If async CLI archiving cannot be
+; The absolute path to a PHP binary file in case cannot detect your PHP binary. If async CLI archiving cannot be
 ; used on your server this may make it work. Ensure the configured PHP binary is of type CLI and not for example cgi or
 ; litespeed. To find out the type of interface for a PHP binary execute this command: php -r "echo php_sapi_name();"
 php_binary_path = ""
 
-; In some rare cases it may be useful to explicitly tell Matomo not to use LOAD DATA INFILE
+; In some rare cases it may be useful to explicitly tell not to use LOAD DATA INFILE
 ; This may for example be useful when doing Mysql AWS replication
 enable_load_data_infile = 1
 
@@ -791,9 +791,9 @@ enable_users_admin = 1
 ; By setting this option to 0 the websites management will be disabled
 enable_sites_admin = 1
 
-; By setting this option to 1, it will be possible for Super Users to upload Matomo plugin ZIP archives directly in Matomo Administration.
+; By setting this option to 1, it will be possible for Super Users to upload plugin ZIP archives directly in Administration.
 ; Enabling this opens a remote code execution vulnerability where
-; an attacker who gained Super User access could execute custom PHP code in a Matomo plugin.
+; an attacker who gained Super User access could execute custom PHP code in a plugin.
 enable_plugin_upload = 0
 
 ; By setting this option to 0 (e.g. in common.config.ini.php) the installer will be disabled.
@@ -810,7 +810,7 @@ enable_delete_old_data_settings_admin = 1
 ; - Archiving settings
 ; - Update settings
 ; - Email server settings
-; - Trusted Matomo Hostname
+; - Trusted Hostname
 enable_general_settings_admin = 1
 
 ; Disabling this will disable features like automatic updates for Matomo,
@@ -828,11 +828,11 @@ enable_update_communication = 1
 ; If you may need to download GeoIP updates or other stuff using other protocols like ftp you may need to extend this list.
 allowed_outgoing_protocols = 'http,https'
 
-; This option forces matomo marketplace and matomo api requests to use HTTP, as default we use HTTPS to improve security
+; This option forces marketplace and api requests to use HTTP, as default we use HTTPS to improve security
 ; If you have a problem loading the marketplace, please enable this config option
 force_matomo_http_request = 0
 
-; Comma separated list of plugin names for which console commands should be loaded (applies when Matomo is not installed yet)
+; Comma separated list of plugin names for which console commands should be loaded (applies when is not installed yet)
 always_load_commands_from_plugin=
 
 ; This controls whether the pivotBy query parameter can be used with any dimension or just subtable
@@ -858,10 +858,10 @@ data_comparison_segment_limit = 5
 ; The maximum number of periods that can be compared simultaneously.
 data_comparison_period_limit = 5
 
-; The path to a custom cacert.pem file Matomo should use.
-; By default Matomo uses a file extracted from the Firefox browser and provided here: https://curl.haxx.se/docs/caextract.html.
+; The path to a custom cacert.pem file should use.
+; By default uses a file extracted from the Firefox browser and provided here: https://curl.haxx.se/docs/caextract.html.
 ; The file contains root CAs and is used to determine if the chain of a SSL certificate is valid and it is safe to connect.
-; Most users will not have to use a custom file here, but if you run your Matomo instance behind a proxy server/firewall that
+; Most users will not have to use a custom file here, but if you run your instance behind a proxy server/firewall that
 ; breaks and reencrypts SSL connections you can set your custom file here.
 custom_cacert_pem=
 
@@ -885,10 +885,10 @@ enable_required_directories_diagnostic = 1
 ; When set to 0, the definitions will be loaded from the local definitions (updated with core).
 enable_referrer_definition_syncs = 1
 
-; If set to 1, then links to matomo.org shown in the Matomo app will not include campaign tracking parameters which
+; If set to 1, then links to matomo.org shown in the app will not include campaign tracking parameters which
 ; describe where in the application the link originated. This information is used to improve the quality and relevance
 ; of inline help links on matomo.org and contains no identifying information. Presence of the campaign parameters in
-; the link url could be used by third parties monitoring network requests to identify that the Matomo app is being used,
+; the link url could be used by third parties monitoring network requests to identify that the app is being used,
 ; so it can be disabled here if necessary.
 disable_tracking_matomo_app_links = 0
 
@@ -896,18 +896,18 @@ disable_tracking_matomo_app_links = 0
 
 ; When enabled and a userId is set, then the visitorId will be automatically set based on the userId. This allows to
 ; identify the same user as the same visitor across devices.
-; Disabling this feature can be useful for example when using the third party cookie, where all Matomo tracked sites
+; Disabling this feature can be useful for example when using the third party cookie, where all tracked sites
 ; use the same "global" visitorId for a device and you want to see when the same user switches between devices.
 enable_userid_overwrites_visitorid = 1
 
-; Matomo uses "Privacy by default" model. When one of your users visit multiple of your websites tracked in this Matomo,
-; Matomo will create for this user a fingerprint that will be different across the multiple websites.
+; uses "Privacy by default" model. When one of your users visit multiple of your websites tracked in this Matomo,
+; will create for this user a fingerprint that will be different across the multiple websites.
 ; If you want to track unique users across websites you may set this setting to 1.
 ; Note: setting this to 0 increases your users' privacy.
 enable_fingerprinting_across_websites = 0
 
-; Matomo uses first party cookies by default. If set to 1,
-; the visit ID cookie will be set on the Matomo server domain as well
+; uses first party cookies by default. If set to 1,
+; the visit ID cookie will be set on the server domain as well
 ; this is useful when you want to do cross websites analysis
 use_third_party_id_cookie = 0
 
@@ -930,7 +930,7 @@ trust_visitors_cookies = 0
 ; This is used only if use_third_party_id_cookie = 1
 cookie_name = _pk_uid
 
-; by default, the Matomo tracking cookie expires in 13 months (365 + 28 days)
+; by default, the tracking cookie expires in 13 months (365 + 28 days)
 ; This is used only if use_third_party_id_cookie = 1
 cookie_expire = 33955200;
 
@@ -948,7 +948,7 @@ cookie_domain =
 record_statistics = 1
 
 ; length of a visit in seconds. If a visitor comes back on the website visit_standard_length seconds
-; after their last page view, it will be recorded as a new visit. In case you are using the Matomo JavaScript tracker to
+; after their last page view, it will be recorded as a new visit. In case you are using the JavaScript tracker to
 ; calculate the visit count correctly, make sure to call the method "setSessionCookieTimeout" eg
 ; `_paq.push(['setSessionCookieTimeout', timeoutInSeconds=1800])`
 visit_standard_length = 1800
@@ -965,22 +965,22 @@ window_look_back_for_visitor = 0
 default_time_one_page_visit = 0
 
 ; Comma separated list of URL query string variable names that will be removed from your tracked URLs
-; By default, Matomo will remove the most common parameters which are known to change often (eg. session ID parameters)
+; By default, will remove the most common parameters which are known to change often (eg. session ID parameters)
 url_query_parameter_to_exclude_from_url = "gclid,fbclid,msclkid,twclid,wbraid,gbraid,yclid,fb_xd_fragment,fb_comment_id,phpsessid,jsessionid,sessionid,aspsessionid,doing_wp_cron,sid,pk_vid"
 
-; If set to 1, Matomo will use the default provider if no other provider is configured.
+; If set to 1, will use the default provider if no other provider is configured.
 ; In addition the default provider will be used as a fallback when the configure provider does not return any results.
 ; If set to 0, the default provider will be unavailable. Instead the "disabled" provider will be used as default and fallback instead.
 enable_default_location_provider = 1
 
-; if set to 1, Matomo attempts a "best guess" at the visitor's country of
+; if set to 1, attempts a "best guess" at the visitor's country of
 ; origin when the preferred language tag omits region information.
 ; The mapping is defined in core/DataFiles/LanguageToCountry.php,
 enable_language_to_country_guess = 1
 
 ; When the `./console core:archive` cron hasn't been setup, we still need to regularly run some maintenance tasks.
 ; Visits to the Tracker will try to trigger Scheduled Tasks (eg. scheduled PDF/HTML reports by email).
-; Scheduled tasks will only run if 'Enable Matomo Archiving from Browser' is enabled in the General Settings.
+; Scheduled tasks will only run if 'Enable Archiving from Browser' is enabled in the General Settings.
 ; Tasks run once every hour maximum, they might not run every hour if traffic is low.
 ; Set to 0 to disable Scheduled tasks completely.
 scheduled_tasks_min_interval = 3600
@@ -1009,12 +1009,12 @@ create_new_visit_when_campaign_changes = 1
 ; absent before, but is present now.
 create_new_visit_when_website_referrer_changes = 0
 
-; ONLY CHANGE THIS VALUE WHEN YOU DO NOT USE MATOMO ARCHIVING, SINCE THIS COULD CAUSE PARTIALLY MISSING ARCHIVE DATA
+; ONLY CHANGE THIS VALUE WHEN YOU DO NOT USE ARCHIVING, SINCE THIS COULD CAUSE PARTIALLY MISSING ARCHIVE DATA
 ; Whether to force a new visit at midnight for every visitor. Default 1.
 create_new_visit_after_midnight = 1
 
 ; Will force the creation of a new visit once a visit had this many actions.
-; Increasing this number can slow down the tracking in Matomo and put more load on the database.
+; Increasing this number can slow down the tracking in and put more load on the database.
 ; Increase this limit if it's expected that you have visits with more than this many actions.
 ; Set to 0 or a negative value to allow unlimited actions.
 create_new_visit_after_x_actions = 10000
@@ -1033,16 +1033,16 @@ bulk_requests_require_authentication = 0
 ; This greatly increases performance of Log Analytics and in general any Bulk Tracking API requests.
 bulk_requests_use_transaction = 1
 
-; DO NOT USE THIS SETTING ON PUBLICLY AVAILABLE MATOMO SERVER
-; !!! Security risk: if set to 0, it would allow anyone to push data to Matomo with custom dates in the past/future and even with fake IPs!
+; DO NOT USE THIS SETTING ON PUBLICLY AVAILABLE SERVER
+; !!! Security risk: if set to 0, it would allow anyone to push data to with custom dates in the past/future and even with fake IPs!
 ; When using the Tracking API, to override either the datetime and/or the visitor IP,
 ; token_auth with an "admin" access is required. If you set this setting to 0, the token_auth will not be required anymore.
-; DO NOT USE THIS SETTING ON PUBLIC MATOMO SERVERS
+; DO NOT USE THIS SETTING ON PUBLIC SERVERS
 tracking_requests_require_authentication = 1
 
-; By default, Matomo accepts only tracking requests for up to 1 day in the past. For tracking requests with a custom date
-; date is older than 1 day, Matomo requires an authenticated tracking requests. By setting this config to another value
-; You can change how far back Matomo will track your requests without authentication. The configured value is in seconds.
+; By default, accepts only tracking requests for up to 1 day in the past. For tracking requests with a custom date
+; date is older than 1 day, requires an authenticated tracking requests. By setting this config to another value
+; You can change how far back will track your requests without authentication. The configured value is in seconds.
 tracking_requests_require_authentication_when_custom_timestamp_newer_than = 86400;
 
 ; if set to 1, all the SQL queries will be recorded by the profiler
@@ -1053,9 +1053,9 @@ enable_sql_profiler = 0
 ; Enables using referrer spam blacklist.
 enable_spam_filter = 1
 
-; If a value greater than 0 is configured, Matomo will configure MySQL with the set lock wait timeout in seconds during a
+; If a value greater than 0 is configured, will configure MySQL with the set lock wait timeout in seconds during a
 ; tracking request. This can be useful if you have a high concurrency load on your server and want to reduce the time of
-; lock wait times. For example configuring a value of 3-10 seconds may give your Matomo a performance boost if you have
+; lock wait times. For example configuring a value of 3-10 seconds may give your a performance boost if you have
 ; many concurrent tracking requests for the same visitor. When enabling this feature, make sure the MySQL
 ; variable "innodb_rollback_on_timeout" is turned off. Only configure if really needed. The lower the value the more tracking
 ; requests may be discarded due to too low lock wait time.
@@ -1202,7 +1202,7 @@ Languages[] = zh-cn
 Languages[] = zh-tw
 
 [Plugins]
-; list of plugins (in order they will be loaded) that are activated by default in the Matomo platform
+; list of plugins (in order they will be loaded) that are activated by default in the platform
 Plugins[] = CoreVue
 Plugins[] = CorePluginsAdmin
 Plugins[] = CoreAdminHome
