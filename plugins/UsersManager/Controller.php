@@ -216,10 +216,6 @@ class Controller extends ControllerAdmin
         $view->ignoreSalt = $this->getIgnoreCookieSalt();
         $view->isUsersAdminEnabled = UsersManager::isUsersAdminEnabled();
 
-        $newsletterSignupOptionKey = NewsletterSignup::NEWSLETTER_SIGNUP_OPTION . $userLogin;
-        $view->showNewsletterSignup = Option::get($newsletterSignupOptionKey) === false
-                                    && SettingsPiwik::isInternetEnabled();
-
         $userPreferences = new UserPreferences();
         $defaultReport   = $userPreferences->getDefaultReport();
 
