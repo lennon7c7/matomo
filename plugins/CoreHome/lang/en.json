@@ -88,7 +88,7 @@
         "SystemSummaryNSegments": "%1$d segments",
         "SystemSummaryNSegmentsWithBreakdown": "%1$d segments (%2$s pre-processed, %3$s processed in real-time)",
         "SystemSummaryNActivatedPlugins": "%d activated plugins",
-        "SystemSummaryPiwikVersion": "Matomo version",
+        "SystemSummaryPiwikVersion": "Version",
         "SystemSummaryMysqlVersion": "MySQL version",
         "SystemSummaryPhpVersion": "PHP version",
         "QuickAccessTitle": "Search for %s. Use the arrow keys to navigate through search results. Shortcut: Press 'f' to search.",

@@ -35,7 +35,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Matomo version
+      label: Version
       description: What version of Matomo are you running?
     validations:
       required: true

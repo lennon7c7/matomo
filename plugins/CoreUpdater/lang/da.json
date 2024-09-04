@@ -13,7 +13,7 @@
         "ErrorDIYHelp_4": "kør opdateringsprogrammet igen (via netlæseren eller kommando-linje) for at fortsætte med de resterende opdateringer",
         "ErrorDIYHelp_5": "indberet problemet (og løsning), så kan forbedres",
         "ErrorDuringPluginsUpdates": "Fejl ved opdatering udvidelsesmodul :",
-        "ExceptionAlreadyLatestVersion": "Matomo version %s er fuld opdateret.",
+        "ExceptionAlreadyLatestVersion": "Version %s er fuld opdateret.",
         "ExceptionArchiveEmpty": "Tomt arkiv.",
         "ExceptionArchiveIncompatible": "Inkompatibel arkiv: %s",
         "ExceptionArchiveIncomplete": "Arkiv er ikke komplet: nogle filer mangler (fx. %s).",

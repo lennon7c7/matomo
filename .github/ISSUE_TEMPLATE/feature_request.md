@@ -15,7 +15,7 @@ labels: ["Enhancement", "To Triage"]
 ## Your Environment
 <!-- Include as many relevant details about the environment when applicable -->
 <!-- You can find some of that information in the system check -->
-* Matomo Version:
+* Version:
 * PHP Version:
 * Server Operating System:
 * Additionally installed plugins:

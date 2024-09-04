@@ -217,7 +217,7 @@ done
 echo "Preparing release $VERSION"
 echo "Git tag: $(git describe --exact-match --tags HEAD)"
 echo "Git path: $CURRENT_DIR/$LOCAL_REPO"
-echo "Matomo version in core/Version.php: $(php -r "include_once 'core/Version.php'; echo \Piwik\Version::VERSION;")"
+echo "Version in core/Version.php: $(php -r "include_once 'core/Version.php'; echo \Piwik\Version::VERSION;")"
 
 if [ "$VERSION" != "build" ]
 then

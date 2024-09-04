@@ -111,7 +111,7 @@
         "SystemSummaryNSegmentsWithBreakdown": "%1$d segment (%2$s förbehandlade, %3$s bearbetade i realtid)",
         "SystemSummaryNWebsites": "%d webbplatser",
         "SystemSummaryPhpVersion": "PHP version",
-        "SystemSummaryPiwikVersion": "Matomo version",
+        "SystemSummaryPiwikVersion": "Version",
         "SystemSummaryWidget": "Systemsammanfattning",
         "TableNoData": "Inga data för denna tabell.",
         "TechDeprecationWarning": "Från och med version %1$s av så kommer att upphöra sin support för %2$s. För mer information, %3$släs vårat blogg-inlägg.%4$s",
