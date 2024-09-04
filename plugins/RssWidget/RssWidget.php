@@ -48,9 +48,9 @@ class RssWidget extends \Piwik\Plugin
      */
     public function filterWidgets($list)
     {
-        if (!SettingsPiwik::isInternetEnabled()) {
+//        if (!SettingsPiwik::isInternetEnabled()) {
             $list->remove(RssChangelog::getCategory(), RssChangelog::getName());
             $list->remove(RssPiwik::getCategory(), RssPiwik::getName());
-        }
+//        }
     }
 }

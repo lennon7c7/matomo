@@ -29,23 +29,23 @@ class GetDonateForm extends Widget
 
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
-        $config->setName('CoreHome_SupportPiwik');
-        $config->setOrder(5);
+//        $config->setCategoryId('About Matomo');
+//        $config->setName('CoreHome_SupportPiwik');
+//        $config->setOrder(5);
     }
 
     public function render()
     {
-        $footerMessage = null;
-        if (
-            Common::getRequestVar('widget', false)
-            && Piwik::hasUserSuperUserAccess()
-        ) {
-            $footerMessage = $this->translator->translate('CoreHome_OnlyForSuperUserAccess');
-        }
-
-        return $this->renderTemplate('getDonateForm', array(
-            'footerMessage' => $footerMessage
-        ));
+//        $footerMessage = null;
+//        if (
+//            Common::getRequestVar('widget', false)
+//            && Piwik::hasUserSuperUserAccess()
+//        ) {
+//            $footerMessage = $this->translator->translate('CoreHome_OnlyForSuperUserAccess');
+//        }
+//
+//        return $this->renderTemplate('getDonateForm', array(
+//            'footerMessage' => $footerMessage
+//        ));
     }
 }

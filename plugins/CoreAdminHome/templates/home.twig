@@ -4,14 +4,6 @@
 
 {% block content %}
     {% set feedbackHelp %}
-        <div vue-entry="CoreHome.ContentBlock" content-title="{{ 'CoreAdminHome_NeedHelp'|translate }}">
-            <div>
-                {{ 'CoreAdminHome_HowToGetHelp'|translate }}
-                <br />
-                <br />
-                <a href="{{ linkTo({'module': 'Feedback', 'action': 'index'}) }}">{{ 'CoreAdminHome_LearnMore'|translate }}</a>
-            </div>
-        </div>
     {% endset %}
 
     {% if isSuperUser %}
