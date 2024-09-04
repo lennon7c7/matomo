@@ -17,7 +17,7 @@ class TestsRunJS extends ConsoleCommand
     {
         $this->setName('tests:run-js');
         $this->setDescription('Run javascript tests');
-        $this->addRequiredValueOption('matomo-url', null, 'Custom matomo url. Defaults to http://localhost');
+        $this->addRequiredValueOption('matomo-url', null, 'Custom url. Defaults to http://localhost');
         $this->addOptionalValueOption('plugin', null, 'The plugin to run tests for. If not supplied, all tests are run.');
     }
 

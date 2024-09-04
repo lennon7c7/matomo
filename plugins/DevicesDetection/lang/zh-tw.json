@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "此 User Agent 被判斷為 %1$s。 來自此 User Agent 的訪問預設將不會被 Matomo 記錄。",
+        "BotDetected": "此 User Agent 被判斷為 %1$s。 來自此 User Agent 的訪問預設將不會被 記錄。",
         "BrowserCode": "瀏覽器代號",
         "BrowserEngine": "瀏覽器核心",
         "BrowserEngineDocumentation": "這份報表顯示訪客所使用瀏覽器的核心。%s 對於網頁開發者來說了解使用者的瀏覽器核心是最重要事情。所有瀏覽器核心的名稱後方都會標示出該核心中最廣泛運用的瀏覽器。",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "這份報表顯示你的訪客所使用的裝置。每個裝置的型號與品牌會一起顯示，因為有些品牌使用了同名的型號。",
         "DeviceModels": "裝置型號",
         "DeviceType": "裝置類型",
-        "DeviceTypeReportDocumentation": "這份報表顯示你的訪客所使用的裝置。此報表會永遠顯示 Matomo 能偵測到的所有裝置類型，即使某些裝置沒有任何訪客使用過。",
+        "DeviceTypeReportDocumentation": "這份報表顯示你的訪客所使用的裝置。此報表會永遠顯示 能偵測到的所有裝置類型，即使某些裝置沒有任何訪客使用過。",
         "DeviceTypes": "裝置類型",
         "Devices": "裝置",
         "DevicesDetection": "訪客裝置",

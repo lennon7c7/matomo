@@ -55,7 +55,7 @@
         "DaysToConv": "日数別のコンバージョン",
         "DaysToConvReportDocumentation": "このレポートは、ビジターが目標を変換するまでに何日経過したかを示します。",
         "DefaultGoalConvertedOncePerVisit": "( デフォルト ) 目標達成はビジット毎 1 回だけカウント",
-        "DefaultRevenueHelp": "例えば、ビジターによって送信されたコンタクトフォームが、平均して $10 の価値を持つかもしれません。 Matomo は、ビジターセグメントがどれくらいうまく実行しているかを理解するのを助けます。",
+        "DefaultRevenueHelp": "例えば、ビジターによって送信されたコンタクトフォームが、平均して $10 の価値を持つかもしれません。 は、ビジターセグメントがどれくらいうまく実行しているかを理解するのを助けます。",
         "DefaultRevenueLabel": "目標のデフォルト収益",
         "DeleteGoalConfirm": "本当に目標 %s を削除しますか？",
         "Details": "目標の詳細",

@@ -28,7 +28,7 @@ class UnexpectedFiles extends ConsoleCommand
     protected function configure()
     {
         $this->setName('diagnostics:unexpected-files')
-            ->setDescription('Show a list of unexpected files found in the Matomo installation directory and optionally delete them.')
+            ->setDescription('Show a list of unexpected files found in the installation directory and optionally delete them.')
             ->addNoValueOption('delete', null, 'Delete all the unexpected files');
     }
 
@@ -59,7 +59,7 @@ class UnexpectedFiles extends ConsoleCommand
 
         $delete = $input->getOption('delete');
         if ($delete) {
-            $output->writeln("<info>Preparing to delete all unexpected files from the Matomo installation directory</info>");
+            $output->writeln("<info>Preparing to delete all unexpected files from the installation directory</info>");
 
             if (!$this->askForDeleteConfirmation()) {
                 $output->writeln("Aborted - no files were deleted");

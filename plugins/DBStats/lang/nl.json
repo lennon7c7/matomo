@@ -5,7 +5,7 @@
         "DatabaseUsage": "Database gebruik",
         "EstimatedSize": "Geschatte grootte",
         "IndexSize": "Index grootte",
-        "LearnMore": "Voor meer informatie over de manier waarop Matomo de data verwerkt en over de werking van Matomo in combinatie met middelgrote en grote website's, zie de documentatie %s.",
+        "LearnMore": "Voor meer informatie over de manier waarop de data verwerkt en over de werking van in combinatie met middelgrote en grote website's, zie de documentatie %s.",
         "MainDescription": "Matomo slaat alle analysedata op in een MySQL database. Momenteel is de omvang van deze database %s.",
         "MetricDataByYear": "Metric tabellen per jaar",
         "MetricTables": "Metric tabellen",

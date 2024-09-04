@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Kopjoje pultin te përdoruesi",
         "CreateNewDashboard": "Krijoni pult të ri",
         "Dashboard": "Pulti",
-        "DashboardCategoryHelp": "Kjo është një faqe pulti. Pultet janë një koleksion widget-esh Matomo që mund t’i shtoni ju vetë, sipas nevojave tuaja. Zgjidhni dhe merrni çfarëdo widget-esh të Matomo-s, që të merrni me një vështrim të dhënat që %1$s*ju*%2$s keni nevojë.",
+        "DashboardCategoryHelp": "Kjo është një faqe pulti. Pultet janë një koleksion widget-esh që mund t’i shtoni ju vetë, sipas nevojave tuaja. Zgjidhni dhe merrni çfarëdo widget-esh të Matomo-s, që të merrni me një vështrim të dhënat që %1$s*ju*%2$s keni nevojë.",
         "DashboardCopied": "Pulti i tanishëm u kopjua me sukses te përdoruesi i përzgjedhur.",
         "DashboardEmptyNotification": "Pulti juaj s’përmban ndonjë “widget”. Fillojani duke shtuar ndonjë të tillë, ose thjesht rikthejeni pultin te përzgjedhja parazgjedhje për widget-et.",
         "DashboardName": "Emër pulti:",

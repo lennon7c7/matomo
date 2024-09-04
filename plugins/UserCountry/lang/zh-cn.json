@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "在“地理位置管理”选项卡中设置 GeoIP 以为此报告提供数据。商业 %1$sMaxMind%2$s GeoIP 数据库比免费数据库更准确。 %3$s单击此处%4$s查看它们的准确性。",
         "GeoIpDbIpAccuracyNote": "注意：DBIP数据库是免费的，可以自动下载，但是地理位置结果（特别是城市结果）不如MaxMind的准确。 但是，MaxMind甚至要求您为免费数据库创建一个帐户。 如果要使用MaxMind的地理位置数据库，则可以在%2$s处启动%1$s进程",
         "Geolocation": "地理位置",
-        "GeolocationPageDesc": "您可以在此处更改 Matomo 确定访客位置的方式。",
+        "GeolocationPageDesc": "您可以在此处更改 确定访客位置的方式。",
         "GeolocationProviderBroken": "您的地理定位提供商 (%1$s) 已损坏。请修复提供商，或设置另一个提供商。",
         "GeolocationProviderUnavailable": "您的地理定位提供商 (%1$s) 不再可用。请再设置一个。",
         "HowToInstallGeoIPDatabases": "如何获得地理位置数据库？",

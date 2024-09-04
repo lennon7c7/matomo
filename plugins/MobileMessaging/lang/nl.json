@@ -13,8 +13,8 @@
         "Settings_APIKey": "API-sleutel",
         "Settings_CountryCode": "Landcode",
         "Settings_CredentialInvalid": "Uw %1$s SMS API account is geconfigureerd, maar er is een fout opgetreden bij het ontvangen van de beschikbare credits.",
-        "Settings_CredentialNotProvided": "Voordat je telefoonnummers kunt aanmaken en beheren, verbind Matomo hierboven met je SMS account.",
-        "Settings_CredentialNotProvidedByAdmin": "Voordat je telefoonnumers kunt aanmaken en beheren, vraag je beheerder om Matomo te verbinden met een SMS Account.",
+        "Settings_CredentialNotProvided": "Voordat je telefoonnummers kunt aanmaken en beheren, verbind hierboven met je SMS account.",
+        "Settings_CredentialNotProvidedByAdmin": "Voordat je telefoonnumers kunt aanmaken en beheren, vraag je beheerder om te verbinden met een SMS Account.",
         "Settings_CredentialProvided": "Uw %s SMS API account is correct geconfigureerd!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "De geconfigureerde telefoon nummers kunnen alleen gezien en gebruikt worden door jou en niet door andere gebruikers.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "De geconfigureerde SMS provider zal alleen gebruikt worden door jou en niet door geen enkele andere gebruiker.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Ontvang uw webanalyse-rapporten in uw mailbox of op uw mobiele telefoon.",
         "TopMenu": "E-mail &amp; SMS-rapporten",
         "UserKey": "Userkey",
-        "VerificationText": "De code is %1$s. Om uw telefoonnummer te valideren en Matomo SMS-rapporten te ontvangen, moet u die code kopiëren in het formulier op Matomo → %2$s → %3$s."
+        "VerificationText": "De code is %1$s. Om uw telefoonnummer te valideren en SMS-rapporten te ontvangen, moet u die code kopiëren in het formulier op → %2$s → %3$s."
     }
 }

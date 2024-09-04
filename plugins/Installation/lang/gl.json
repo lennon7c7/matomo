@@ -21,7 +21,7 @@
         "Tables": "Creando as táboas",
         "TablesCreatedSuccess": "Táboas creadas con éxito!",
         "TablesDelete": "Eliminar as táboas detectadas",
-        "TablesDeletedSuccess": "Táboas existentes de Matomo eliminadas con éxito",
+        "TablesDeletedSuccess": "Táboas existentes de eliminadas con éxito",
         "TablesFound": "As seguintes táboas atopáronse na base de datos",
         "TablesReuse": "Reutilizar as táboas xa existentes",
         "TablesWarningHelp": "Ou ben optar pola reutilización de táboas de bases de datos existentes ou seleccionar unha instalación limpa para eliminar todos os datos existentes na base de datos.",

@@ -77,7 +77,7 @@
         "TypeSocialNetworks": "%s 個來自社群網站",
         "TypeWebsites": "%s 個來自網站",
         "URLCampaignBuilder": "廣告活動網址產生器",
-        "URLCampaignBuilderIntro": "這個%1$s網址產生器%2$s可以讓你產生在 Matomo 中追蹤廣告活動用的網址。請參考%3$s廣告活動追蹤%4$s的說明文件以了解更多。",
+        "URLCampaignBuilderIntro": "這個%1$s網址產生器%2$s可以讓你產生在 中追蹤廣告活動用的網址。請參考%3$s廣告活動追蹤%4$s的說明文件以了解更多。",
         "URLCampaignBuilderResult": "產生讓你可以貼在廣告活動、電子報、臉書廣告或推文中的網址：",
         "UsingNDistinctUrls": "（使用 %s 個不同網址）",
         "ViewAllReferrers": "查看所有參照連結",

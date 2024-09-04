@@ -13,8 +13,8 @@
         "Settings_APIKey": "Chiave API",
         "Settings_CountryCode": "Codice Nazione",
         "Settings_CredentialInvalid": "Il tuo account SMS API %1$s è stato configurato ma si è verificato un errore durante il tentativo di ricezione dei crediti disponibili.",
-        "Settings_CredentialNotProvided": "Prima di creare e gestire i numeri di telefono, si prega di collegare Matomo al tuo account SMS qui sopra.",
-        "Settings_CredentialNotProvidedByAdmin": "Prima di creare e gestire i numeri di telefono, contatta l'amministratore per collegare Matomo a un account SMS.",
+        "Settings_CredentialNotProvided": "Prima di creare e gestire i numeri di telefono, si prega di collegare al tuo account SMS qui sopra.",
+        "Settings_CredentialNotProvidedByAdmin": "Prima di creare e gestire i numeri di telefono, contatta l'amministratore per collegare a un account SMS.",
         "Settings_CredentialProvided": "Il tuo account %s SMS API è configurato correttamente!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "I numeri di telefono configurati saranno visti e utilizzati solo da te e da nessuno degli altri utenti.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Il provider SMS configurato verrà utilizzato solo da te e da nessuno degli altri utenti.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Ricevi i Rapporti delle Statistiche Web sulla tua casella di posta elettronica o sul tuo cellulare!",
         "TopMenu": "Rapporti via email &amp; SMS",
         "UserKey": "Userkey",
-        "VerificationText": "Il codice è %1$s. Per convalidare il tuo numero di telefono e ricevere i report di Matomo via SMS copia questo codice nel modulo accessibile da Matomo → %2$s → %3$s."
+        "VerificationText": "Il codice è %1$s. Per convalidare il tuo numero di telefono e ricevere i report di via SMS copia questo codice nel modulo accessibile da → %2$s → %3$s."
     }
 }

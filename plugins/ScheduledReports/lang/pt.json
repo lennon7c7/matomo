@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "A sua subscrição do relatório %1$s foi anulada com sucesso.",
         "TableOfContent": "Lista de relatórios",
         "ThereIsNoReportToManage": "Não há relatórios para gerir para o site %s",
-        "TopLinkTooltip": "Crie Relatórios por e-mail para ter as estatísticas do Matomo entregues automaticamente no seu e-mail ou endereço do seu cliente!",
+        "TopLinkTooltip": "Crie Relatórios por e-mail para ter as estatísticas do entregues automaticamente no seu e-mail ou endereço do seu cliente!",
         "TopOfReport": "Voltar ao topo",
         "Unsubscribe": "Anular subscrição",
         "UnsubscribeFooter": "Para anular a subscrição neste relatório, por favor siga a seguinte ligação: %1$s",

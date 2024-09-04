@@ -220,7 +220,7 @@
 			<id>General_Downloads</id>
 			<name>Downloads</name>
 			<order>35</order>
-			<help>&lt;p&gt;In this report, you can see which files your visitors have downloaded.&lt;/p&gt;&lt;p&gt;What Matomo counts as a download is the click on a download link. Whether the download was completed or not isn't known to Matomo.&lt;/p&gt;</help>
+			<help>&lt;p&gt;In this report, you can see which files your visitors have downloaded.&lt;/p&gt;&lt;p&gt;What counts as a download is the click on a download link. Whether the download was completed or not isn't known to Matomo.&lt;/p&gt;</help>
 		</subcategory>
 		<widgets>
 			<row>
@@ -1477,7 +1477,7 @@
 			<id>Live_VisitorLog</id>
 			<name>Visits Log</name>
 			<order>5</order>
-			<help>&lt;p&gt;The visits log shows you every visit your website receives in detail. Find out which actions each visitor has performed, how they got to your site, a bit about who they are, and more (while still complying with your local privacy regulations).&lt;/p&gt;&lt;p&gt;While other reports in Matomo show how your visitors behave at an aggregate level, the visits log provides granular detail. You can also use segments to narrow it down to specific types of visits to understand your visitors better.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://matomo.org/docs/real-time/?mtm_campaign=Matomo_App&amp;mtm_source=Matomo_App_OnPremise&amp;mtm_medium=App.Live.getLastVisitsDetails&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;Learn more in the visit-log guide.&lt;/a&gt;&lt;/p&gt;</help>
+			<help>&lt;p&gt;The visits log shows you every visit your website receives in detail. Find out which actions each visitor has performed, how they got to your site, a bit about who they are, and more (while still complying with your local privacy regulations).&lt;/p&gt;&lt;p&gt;While other reports in show how your visitors behave at an aggregate level, the visits log provides granular detail. You can also use segments to narrow it down to specific types of visits to understand your visitors better.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://matomo.org/docs/real-time/?mtm_campaign=Matomo_App&amp;mtm_source=Matomo_App_OnPremise&amp;mtm_medium=App.Live.getLastVisitsDetails&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;Learn more in the visit-log guide.&lt;/a&gt;&lt;/p&gt;</help>
 		</subcategory>
 		<widgets>
 			<row>

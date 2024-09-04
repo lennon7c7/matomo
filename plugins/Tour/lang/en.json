@@ -24,9 +24,9 @@
         "ViewRowEvolutionDescription": "Shows the current and past metric data for any row in any report.",
         "ViewVisitsLogDescription": "Shows all the individual visits and actions each visitor made on your website.",
         "ViewVisitorProfileDescription": "Understand your visitors’ individual behavior by summarizing and listing your visitors’ visits.",
-        "ShareAllChallengesCompleted": "%1$s achievement unlocked by completing all Matomo challenges.",
+        "ShareAllChallengesCompleted": "%1$s achievement unlocked by completing all challenges.",
         "ChallengeCompleted": "Congratulations, the challenge is complete.",
-        "BecomeMatomoExpert": "Become a Matomo expert",
+        "BecomeMatomoExpert": "Become a expert",
         "YouCanCallYourselfExpert": "You can now call yourself a true %1$sMatomo expert%2$s.",
         "StatusLevel": "You are currently a %1$s. Complete %2$s more challenges and become a %3$s.",
         "ConfigureGeolocationDescription": "Ensure the location of your visitors is correctly detected.",
@@ -46,12 +46,12 @@
         "EmbedTrackingCode": "Embed a tracking code",
         "CompletionTitle": "Well done.",
         "CompletionMessage": "You have completed all challenges. Give yourself a pat on the back.",
-        "Part1Title": "Welcome to Matomo %1$s. This widget helps you become a Matomo expert.",
-        "Part2Title": "Keep it up %1$s. You’re well on your way to becoming a Matomo expert.",
-        "Part3Title": "You are on the right track %1$s. Continue, and become a Matomo expert.",
+        "Part1Title": "Welcome to %1$s. This widget helps you become a expert.",
+        "Part2Title": "Keep it up %1$s. You’re well on your way to becoming a expert.",
+        "Part3Title": "You are on the right track %1$s. Continue, and become a expert.",
         "Part4Title": "Great progress %1$s. Only a few more challenges to complete.",
         "OnlyVisibleToSuperUser": "Only you as a %1$ssuperuser%2$s can see this widget.",
         "ConnectConsentManager": "Connect %1$s consent manager",
-        "ConnectConsentManagerIntro": "%1$s consent manager was detected on your website, learn how to connect %1$s and Matomo so they can work together."
+        "ConnectConsentManagerIntro": "%1$s consent manager was detected on your website, learn how to connect %1$s and so they can work together."
     }
 }

@@ -18,7 +18,7 @@
         "WarningChangingConfiguredDevice": "Du er ved at erstatte den konfigurerede tofaktorgodkendelsesenhed. Dette vil fjerne alle tidligere konfigurerede enheder.",
         "ShowRecoveryCodes": "Vis genskabelseskoder",
         "ConfirmSetup": "Bekræft konfiguration",
-        "LostAuthenticationDevice": "Hej,%1$sJeg har aktiveret tofaktorgodkendelse og har mistet min godkendelsesenhed. Vil du venligst nulstille tofaktorgodkendelse for mit brugernavn %5$s? Du kan se en vejledning her: %6$s.%2$sURL'en til Matomo er %3$s.%4$sTak",
+        "LostAuthenticationDevice": "Hej,%1$sJeg har aktiveret tofaktorgodkendelse og har mistet min godkendelsesenhed. Vil du venligst nulstille tofaktorgodkendelse for mit brugernavn %5$s? Du kan se en vejledning her: %6$s.%2$sURL'en til er %3$s.%4$sTak",
         "DisableTwoFA": "Deaktiver tofaktorgodkendelse",
         "EnableTwoFA": "Aktiver tofaktorgodkendelse",
         "ConfirmDisableTwoFA": "Er du sikker på, at du vil deaktivere tofaktorgodkendelse for din konto? Tofaktorgodkendelse forøger din kontos sikkerhed.",

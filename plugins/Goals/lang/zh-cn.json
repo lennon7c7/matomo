@@ -107,7 +107,7 @@
         "NewGoalIntro": "目标转化跟踪是最有效的检验和提高商业目标的方法之一。",
         "NewVisitorsConversionRateIs": "新访客转化率为 %s",
         "NoConversionsNoReportsMessage": "因在选定的时间段内所选目标转化规则下并无任何转化数据，转化分析报告无从显示。",
-        "NoGoalsNeedAccess2": "只有写入用户、管理员或具有超级用户访问权限的用户才能管理给定网站的目标。请要求您的 Matomo 管理员为您的网站设置一个目标。 <br>跟踪目标是帮助了解和最大限度提高网站性能的好方法！",
+        "NoGoalsNeedAccess2": "只有写入用户、管理员或具有超级用户访问权限的用户才能管理给定网站的目标。请要求您的 管理员为您的网站设置一个目标。 <br>跟踪目标是帮助了解和最大限度提高网站性能的好方法！",
         "Optional": "(选项)",
         "OverallConversionRate": "总体转化率（全部访问的用户中触发转化条件之用户的占比）",
         "OverallRevenue": "总体收益",

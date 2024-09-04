@@ -352,7 +352,7 @@
             ],
             "authors": [
                 {
-                    "name": "The Matomo Team",
+                    "name": "The Team",
                     "email": "hello@matomo.org",
                     "homepage": "https://matomo.org/the-matomo-team/"
                 }
@@ -459,7 +459,7 @@
             ],
             "authors": [
                 {
-                    "name": "The Matomo Team",
+                    "name": "The Team",
                     "email": "hello@matomo.org",
                     "homepage": "https://matomo.org/team/"
                 }
@@ -651,12 +651,12 @@
             ],
             "authors": [
                 {
-                    "name": "The Matomo Team",
+                    "name": "The Team",
                     "email": "hello@matomo.org",
                     "homepage": "https://matomo.org/team/"
                 }
             ],
-            "description": "PHP Client for Matomo Analytics Tracking API",
+            "description": "PHP Client for Analytics Tracking API",
             "homepage": "https://matomo.org",
             "keywords": [
                 "analytics",
@@ -761,7 +761,7 @@
             "license": [
                 "CC0-1.0"
             ],
-            "description": "Search engine and social network definitions used by Matomo (formerly Piwik)",
+            "description": "Search engine and social network definitions used by (formerly Piwik)",
             "support": {
                 "issues": "https://github.com/matomo-org/searchengine-and-social-list/issues",
                 "source": "https://github.com/matomo-org/searchengine-and-social-list/tree/master"

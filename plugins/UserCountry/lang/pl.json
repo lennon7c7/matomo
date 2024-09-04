@@ -13,7 +13,7 @@
         "VisitLocation": "Lokalizacja odwiedzającego",
         "CurrentLocationIntro": "Według tego dostawcy, twoją aktualną lokalizacją jest",
         "DefaultLocationProviderDesc1": "Domyślny dostawca usług geolokacyjnych zgaduje państwo odwiedzającego na podstawie języka używanego w przeglądarce.",
-        "DefaultLocationProviderExplanation": "Korzystasz z domyślnego dostawcy usług geolokalizacyjnych, co oznacza, że Matomo zgaduje lokalizację odwiedzającego na podstawie języka jego przeglądarki. %1$sPrzeczytaj%2$s aby dowiedzieć się jak skonfigurować dokładniejszą geolokalizację.",
+        "DefaultLocationProviderExplanation": "Korzystasz z domyślnego dostawcy usług geolokalizacyjnych, co oznacza, że zgaduje lokalizację odwiedzającego na podstawie języka jego przeglądarki. %1$sPrzeczytaj%2$s aby dowiedzieć się jak skonfigurować dokładniejszą geolokalizację.",
         "DistinctCountries": "%s różnych krajów",
         "FromDifferentCities": "różne miasta",
         "GeoIPDocumentationSuffix": "W celu wyświetlenia danych tego raportu konieczna jest konfiguracja GeoIP w zakładce Geolokalizacja panelu administracyjnego. Płatne bazy GeoIP dostarczane przez %1$sMaxmind%2$s cechuje wyższa dokładność od baz bezpłatnych. Aby porównać ich dokładność kliknij %3$stutaj%4$s.",

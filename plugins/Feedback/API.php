@@ -143,9 +143,9 @@ class API extends \Piwik\Plugin\API
     {
         $feedbackEmailAddress = Config::getInstance()->General['feedback_email_address'];
 
-        $subject = '[ Feedback Feature - Matomo ] ' . $subject;
+        $subject = '[ Feedback Feature ] ' . $subject;
         $body    = Common::unsanitizeInputValue($body) . "\n"
-                 . 'Matomo ' . Version::VERSION . "\n"
+                 . Version::VERSION . "\n"
                  . 'URL: ' . Url::getReferrer() . "\n";
 
         $mail = new Mail();

@@ -15,7 +15,7 @@
         "ErrorDIYHelp_4": "باقی تازہ کاریوں کو جاری رکھنے کے لئے اپڈیٹر (براؤزر یا کمانڈ لائن کے ذریعے) دوبارہ چلائیں",
         "ErrorDIYHelp_5": "مسئلے کی اطلاع دیں (اور حل) تاکہ ماتومو کو بہتر بنایا جاسکے",
         "ErrorDuringPluginsUpdates": "پلگ ان اپ ڈیٹس کے دوران خرابی:",
-        "ExceptionAlreadyLatestVersion": "آپ کا Matomo ورژن%s تازہ ترین ہے۔",
+        "ExceptionAlreadyLatestVersion": "آپ کا ورژن%s تازہ ترین ہے۔",
         "ExceptionArchiveEmpty": "خالی آرکائو۔",
         "ExceptionArchiveIncompatible": "متضاد محفوظ شدہ دستاویزات:%s",
         "ExceptionArchiveIncomplete": "محفوظ شدہ دستاویزات نامکمل ہیں: کچھ فائلیں غائب ہیں (جیسے %s)",

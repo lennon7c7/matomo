@@ -44,7 +44,7 @@
         "ThisSegmentIsCompared": "Une honetan segmentu hau konparatzen da.",
         "ThisSegmentIsSelectedAndCannotBeCompared": "Segmentu hau hautatuta dago une honetan, ondorioz ezin da konparatzeko hautatu.",
         "ThisSegmentIsVisibleTo": "Segmentu hau ikusgai dago hauentzat:",
-        "UnprocessedSegmentApiError1": "'%1$s' segmentua honela ezarrita dago: '%2$s', baina Matomo une honetan ez dago konfiguratuta API eskaeretan segmentatutako txostenak prozesatzeko.",
+        "UnprocessedSegmentApiError1": "'%1$s' segmentua honela ezarrita dago: '%2$s', baina une honetan ez dago konfiguratuta API eskaeretan segmentatutako txostenak prozesatzeko.",
         "UnprocessedSegmentApiError2": "Etorkizunean txosten honen datuak ikusteko, zure segmentua editatu eta '%s' etiketa duen aukera aukeratu beharko duzu.",
         "UnprocessedSegmentApiError3": "Ordu batzuen ondoren zure segmentatutako datuak eskuragarri egongo dira APIan. (Hala ez bada, arazo bat egon daiteke)",
         "UnprocessedSegmentInVisitorLog1": "%1$sBitartean Bisitarien egunkaria erabil dezakezu%2$s, zure segmentua hemen aplikatzean zure erabiltzaileekin bat datorren probatzeko.",

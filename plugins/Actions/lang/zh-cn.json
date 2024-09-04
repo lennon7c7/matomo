@@ -37,7 +37,7 @@
         "ColumnUniqueClicksDocumentation": "访客点击此链接的次数。如果链接在同一次访问期间被点击多次，只算作一次。",
         "ColumnUniqueDownloads": "不重复下载次数",
         "ColumnUniqueOutlinks": "不重复退出链接数",
-        "DownloadsReportDocumentation": "在这份报表中，您可以看到用户下载了那些文件。%s Matomo 计算的是下载链接的点击数量，至于文件是否下载完成 Matomo 无法知道。",
+        "DownloadsReportDocumentation": "在这份报表中，您可以看到用户下载了那些文件。%s 计算的是下载链接的点击数量，至于文件是否下载完成 无法知道。",
         "DownloadsSubcategoryHelp1": "在此报告中，您可以看到访问者下载了哪些文件。",
         "DownloadsSubcategoryHelp2": "Matomo 计算的是下载链接的点击数量；Matomo 并不知道下载是否完成。",
         "EntryPageTitles": "进入页面标题",

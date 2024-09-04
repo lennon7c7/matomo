@@ -58,7 +58,7 @@
         "VisitorLogDocumentation": "Deze tabel toont de laatste bezoeken binnen het geselecteerde datumbereik. Beweeg de muis over de datum van een bezoek om de recentste te zien. %1$s Indien het datumbereik ook vandaag bevat, kunt u uw bezoekers zien in real-time. %2$s De data die hier wordt getoond is steeds live, ongeacht of en wanneer u de archivering cron job gebruikt.",
         "VisitorLogNoDataMessagePurged": "De gegevens zijn waarschijnlijk gewist omdat de regelmatige verwijdering van oude ruwe gegevens is ingeschakeld, en de datum voor dit rapport meer dan %s dagen oud is. Een Superuser kan deze instelling wijzigen door naar Administratie → Privacy te gaan.",
         "VisitorLogSubcategoryHelp1": "Het bezoeklog toont u elk bezoek aan uw website in detail. Ontdek welke acties elke bezoeker heeft uitgevoerd, hoe ze op uw site zijn gekomen, iets over wie ze zijn, en meer (terwijl u toch uw lokale privacyregels naleeft).",
-        "VisitorLogSubcategoryHelp2": "Terwijl andere rapporten in Matomo laten zien hoe je bezoekers zich gedragen op een geaggregeerd niveau, geeft het bezoekenlog gedetailleerde informatie. U kunt ook segmenten gebruiken om te verfijnen naar specifieke bezoektypes of om je bezoekers beter te begrijpen.",
+        "VisitorLogSubcategoryHelp2": "Terwijl andere rapporten in laten zien hoe je bezoekers zich gedragen op een geaggregeerd niveau, geeft het bezoekenlog gedetailleerde informatie. U kunt ook segmenten gebruiken om te verfijnen naar specifieke bezoektypes of om je bezoekers beter te begrijpen.",
         "VisitorLogSubcategoryHelp3": "Lees meer in de bezoekenlog handleiding.",
         "VisitorProfile": "Profiel bezoeker",
         "VisitorsInRealTime": "Bezoeken in real-time",

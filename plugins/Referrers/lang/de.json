@@ -77,7 +77,7 @@
         "TypeSocialNetworks": "%s aus sozialen Netzwerken",
         "TypeWebsites": "%s von Webseiten",
         "URLCampaignBuilder": "Kampagnen URL Erzeuger",
-        "URLCampaignBuilderIntro": "Das %1$sURL Erzeuger Tool%2$s lässt Sie direkt verwendbare URLs für Tracking Kampagnen in Matomo generieren. Siehe Dokumentation über %3$sKampagnen Tracking%4$s für weitere Informationen.",
+        "URLCampaignBuilderIntro": "Das %1$sURL Erzeuger Tool%2$s lässt Sie direkt verwendbare URLs für Tracking Kampagnen in generieren. Siehe Dokumentation über %3$sKampagnen Tracking%4$s für weitere Informationen.",
         "URLCampaignBuilderResult": "Generierte URL welche Sie per Copy und Paste in Ihre Kampagnen, E-Mail Newsletter, Facebook Werbungen oder Tweets einbauen können:",
         "UsingNDistinctUrls": "(mit %s verschiedenen URLs)",
         "ViewAllReferrers": "Alle Verweise ansehen",

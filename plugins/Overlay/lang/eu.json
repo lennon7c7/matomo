@@ -6,7 +6,7 @@
         "ErrorNoSiteUrls": "ABISUA: Webgune honek ez dauka gunearen URLrik definituta Matomon. Horren eraginez gainjartzeak eta beste ezaugarri batzuk ez dute funtzionatuko edo portaera arraroak izango dituzte. Konpontzeko, gehitu URL bat Matomoren administrazio ataleko webgune honen ezarpenetan.",
         "ErrorNotLoading": "Orria gainjartzeko saioa ezin izan da abiarazi oraindik.",
         "ErrorNotLoadingDetails": "Behar bada eskuinean kargatutako orriak ez dauka Matomoren jarraipen-kodea. Hala bada, saiatu gainjartzea orrien txosteneko beste orri batentzat abiarazten.",
-        "ErrorNotLoadingDetailsSSL": "Matomo https bidez erabiltzen ari zarenez, arrazoirik probableena zure webguneak SSL ez onartzea da. Saiatu Matomo http bidez erabiltzen.",
+        "ErrorNotLoadingDetailsSSL": "Matomo https bidez erabiltzen ari zarenez, arrazoirik probableena zure webguneak SSL ez onartzea da. Saiatu http bidez erabiltzen.",
         "ErrorNotLoadingLink": "Egin klik hemen arazoak konpontzeko aholku gehiago jasotzeko",
         "Link": "Esteka",
         "Location": "Kokagunea",

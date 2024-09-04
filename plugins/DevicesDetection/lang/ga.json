@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Braitear an Gníomhaire Úsáideora seo mar %1$s. Ní dhéanfar cuairteanna leis an ngníomhaire úsáideora seo a rianú in Matomo de réir réamhshocraithe.",
+        "BotDetected": "Braitear an Gníomhaire Úsáideora seo mar %1$s. Ní dhéanfar cuairteanna leis an ngníomhaire úsáideora seo a rianú in de réir réamhshocraithe.",
         "BrowserCode": "Cóid brabhsálaithe",
         "BrowserEngine": "Inneall brabhsálaí",
         "BrowserEngineDocumentation": "Taispeánann an tuarascáil seo brabhsálaithe do chuairteoirí arna miondealú ina n-innill bhrabhsálaí. %s Is é an t-eolas is tábhachtaí d'fhorbróirí gréasáin ná an cineál inneall rindreála atá in úsáid ag a gcuairteoirí. Tá ainmneacha na n-inneall ar na lipéid agus an brabhsálaí is coitianta a úsáideann an t-inneall sin idir lúibíní ina dhiaidh sin.",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Léiríonn an tuarascáil seo na gléasanna atá in úsáid ag do chuairteoirí. Taispeántar gach samhail in éineacht le branda an fheiste mar go n-úsáideann brandaí iolracha roinnt ainmneacha samhlacha.",
         "DeviceModels": "Samhlacha gléas",
         "DeviceType": "Cineál gléas",
-        "DeviceTypeReportDocumentation": "Léiríonn an tuarascáil seo na cineálacha gléasanna a bhí in úsáid ag do chuairteoirí. Léireoidh an tuarascáil seo i gcónaí gach cineál feiste atá Matomo in ann a bhrath, fiú mura raibh aon chuairteanna le cineál sonrach.",
+        "DeviceTypeReportDocumentation": "Léiríonn an tuarascáil seo na cineálacha gléasanna a bhí in úsáid ag do chuairteoirí. Léireoidh an tuarascáil seo i gcónaí gach cineál feiste atá in ann a bhrath, fiú mura raibh aon chuairteanna le cineál sonrach.",
         "DeviceTypes": "Cineálacha gléas",
         "Devices": "Gléasanna",
         "DevicesDetection": "Gléasanna do Chuairteoirí",

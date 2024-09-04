@@ -14,7 +14,7 @@
         "InvalidAuthCode": "Onjuiste twee-factor authenticatiecode.",
         "LostAuthenticationDevice": "Hallo, %1$s ik heb twee-factor-authenticatie en ben mijn authenticatie apparaat verloren. Kunt u twee-factor authenticatie resetten voor mijn gebruikersnaam \"%5$s\"? Zie de instructies op volgende pagina: %6$s. %2$sDe Matomo-URL is %3$s.%4$sAlvast bedankt",
         "MissingAuthCodeAPI": "Gelieve een twee-factor authenticatiecode in te geven.",
-        "NotPossibleToLogIn": "Kan niet inloggen bij Matomo Analytics",
+        "NotPossibleToLogIn": "Kan niet inloggen bij Analytics",
         "RecoveryCodes": "Back-up codes",
         "RecoveryCodesAllUsed": "Alle back-up codes zijn gebruikt. U moet nieuwe genereren.",
         "RecoveryCodesExplanation": "U kunt een back-up code gebruiken om in te loggen als u geen twee-factor authenticatiecode kan genereren (bijvoorbeeld omdat u uw mobiele apparaat niet bij de hand heeft).",

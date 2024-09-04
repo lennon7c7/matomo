@@ -57,7 +57,7 @@ class ConvertToUtf8mb4 extends ConsoleCommand
             return self::SUCCESS;
         }
 
-        $output->writeln("This command will convert all Matomo database tables to utf8mb4.\n");
+        $output->writeln("This command will convert all database tables to utf8mb4.\n");
 
         if (DbHelper::getDefaultCharset() !== 'utf8mb4') {
             $this->writeSuccessMessage(array('Your database does not support utf8mb4'));
@@ -78,7 +78,7 @@ class ConvertToUtf8mb4 extends ConsoleCommand
             $config = Config::getInstance();
 
             if (!$keepTracking) {
-                $output->writeln("\n" . Piwik::translate('Disabling Matomo Tracking'));
+                $output->writeln("\n" . Piwik::translate('Disabling Tracking'));
                 $config->Tracker['record_statistics'] = '0';
                 $config->forceSave();
             }
@@ -96,7 +96,7 @@ class ConvertToUtf8mb4 extends ConsoleCommand
                 $config->database['charset'] = 'utf8mb4';
             } finally {
                 if (!$keepTracking) {
-                    $output->writeln("\n" . Piwik::translate('Enabling Matomo Tracking'));
+                    $output->writeln("\n" . Piwik::translate('Enabling Tracking'));
                     $config->Tracker['record_statistics'] = '1';
                 }
                 $config->forceSave();
@@ -113,10 +113,10 @@ class ConvertToUtf8mb4 extends ConsoleCommand
     protected function showCommands($queries, $keepTracking)
     {
         $output = $this->getOutput();
-        $output->writeln("To manually convert all Matomo database tables to utf8mb4 follow these steps.");
+        $output->writeln("To manually convert all database tables to utf8mb4 follow these steps.");
         if (!$keepTracking) {
             $output->writeln('');
-            $output->writeln('** Disable Matomo Tracking with this command: **');
+            $output->writeln('** Disable Tracking with this command: **');
             $output->writeln('./console config:set --section=Tracker --key=record_statistics --value=0');
         }
         $output->writeln('');
@@ -127,7 +127,7 @@ class ConvertToUtf8mb4 extends ConsoleCommand
         $output->writeln('./console config:set --section=database --key=charset --value=utf8mb4');
         if (!$keepTracking) {
             $output->writeln('');
-            $output->writeln('** Enable Matomo Tracking again with this command: **');
+            $output->writeln('** Enable Tracking again with this command: **');
             $output->writeln('./console config:set --section=Tracker --key=record_statistics --value=1');
         }
     }

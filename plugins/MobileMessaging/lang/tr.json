@@ -5,7 +5,7 @@
         "MobileReport_AdditionalPhoneNumbers": "Şuraya erişerek daha fazla telefon numarası ekleyebilirsiniz",
         "MobileReport_MobileMessagingSettingsLink": "Mobil iletişim ayarları sayfası",
         "MobileReport_NoPhoneNumbers": "Şuraya erişerek en az bir telefon numarasını etkinleştirin",
-        "MultiSites_Must_Be_Activated": "Site istatistiklerinizin için SMS iletilerinin gönderilebilmesi için lütfen Matomo MultiSites eklentisini etkinleştirin.",
+        "MultiSites_Must_Be_Activated": "Site istatistiklerinizin için SMS iletilerinin gönderilebilmesi için lütfen MultiSites eklentisini etkinleştirin.",
         "PhoneNumbers": "Telefon numaraları",
         "PluginDescription": "Özel SMS bildirimlerini ekleyip indirerek günlük, haftalık ve aylık bazda cep telefonunuza gönderilmesini sağlayın.",
         "SMS_Content_Too_Long": "[çok uzun]",
@@ -13,8 +13,8 @@
         "Settings_APIKey": "API anahtarı",
         "Settings_CountryCode": "Ülke kodu",
         "Settings_CredentialInvalid": "%1$s SMS API hesabınız yapılandırıldı ancak kullanılabilecek kredi sayısı alınırken bir sorun çıktı.",
-        "Settings_CredentialNotProvided": "Telefon numaralarını ekleyip düzenlemeden önce Matomo uygulamanızı yukarıdaki SMS hesabınıza bağlayın.",
-        "Settings_CredentialNotProvidedByAdmin": "Telefon numaralarını ekleyip düzenlemeden önce yöneticinizden Matomo uygulamanızı bir SMS hesabına bağlamasını isteyin.",
+        "Settings_CredentialNotProvided": "Telefon numaralarını ekleyip düzenlemeden önce uygulamanızı yukarıdaki SMS hesabınıza bağlayın.",
+        "Settings_CredentialNotProvidedByAdmin": "Telefon numaralarını ekleyip düzenlemeden önce yöneticinizden uygulamanızı bir SMS hesabına bağlamasını isteyin.",
         "Settings_CredentialProvided": "%s SMS API hesabınız doğru şekilde yapılandırıldı!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Yapılandırılmış telefon numaralarını yalnızca siz görüp kullanabilirsiniz, diğer kullanıcılar kullanamaz.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Yapılandırılmış SMS hizmeti sağlayıcısını yalnızca siz kullanabilirsiniz, diğer kullanıcılar kullanamaz.",
@@ -30,7 +30,7 @@
         "Settings_PhoneNumbers_Add": "Yeni telefon numarası ekle",
         "Settings_PhoneNumbers_CountryCode_Help": "Telefon ülke kodunu bilmiyorsanız buradan bakabilirsiniz.",
         "Settings_PhoneNumbers_Help": "Telefona SMS (metin iletisi) bildirimlerini almadan önce aşağıya bir telefon numarası yazmalısınız.",
-        "Settings_PhoneNumbers_HelpAdd": "\"Ekle\" üzerine tıkladığınızda telefona bir kod içeren SMS gönderilir. Kodu aldıktan sonra Matomo üzerinde oturum açıp, önce ayarlar sonra mobil iletişim üzerine tıklayın. Kodu yazdıktan sonra kullanıcının telefonuna metin raporları gönderilmeye başlanır.",
+        "Settings_PhoneNumbers_HelpAdd": "\"Ekle\" üzerine tıkladığınızda telefona bir kod içeren SMS gönderilir. Kodu aldıktan sonra üzerinde oturum açıp, önce ayarlar sonra mobil iletişim üzerine tıklayın. Kodu yazdıktan sonra kullanıcının telefonuna metin raporları gönderilmeye başlanır.",
         "Settings_PleaseSignUp": "SMS bilgilendirmeleri oluşturmak ve site istatistiklerini SMS iletileri olarak telefonunuzdan almak için SMS API hesabınızı açın ve aşağıdaki bilgileri yazın.",
         "Settings_SMSAPIAccount": "SMS API hesabı yönetimi",
         "Settings_SMSProvider": "SMS hizmeti sağlayıcı",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Site istatistikleri raporlarını e-postanıza ya da cep telefonunuza gönderin.",
         "TopMenu": "E-posta ve SMS raporları",
         "UserKey": "Kullanıcı anahtarı",
-        "VerificationText": "Kod: %1$s. Telefon numaranızı doğrulamak ve Matomo SMS raporlarını almak için lütfen Matomo → %2$s → %3$s bölümüne bu kodu kopyalayın."
+        "VerificationText": "Kod: %1$s. Telefon numaranızı doğrulamak ve SMS raporlarını almak için lütfen → %2$s → %3$s bölümüne bu kodu kopyalayın."
     }
 }

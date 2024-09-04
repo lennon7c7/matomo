@@ -6,7 +6,7 @@
  */
 
 import { DirectiveBinding } from 'vue';
-import { Matomo } from 'CoreHome';
+import { } from 'CoreHome';
 import ClickEvent = JQuery.ClickEvent;
 
 const { $ } = window;

@@ -14,7 +14,7 @@
         "InvalidAuthCode": "雙因素認證代碼不正確。",
         "LostAuthenticationDevice": "你好，%1$s我啟用了雙因素認證，但我的認證裝置不見了。麻煩你重設我的雙因素認證，我的使用者名稱是%5$s。%6$s 這裡有相關說明。%2$sMatomo 網址為 %3$s。%4$s謝謝",
         "MissingAuthCodeAPI": "請提供雙因素認證代碼。",
-        "NotPossibleToLogIn": "無法登入 Matomo 分析",
+        "NotPossibleToLogIn": "無法登入 分析",
         "RecoveryCodes": "復原代碼",
         "RecoveryCodesAllUsed": "所有復原代碼都用過了。你必須建立新的復原代碼。",
         "RecoveryCodesExplanation": "在你無法接收雙因素認證代碼時，譬如你忘記帶行動裝置的時候，你可以用復原代碼訪問你的帳號。",

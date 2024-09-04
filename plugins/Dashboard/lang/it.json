@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Copia la dashboard a un utente",
         "CreateNewDashboard": "Crea una nuova dasboard",
         "Dashboard": "Dashboard",
-        "DashboardCategoryHelp": "Questa è una pagina della dashboard. Le dashboard sono una raccolta di widget di Matomo che aggiungi tu stesso per soddisfare le tue esigenze specifiche. Mescola e abbina qualsiasi widget di Matomo per ottenere i dati di cui %1$s\"tu\"%2$s hai bisogno a colpo d'occhio.",
+        "DashboardCategoryHelp": "Questa è una pagina della dashboard. Le dashboard sono una raccolta di widget di che aggiungi tu stesso per soddisfare le tue esigenze specifiche. Mescola e abbina qualsiasi widget di per ottenere i dati di cui %1$s\"tu\"%2$s hai bisogno a colpo d'occhio.",
         "DashboardCopied": "La dashboard corrente è stata copiata con successo all'utente selezionato.",
         "DashboardEmptyNotification": "La tua dashboard non contiene widget. Inizia con l'aggiunta di alcuni widget o semplicemente resetta il pannello alla selezione widget predefinita.",
         "DashboardName": "Nome della dashboard:",

@@ -20,7 +20,7 @@ class ClearCaches extends ConsoleCommand
     {
         $this->setName('core:clear-caches');
         $this->setAliases(array('cache:clear'));
-        $this->setDescription('Clears all caches. This command can be useful for instance after updating Matomo files manually.');
+        $this->setDescription('Clears all caches. This command can be useful for instance after updating files manually.');
     }
 
     /**

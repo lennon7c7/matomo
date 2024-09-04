@@ -3,12 +3,12 @@
         "2FA": "2FA",
         "AllWebsites": "Összes weboldal",
         "ApplyToAllWebsites": "Alkalmazás minden weboldalra",
-        "ClickHereToDeleteTheCookie": "Kattints ide a szűrés érdekében lementett süti törléséhez, hogy a továbbiakban a Matomo regisztrálja látogatásaid.",
+        "ClickHereToDeleteTheCookie": "Kattints ide a szűrés érdekében lementett süti törléséhez, hogy a továbbiakban a regisztrálja látogatásaid.",
         "ClickHereToSetTheCookieOnDomain": "Kattints ide egy, a %s weboldalon történő látogatásaid kiszűréséhez szükséges süti böngésződben történő elmentéséhez.",
         "DeleteConfirm": "Biztosan törölni akarod a következő felhasználót: %s?",
         "Email": "E-mail-cím",
         "ExceptionDeleteDoesNotExist": "'%s' felhasználó nem létezik, ezért nem törölhető!",
-        "ExceptionEditAnonymous": "'Névtelen' felhasználó nem szerkeszthető vagy törölhető. Ezt a Matomo használja a be nem lépett felhasználók azonosítására. Nyilvánossá teheted például statisztikáidat, ha 'megtekintési' jogosultságot adsz a 'névtelen' felhasználók számára.",
+        "ExceptionEditAnonymous": "'Névtelen' felhasználó nem szerkeszthető vagy törölhető. Ezt a használja a be nem lépett felhasználók azonosítására. Nyilvánossá teheted például statisztikáidat, ha 'megtekintési' jogosultságot adsz a 'névtelen' felhasználók számára.",
         "ExceptionEmailExists": "'%s' e-mail címmel már létezik felhasználó.",
         "ExceptionInvalidEmail": "Az e-mail cím nem megfelelő formátumú",
         "ExceptionPasswordMD5HashExpected": "Az UsersManager.getTokenAuth funkció MD5-hashed jelszót vár (32 karakter hosszúságban). Kérjük, alkalmazd a md5() funkciót a jelszón, mielőtt meghívod ezt a metódust.",
@@ -31,7 +31,7 @@
         "UsersManagement": "Felhasználókezelés",
         "UsersManagementMainDescription": "Új felhasználó hozzáadása, vagy a meglévők beállítása. Feljebb beállíthatod a jogosultságaikat.",
         "YourUsernameCannotBeChanged": "Felhasználói nevedet nem lehet megváltoztatni",
-        "YourVisitsAreIgnoredOnDomain": "%1$sLátogatásaidat nem veszi figyelembe a Matomo itt: %2$s %3$s (a Matomo megfelelő sütijét megtaláltuk a böngésződben lementve).",
-        "YourVisitsAreNotIgnored": "%1$sLátogatásaid nem kerültek ignorálásra a Matomo által%2$s (Az ehhez szükséges süti nem volt megtalálható a böngésződben.)"
+        "YourVisitsAreIgnoredOnDomain": "%1$sLátogatásaidat nem veszi figyelembe a itt: %2$s %3$s (a megfelelő sütijét megtaláltuk a böngésződben lementve).",
+        "YourVisitsAreNotIgnored": "%1$sLátogatásaid nem kerültek ignorálásra a által%2$s (Az ehhez szükséges süti nem volt megtalálható a böngésződben.)"
     }
 }

@@ -34,7 +34,7 @@
         "ColumnUniqueClicksDocumentation": "Antal besøg, der involverede et klik på linket. Hvis et link blev klikket flere gange under et besøg, tæller det kun én gang.",
         "ColumnUniqueDownloads": "Unikke downloads",
         "ColumnUniqueOutlinks": "Unikke udgående links",
-        "DownloadsReportDocumentation": "Rapporten viser, hvilke filer dine besøgende har hentet. %s Hvad Matomo tæller som en filhentning, er klikket på et link. Hvorvidt overførelsen er afsluttet eller ej ved Matomo ikke.",
+        "DownloadsReportDocumentation": "Rapporten viser, hvilke filer dine besøgende har hentet. %s Hvad tæller som en filhentning, er klikket på et link. Hvorvidt overførelsen er afsluttet eller ej ved ikke.",
         "EntryPageTitles": "Indgangssidetitler",
         "EntryPageTitlesReportDocumentation": "Rapporten indeholder oplysninger om titlerne på indgangssider, der blev brugt i den angivne periode.",
         "EntryPagesReportDocumentation": "Rapporten indeholder oplysninger om indgangssider, der blev anvendt i den angivne periode. En indgangsside er den første side, en bruger får vist under sit besøg. %s Indgangssiden vises med en mappestruktur.",

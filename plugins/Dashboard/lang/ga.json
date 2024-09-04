@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Cóipeáil an painéal chuig an úsáideoir",
         "CreateNewDashboard": "Cruthaigh painéal nua",
         "Dashboard": "Deais",
-        "DashboardCategoryHelp": "Is leathanach deais é seo. Is éard atá i ndeischláir ná bailiúchán de ghiuirléidí Matomo a chuireann tú féin leis chun freastal ar do shainriachtanais. Measc agus meaitseáil aon cheann de ghiuirléidí Matomo chun na sonraí %1$s* a theastaíonn uait*%2$s a fháil go sracfhéachaint.",
+        "DashboardCategoryHelp": "Is leathanach deais é seo. Is éard atá i ndeischláir ná bailiúchán de ghiuirléidí a chuireann tú féin leis chun freastal ar do shainriachtanais. Measc agus meaitseáil aon cheann de ghiuirléidí chun na sonraí %1$s* a theastaíonn uait*%2$s a fháil go sracfhéachaint.",
         "DashboardCopied": "D'éirigh le cóipeáil an deais reatha chuig an úsáideoir roghnaithe.",
         "DashboardEmptyNotification": "Níl aon ghiuirléid ar do Phainéal. Tosaigh trí roinnt giuirléidí a chur leis nó díreach an painéal a athshocrú go dtí an rogha réamhshocraithe giuirléidí.",
         "DashboardName": "Ainm an deais:",

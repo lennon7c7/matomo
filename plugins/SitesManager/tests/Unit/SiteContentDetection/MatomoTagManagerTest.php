@@ -44,14 +44,14 @@ class MatomoTagManagerTest extends \PHPUnit\Framework\TestCase
         yield 'MTM js code found' => [
             true,
             "<html lang=\"en\"><head><title>A site</title></head>
-                <!-- Matomo Tag Manager -->
+                <!-- Tag Manager -->
                 <script>
                 var _mtm = window._mtm = window._mtm || [];
                 _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
                 g.async=true; g.src='https://dev.matomo.io/js/container_O1azR7hx.js'; s.parentNode.insertBefore(g,s);
                 </script>
-                <!-- End Matomo Tag Manager -->                  
+                <!-- End Tag Manager -->                  
                 </head><body>A site</body></html>",
             []
         ];

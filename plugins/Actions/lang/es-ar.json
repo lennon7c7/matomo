@@ -34,7 +34,7 @@
         "ColumnInteractionPosition": "Posición de interacción",
         "ColumnPageViewPosition": "Posición de la vista de página",
         "ActionsInVisit": "Acciones en visita",
-        "DownloadsReportDocumentation": "En este informe, podés ver qué archivos descargaron tus visitantes. %s Lo que Matomo cuenta como descarga es el clic en un enlace de descarga. Matomo no puede saber si la descarga fue completada.",
+        "DownloadsReportDocumentation": "En este informe, podés ver qué archivos descargaron tus visitantes. %s Lo que cuenta como descarga es el clic en un enlace de descarga. no puede saber si la descarga fue completada.",
         "EntryPagesReportDocumentation": "Este informe contiene información sobre las páginas de entrada que fueron usada durante el período especificado. Una página de entrada es la primera página que un usuario ve durante su visita. %s Las direcciones web de entrada se muestran como una estructura de carpeta.",
         "EntryPageTitles": "Títulos de páginas de entrada",
         "EntryPageTitlesReportDocumentation": "Este reporte contiene información sobre los títulos de las páginas de entrada que han sido utilizadas durante el período específico.",
@@ -95,6 +95,6 @@
         "SiteSearchSubcategoryHelp3": "Aprendé más en la guía de Búsqueda del sitio.",
         "OutlinksSubcategoryHelp1": "Este informe muestra una lista por jerarquía de enlaces de salida que fueron cliqueadas por tus visitantes. Un enlace de salida es un enlace que lleva al visitante a otro sitio web (a otro dominio).",
         "DownloadsSubcategoryHelp1": "En este informe podés ver qué archivos descargaron tus visitantes.",
-        "DownloadsSubcategoryHelp2": "Lo que Matomo contabiliza como una descarga es el clic en el enlace de descarga. Matomo no sabe si la carga fue completada o no."
+        "DownloadsSubcategoryHelp2": "Lo que contabiliza como una descarga es el clic en el enlace de descarga. no sabe si la carga fue completada o no."
     }
 }

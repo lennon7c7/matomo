@@ -31,7 +31,7 @@
         "ColumnIdPageview": "Sivukatselun ID",
         "ColumnInteractionPosition": "Vuorovaikutuksen paikka",
         "ActionsInVisit": "Toimintoja käynnin aikana",
-        "DownloadsReportDocumentation": "Tässä raportissa näet, mitä tiedostoja kävijät ovat ladanneet. %s Matomo laskee lataukseksi latauslinkin klikkaamisen. Matomo ei tiedä, valmistuiko lataus.",
+        "DownloadsReportDocumentation": "Tässä raportissa näet, mitä tiedostoja kävijät ovat ladanneet. %s laskee lataukseksi latauslinkin klikkaamisen. ei tiedä, valmistuiko lataus.",
         "EntryPagesReportDocumentation": "Tämä raportti sisältää tietoa saapumissivuista, joita on käytetty annetulla aikavälillä. Saapumissivu on ensimmäinen sivu, jota käyttäjä on katsonut käyntinsä aikana. %s Saapumis-URL:t näytetään kansiorakenteena.",
         "EntryPageTitles": "Saapumissivujen otsikot",
         "EntryPageTitlesReportDocumentation": "Tämä raportti sisältää tietoa saapumissivujen otsikoista annetulla aikavälillä.",

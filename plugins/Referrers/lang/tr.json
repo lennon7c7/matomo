@@ -77,7 +77,7 @@
         "TypeSocialNetworks": "sosyal ağlardan %s",
         "TypeWebsites": "sitelerden %s",
         "URLCampaignBuilder": "Kampanya adresi üreteci",
-        "URLCampaignBuilderIntro": "%1$sAdres üreteci%2$s Matomo üzerindeki izleme kampanyalarında kullanılmak üzere adresler üretir. Ayrıntılı bilgi almak için %3$skampanya izleme%4$s belgelerine bakabilirsiniz.",
+        "URLCampaignBuilderIntro": "%1$sAdres üreteci%2$s üzerindeki izleme kampanyalarında kullanılmak üzere adresler üretir. Ayrıntılı bilgi almak için %3$skampanya izleme%4$s belgelerine bakabilirsiniz.",
         "URLCampaignBuilderResult": "Üretilen adresi kopyalayıp yapıştırarak, kampanyalarınızda, e-posta bültenlerinizde, Facebook reklamlarınızda ya da tweetlerinizde kullanabilirsiniz:",
         "UsingNDistinctUrls": "(%s farklı adres kullanarak)",
         "ViewAllReferrers": "Tüm yönlendirenleri görüntüle",

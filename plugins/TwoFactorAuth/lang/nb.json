@@ -14,7 +14,7 @@
         "InvalidAuthCode": "To-faktoridentitetsbekreftelseskoden stemmer ikke.",
         "LostAuthenticationDevice": "Hei %1$s. Jeg har to-faktoridentitetsbekreftelse påslått og har mistet min identitetbekreftelsesenhet. Kan du tilbakestille to-faktoridentitetsbekreftelse for brukernavnet mitt «%5$s»? Du finner instruks for dette her: %6$s. %2$sMatomo-nettadressen er %3$s.%4$s Takk.",
         "MissingAuthCodeAPI": "Angi din to-faktoridentitetsbekreftelseskode.",
-        "NotPossibleToLogIn": "Kan ikke logge inn på Matomo Analytics",
+        "NotPossibleToLogIn": "Kan ikke logge inn på Analytics",
         "RecoveryCodes": "Gjenopprettelseskoder",
         "RecoveryCodesAllUsed": "Alle gjenopprettelseskoder har blitt brukt. Det anbefales sterkt at du genererer nye.",
         "RecoveryCodesExplanation": "Du kan bruke gjenopprettingskoder for å få tilgang til kontoen din når du ikke kan generere to-faktoridentitetsbekreftelseskoder, for eksempel når du ikke har mobilenheten med deg.",

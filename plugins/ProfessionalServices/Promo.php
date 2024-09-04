@@ -69,7 +69,7 @@ class Promo
                 'campaignContent' => 'searchKeywords',
                 'title' => 'Search Keywords',
                 'url' => Url::addCampaignParametersToMatomoLink('https://matomo.org/recommends/search-keywords-performance/'),
-                'text' => 'Which queries caused your website to appear in search results? Improve your SEO efforts and monitor your position and performance for each Keyword directly in your Matomo reports.',
+                'text' => 'Which queries caused your website to appear in search results? Improve your SEO efforts and monitor your position and performance for each Keyword directly in your reports.',
             ),
             // Roll-Up Reporting
             array(
@@ -90,13 +90,13 @@ class Promo
                 'campaignContent' => 'bringEnterpriseLevel',
                 'title' => 'Enterprise',
                 'url' => Url::addCampaignParametersToMatomoLink('https://matomo.org/recommends/enterprise/'),
-                'text' => 'Bring your analytics to enterprise level. Upgrade your Matomo platform and receive access to numerous premium features and assistance from experts.'
+                'text' => 'Bring your analytics to enterprise level. Upgrade your platform and receive access to numerous premium features and assistance from experts.'
             ),
             array(
                 'campaignContent' => 'slowingDown',
                 'title' => 'Enterprise',
                 'url' => Url::addCampaignParametersToMatomoLink('https://matomo.org/recommends/enterprise/'),
-                'text' => 'Is your Matomo slowing down? Matomo experts can help with your server setup!'
+                'text' => 'Is your slowing down? experts can help with your server setup!'
             ),
             array(
                 'campaignContent' => 'discoverPower',

@@ -58,7 +58,7 @@
         "VisitorLogDocumentation": "Denna tabell visar de senaste besöken inom det valda datumintervallet. Håll musmarkören över ett besök för att hitta det senaste. %1$s Ifall datumintervallet inkluderar idag kan du se dina besökare i realtid. %2$s Data som visas här är alltid live, oavsett om och hur ofta du använder cron-jobb för arkivering.",
         "VisitorLogNoDataMessagePurged": "Data har troligen rensats eftersom regelbunden radering av gammal rådata är aktiverad och datumet för denna rapport är mer än %s dagar gammalt. En superanvändare kan ändra den här inställningen genom att gå till Administration → Sekretess.",
         "VisitorLogSubcategoryHelp1": "Besöksloggen visar detaljer om varje besök som din webbplats får. Upptäck vilka händelser varje besökare har utfört, hur de kom till din webbplats, lite om vilka de är och mer (samtidigt som du fortfarande följer dina lokala sekretessregler).",
-        "VisitorLogSubcategoryHelp2": "Medan andra rapporter i Matomo visar hur dina besökare beter sig på aggregerad nivå, ger besöksloggen noggranna detaljer. Du kan också använda segment för att begränsa det till specifika typer av besök för att bättre förstå dina besökare.",
+        "VisitorLogSubcategoryHelp2": "Medan andra rapporter i visar hur dina besökare beter sig på aggregerad nivå, ger besöksloggen noggranna detaljer. Du kan också använda segment för att begränsa det till specifika typer av besök för att bättre förstå dina besökare.",
         "VisitorLogSubcategoryHelp3": "Läs mer i besökslogg-guiden.",
         "VisitorProfile": "Besöksprofil",
         "VisitorsInRealTime": "Besök i realtid",

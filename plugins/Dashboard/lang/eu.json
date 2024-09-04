@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Kopiatu panela erabiltzailera",
         "CreateNewDashboard": "Sortu panel berria",
         "Dashboard": "Panela",
-        "DashboardCategoryHelp": "Hau panelaren orri bat da. Panelak zuk zure beharrak asetzeko Matomoren widget-ak gehituz sortutako bildumak dira. Erabili nahi dituzun Matomo widget-ak %1$s*zuk*%2$s behar dituzun datuak begi kolpean ikusteko.",
+        "DashboardCategoryHelp": "Hau panelaren orri bat da. Panelak zuk zure beharrak asetzeko Matomoren widget-ak gehituz sortutako bildumak dira. Erabili nahi dituzun widget-ak %1$s*zuk*%2$s behar dituzun datuak begi kolpean ikusteko.",
         "DashboardCopied": "Uneko panela behar bezala kopiatu da hautatutako erabiltzailera.",
         "DashboardEmptyNotification": "Zure panelak ez dauka widget-ik. Gehitu widget batzuk edo berrezarri panelaren widget hautapen lehenetsia.",
         "DashboardName": "Panelaren izena:",

@@ -264,7 +264,7 @@ class Updater
             }
         }
 
-        throw new \Exception('Could not find matomo or piwik directory in downloaded archive!');
+        throw new \Exception('Could not find or piwik directory in downloaded archive!');
     }
 
     private function verifyDecompressedArchive($extractedArchiveDirectory)

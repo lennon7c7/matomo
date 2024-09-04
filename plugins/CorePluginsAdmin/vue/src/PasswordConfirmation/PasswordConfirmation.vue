@@ -53,7 +53,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { Matomo } from 'CoreHome';
+import { } from 'CoreHome';
 import Field from '../Field/Field.vue';
 import KeyPressEvent = JQuery.KeyPressEvent;
 

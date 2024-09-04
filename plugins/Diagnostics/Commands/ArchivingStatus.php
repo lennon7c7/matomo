@@ -74,7 +74,7 @@ class ArchivingStatus extends ConsoleCommand
 
         if ($input->getOption('email')) {
             $address = $input->getOption('email');
-            $content = 'This email was sent via the Matomo diagnostic:archiving-status command';
+            $content = 'This email was sent via the diagnostic:archiving-status command';
             $content .= '<pre>';
             $content .= $output->fetch();
             $content .= '</pre>';

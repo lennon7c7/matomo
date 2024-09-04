@@ -44,7 +44,7 @@
         "SentToMe": "Send to me",
         "TableOfContent": "Report list",
         "ThereIsNoReportToManage": "There is no report to manage for website %s",
-        "TopLinkTooltip": "Create Email Reports to get Matomo stats delivered to your email or your customers' address automatically!",
+        "TopLinkTooltip": "Create Email Reports to get stats delivered to your email or your customers' address automatically!",
         "TopOfReport": "Back to top",
         "UpdateReport": "Update Report",
         "WeeklyScheduleHelp": "Weekly schedule: report will be sent on Monday of each week.",

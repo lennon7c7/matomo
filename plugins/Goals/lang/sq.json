@@ -53,7 +53,7 @@
         "DaysToConv": "Ditë për Shndërrim",
         "DaysToConvReportDocumentation": "Ky raport shfaq sa ditë kalojnë para se vizitorët tuaj të shndërrojnë një objektiv.",
         "DefaultGoalConvertedOncePerVisit": "(parazgjedhje) Objektivi mund të shndërrohet një herë për vizitë",
-        "DefaultRevenueHelp": "Për shembull, një Formular Kontakti parashtruar nga një vizitor mund të vlejë mesatarisht 10 euro. Matomo do t’ju ndihmojë të kuptoni se si shtresëzohen segmentet e vizitorëve tuaj.",
+        "DefaultRevenueHelp": "Për shembull, një Formular Kontakti parashtruar nga një vizitor mund të vlejë mesatarisht 10 euro. do t’ju ndihmojë të kuptoni se si shtresëzohen segmentet e vizitorëve tuaj.",
         "DefaultRevenueLabel": "Të ardhura parazgjedhje objektivi",
         "DeleteGoalConfirm": "Jeni i sigurt se doni të fshihet Objektivi %s?",
         "Details": "Hollësi objektivi",

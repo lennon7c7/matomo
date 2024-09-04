@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Agen-Pengguna ini terdeteksi sebagai %1$s. Kunjungan dengan agen pengguna ini tidak akan dilacak di Matomo secara asali.",
+        "BotDetected": "Agen-Pengguna ini terdeteksi sebagai %1$s. Kunjungan dengan agen pengguna ini tidak akan dilacak di secara asali.",
         "BrowserCode": "Kode peramban",
         "BrowserEngine": "Mesin peramban",
         "BrowserEngineDocumentation": "Di laporan ini dapat terlihat bahwa peramban web pengunjung Anda dipecah berdasarkan mesin perambannya. %s Informasi terpenting bagi pengembang web adalah jenis mesin rendering yang digunakan oleh pengunjung mereka. Label berisi nama-nama mesin diikuti oleh peramban paling umum yang menggunakan mesin itu dalam tanda kurung.",

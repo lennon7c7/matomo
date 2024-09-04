@@ -21,7 +21,7 @@
         "FromDifferentCities": "different cities",
         "GeoIPDocumentationSuffix": "Set up GeoIP in the Geolocation admin tab to provide data for this report. The commercial %1$sMaxMind%2$s GeoIP databases are more accurate than the gratis ones. %3$sClick here%4$s to see how accurate they are.",
         "Geolocation": "Geolocation",
-        "GeolocationPageDesc": "Here you can change how Matomo determines visitor locations.",
+        "GeolocationPageDesc": "Here you can change how determines visitor locations.",
         "GeolocationProviderBroken": "Your geolocation provider (%1$s) is broken. Please fix the provider, or set up another one.",
         "GeolocationProviderUnavailable": "Your geolocation provider (%1$s) is no longer available. Please set up another one.",
         "getCityDocumentation": "Shows the cities your visitors connected from when accessing your website.",

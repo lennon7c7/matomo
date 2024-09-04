@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "hai cancellato con successo l'iscrizione al report %1$s.",
         "TableOfContent": "Elenco report",
         "ThereIsNoReportToManage": "Non ci sono report da gestire per il sito %s",
-        "TopLinkTooltip": "Crea dei report tramite email per ottenere statistiche Matomo spedite al tuo indirizzo email o automaticamente all'indirizzo dei tuoi clienti!",
+        "TopLinkTooltip": "Crea dei report tramite email per ottenere statistiche spedite al tuo indirizzo email o automaticamente all'indirizzo dei tuoi clienti!",
         "TopOfReport": "Torna all'inizio",
         "Unsubscribe": "Cancella iscrizione",
         "UnsubscribeFooter": "Per cancellare l'iscrizione a questo report, segui questo link: %1$s",

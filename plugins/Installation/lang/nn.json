@@ -28,7 +28,7 @@
         "SuperUser": "Superbrukar",
         "SuperUserSetupSuccess": "Superbrukar vart oppretta!",
         "SystemCheck": "Systemsjekk",
-        "SystemCheckAutoUpdateHelp": "Merk: Eittklikksoppdateringa til Matomo krev skrivetilgang til Matomo-katalogen og innhaldet der.",
+        "SystemCheckAutoUpdateHelp": "Merk: Eittklikksoppdateringa til krev skrivetilgang til Matomo-katalogen og innhaldet der.",
         "SystemCheckDatabaseHelp": "Matomo krev anten mysqli-utvidinga eller båe utvidingane PDO og pdo_mysql.",
         "SystemCheckError": "Det skjedde ein feil - du må retta på den før du kan halda fram",
         "SystemCheckExtensions": "Andre påkravde utvidingar",
@@ -61,7 +61,7 @@
         "TablesFound": "Dei føljande tabellane vart funnen i databasen",
         "TablesReuse": "Nytt dei eksisterande tabellane",
         "TablesWarningHelp": "Du må velja om du vil nytta dei eksisterande tabellane slik dei er, eller å sletta dei og starta på nytt.",
-        "TablesWithSameNamesFound": "Nokre %1$s tabellar i databasen din %2$s hev dei same namna som dei tabellane Matomo prøvar å lage",
+        "TablesWithSameNamesFound": "Nokre %1$s tabellar i databasen din %2$s hev dei same namna som dei tabellane prøvar å lage",
         "Welcome": "Velkommen"
     }
 }

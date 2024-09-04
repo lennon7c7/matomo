@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Salin dasbor ke pengguna",
         "CreateNewDashboard": "Buat dasbor baru",
         "Dashboard": "Dasbor",
-        "DashboardCategoryHelp": "Ini adalah halaman dasbor. Dasbor adalah kumpulan widget Matomo yang Anda tambahkan sendiri sesuai dengan kebutuhan spesifik Anda. Campur dan cocokkan widget Matomo untuk mendapatkan data %1$s*Anda*%2$s yang diperlukan dengan sekilas.",
+        "DashboardCategoryHelp": "Ini adalah halaman dasbor. Dasbor adalah kumpulan widget yang Anda tambahkan sendiri sesuai dengan kebutuhan spesifik Anda. Campur dan cocokkan widget untuk mendapatkan data %1$s*Anda*%2$s yang diperlukan dengan sekilas.",
         "DashboardCopied": "Dasbor berikut ini berhasil disalin ke pengguna terpilih.",
         "DashboardEmptyNotification": "Dasbor Anda tidak berisi widget apa pun. Mulailah dengan menambahkan beberapa widget atau cukup setel ulang dasbor ke pilihan widget bawaan.",
         "DashboardName": "Nama dasbor:",

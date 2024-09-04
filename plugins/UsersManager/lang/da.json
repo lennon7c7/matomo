@@ -8,8 +8,8 @@
         "AnonymousUserHasViewAccess2": "Analyserapporter og besøgendes oplysninger er offentligt tilgængelige.",
         "ApplyToAllWebsites": "Tilføj til alle hjemmesider",
         "BasicInformation": "Basisoplysninger",
-        "ClickHereToDeleteTheCookie": "Klik her for at slette cookie og få Matomo til at spore dine besøg",
-        "ClickHereToSetTheCookieOnDomain": "Klik her for at sætte en cookie og udeluk egne besøg på hjemmesider der spores af Matomo på %s",
+        "ClickHereToDeleteTheCookie": "Klik her for at slette cookie og få til at spore dine besøg",
+        "ClickHereToSetTheCookieOnDomain": "Klik her for at sætte en cookie og udeluk egne besøg på hjemmesider der spores af på %s",
         "ConfirmGrantSuperUserAccess": "Vil du at give '%s' Superbruger adgang? Advarsel: brugeren vil have adgang til alle hjemmesider og vil være i stand til at udføre administrative opgaver.",
         "ConfirmProhibitMySuperUserAccess": "%s, vil du virkelig fjerne din egen superbruger adgang? Du mister alle tilladelser og adgang til alle hjemmesider og vil blive logget ud af Matomo.",
         "ConfirmProhibitOtherUsersSuperUserAccess": "Vil du virkelig fjerne superbrugeradgang fra '%s'? Brugeren vil miste alle retigheder og adgang til alle hjemmesider. Sørg om nødvendigt for at give adgang til relevante hjemmesider efterfølgende.",
@@ -21,7 +21,7 @@
         "EnterUsernameOrEmail": "Indtast brugernavn eller e-mailadresse",
         "ExceptionDeleteDoesNotExist": "Bruger '%s' eksisterer ikke og kan derfor ikke slettes.",
         "ExceptionDeleteOnlyUserWithSuperUserAccess": "Sletning af bruger '%s' er ikke mulig.",
-        "ExceptionEditAnonymous": "Anonyme brugere kan ikke redigeres eller slettet. Anvendes af Matomo til at definere en bruger, som ikke er blevet logget på endnu. F. eks. kan du gøre statistikken offentlig ved at give 'se' adgang til 'anonym' bruger",
+        "ExceptionEditAnonymous": "Anonyme brugere kan ikke redigeres eller slettet. Anvendes af til at definere en bruger, som ikke er blevet logget på endnu. F. eks. kan du gøre statistikken offentlig ved at give 'se' adgang til 'anonym' bruger",
         "ExceptionEmailExists": "Bruger med e-mail '%s' findes allerede.",
         "ExceptionInvalidEmail": "E-mailadressen er ikke i gyldigt format.",
         "ExceptionInvalidLoginFormat": "Brugernavnet skal være på mellem %1$s og %2$s tegn og må kun indeholde bogstaver, tal samt tegnene “_”, “-”, “.” , “@”  eller “+”.",
@@ -75,7 +75,7 @@
         "UsersManagementMainDescription": "Opret nye brugere eller opdater eksisterende. Efterfølgende kan tilladelser ændres.",
         "UsesTwoFactorAuthentication": "Benytter tofaktorgodkendelse",
         "YourUsernameCannotBeChanged": "Brugernavnet kan ikke ændres.",
-        "YourVisitsAreIgnoredOnDomain": "%1$sDine besøg ignoreres af Matomo på %2$s %3$s (Matomo ignorer cookie blev fundet i netlæseren).",
+        "YourVisitsAreIgnoredOnDomain": "%1$sDine besøg ignoreres af på %2$s %3$s (Matomo ignorer cookie blev fundet i netlæseren).",
         "YourVisitsAreNotIgnored": "%1$sDine besøg bliver ikke ignoreret af Matomo%2$s (Matomos ignorer-cookie blev ikke fundet i browseren)."
     }
 }

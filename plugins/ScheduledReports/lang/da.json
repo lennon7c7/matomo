@@ -52,7 +52,7 @@
         "SuccessfullyUnsubscribed": "Du er blevet afmeldt rapporten %1$s.",
         "TableOfContent": "Rapport liste",
         "ThereIsNoReportToManage": "Ingen rapporter at administrere for hjemmesiden %s",
-        "TopLinkTooltip": "Opret e-mailrapporter for at få Matomo statistik leveret til din e-mail eller dine kunders adresse automatisk!",
+        "TopLinkTooltip": "Opret e-mailrapporter for at få statistik leveret til din e-mail eller dine kunders adresse automatisk!",
         "TopOfReport": "Tilbage til toppen",
         "Unsubscribe": "Afmeld",
         "UnsubscribeFooter": "Klik her for at afmelde denne rapport: %1$s",

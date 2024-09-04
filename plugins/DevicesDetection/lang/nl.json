@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Dit rapport toont de apparaten die uw bezoekers gebruikten. Elk model is weergegeven in combinatie met het merk, aangezien sommige modelnamen door meerdere merken worden gebruikt.",
         "DeviceModels": "Modellen apparaten",
         "DeviceType": "Soort apparaat",
-        "DeviceTypeReportDocumentation": "Dit rapport toont de apparaattypes die uw bezoekers gebruikten. Het rapport toont steeds alle apparaattypes die Matomo kan herkennen, zelfs als er geen bezoeken met een specifiek type waren.",
+        "DeviceTypeReportDocumentation": "Dit rapport toont de apparaattypes die uw bezoekers gebruikten. Het rapport toont steeds alle apparaattypes die kan herkennen, zelfs als er geen bezoeken met een specifiek type waren.",
         "DeviceTypes": "Soorten apparaten",
         "Devices": "Apparaten",
         "DevicesDetection": "Apparaten bezoekers",

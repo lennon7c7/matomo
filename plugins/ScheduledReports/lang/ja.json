@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "あなたはレポート%1$sからの登録を解除されました。",
         "TableOfContent": "レポート一覧",
         "ThereIsNoReportToManage": "ウェブサイト %s にはレポートがありません",
-        "TopLinkTooltip": "あなたの E メールまたは顧客のアドレスに自動的に Matomo 統計情報を届けるには、E メールレポートを作成してください！",
+        "TopLinkTooltip": "あなたの E メールまたは顧客のアドレスに自動的に 統計情報を届けるには、E メールレポートを作成してください！",
         "TopOfReport": "トップへ戻る",
         "Unsubscribe": "退会する",
         "UnsubscribeFooter": "このレポートの登録を解除するには、次のリンクをクリックしてください：%1$s",

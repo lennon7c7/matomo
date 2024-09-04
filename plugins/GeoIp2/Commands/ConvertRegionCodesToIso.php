@@ -83,7 +83,7 @@ class ConvertRegionCodesToIso extends ConsoleCommand
 
         $output->writeln(' <fg=green>✓</>');
 
-        $output->writeln('Updating Matomo log tables:');
+        $output->writeln('Updating log tables:');
 
         $activationTime = Option::get(GeoIp2::SWITCH_TO_ISO_REGIONS_OPTION_NAME);
         $activationDateTime = date('Y-m-d H:i:s', $activationTime);

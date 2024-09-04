@@ -72,7 +72,7 @@
         "GoalsOverviewDocumentation": "這是你目標轉換的總覽。一開始，圖表顯示所有轉換的總和。%s 圖表下方你可以看到每個目標的轉換報表。迷你圖可以點擊放大。",
         "HelpOneConversionPerVisit": "如果達成目標的網頁在單次訪問被重新整理或是瀏覽多次，只會追蹤這次訪問中第一次頁面載入完成時的目標。",
         "IsExactly": "完全符合 %s",
-        "LearnMoreAboutGoalTrackingDocumentation": "在使用者說明文件中了解更多關於%1$s在 Matomo 上追蹤目標%2$s。",
+        "LearnMoreAboutGoalTrackingDocumentation": "在使用者說明文件中了解更多關於%1$s在 上追蹤目標%2$s。",
         "LeftInCart": "%s 項遺留在購物車",
         "ManageGoals": "目標管理",
         "Manually": "手動",

@@ -55,7 +55,7 @@
         "DaysToConv": "Dager til konvertering",
         "DaysToConvReportDocumentation": "Denne rapporten viser hvor mange dager som går før dine besøkende konverterer et mål.",
         "DefaultGoalConvertedOncePerVisit": "(standard) Mål kan kun konverteres én gang per besøk",
-        "DefaultRevenueHelp": "For eksempel kan et kontaktskjema innsendt av en besøker være verdt 100 kr i gjennomsnitt. Matomo hjelper deg å forstå hvor godt besøkssegmentene yter.",
+        "DefaultRevenueHelp": "For eksempel kan et kontaktskjema innsendt av en besøker være verdt 100 kr i gjennomsnitt. hjelper deg å forstå hvor godt besøkssegmentene yter.",
         "DefaultRevenueLabel": "Målsatt forvalgt omsetning",
         "DeleteGoalConfirm": "Er du sikker på at du vil slette målet %s?",
         "Details": "Måldetaljer",

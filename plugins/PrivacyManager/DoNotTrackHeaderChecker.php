@@ -75,7 +75,7 @@ class DoNotTrackHeaderChecker
 
         Piwik::postEvent('PrivacyManager.shouldIgnoreDnt', array(&$shouldIgnore));
         if ($shouldIgnore) {
-            Common::printDebug("DoNotTrack header ignored by Matomo because of a plugin");
+            Common::printDebug("DoNotTrack header ignored by because of a plugin");
             return false;
         }
 

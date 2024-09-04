@@ -2,7 +2,7 @@
     "UsersManager": {
         "2FA": "2FA",
         "AddExistingUser": "Agregar un usuario existente",
-        "AddSuperuserAccessConfirm": "Dar acceso de súperusuario a un usuario estándar permitirá que tenga control total sobre Matomo y debería hacerse con moderación. Ingresá tu contraseña para continuar.",
+        "AddSuperuserAccessConfirm": "Dar acceso de súperusuario a un usuario estándar permitirá que tenga control total sobre y debería hacerse con moderación. Ingresá tu contraseña para continuar.",
         "AddUserNoInitialAccessError": "Los nuevos usuarios tienen que darle acceso a tu sitio web. Por favor, establecé el parámetro \"initialIdSite\".",
         "AllUsersAreSelected": "Están seleccionados todos los %1$s usuarios.",
         "AllWebsites": "Todos los sitios web",
@@ -28,8 +28,8 @@
         "ChangePermToAllSitesConfirm2": "Nota: esto sólo afectará los sitios web existentes actualmente. Los nuevos sitios web que vayás a crear no serán accesibles automáticamente para este usuario.",
         "ChangePermToSiteConfirmMultiple": "¿Estás seguro que querés cambiar el rol de %1$s a los %2$s sitios web seleccionados, a %3$s?",
         "ChangePermToSiteConfirmSingle": "¿Estás seguro que querés cambiar el rol de %1$s, de %2$s a %3$s?",
-        "ClickHereToDeleteTheCookie": "Hacé clic acá para eliminar la cookie y dejar que Matomo rastree tus visitas",
-        "ClickHereToSetTheCookieOnDomain": "Hacé clic acá para establecer una cookie que excluya tus visitas en sitios web rastreados por Matomo en %s",
+        "ClickHereToDeleteTheCookie": "Hacé clic acá para eliminar la cookie y dejar que rastree tus visitas",
+        "ClickHereToSetTheCookieOnDomain": "Hacé clic acá para establecer una cookie que excluya tus visitas en sitios web rastreados por en %s",
         "ClickToSelectAll": "Hacé clic para seleccionar todos los %1$s.",
         "ClickToSelectDisplayedUsers": "Hacé clic para seleccionar los %1$s usuarios mostrados.",
         "ClickToSelectDisplayedWebsites": "Hacé clic para seleccionar los %1$s sitios web mostrados.",
@@ -58,7 +58,7 @@
         "ExceptionAnonymousNoCapabilities": "No podés garantizar ninguna capacidad al usuario \"anónimo\".",
         "ExceptionDeleteDoesNotExist": "El usuario \"%s\" no existe, por lo tanto, no puede ser eliminado.",
         "ExceptionDeleteOnlyUserWithSuperUserAccess": "No es posible eliminar al usuario \"%s\".",
-        "ExceptionEditAnonymous": "El usuario anónimo no puede ser borrado o editado. Matomo lo utiliza para definir que usuario que no se ha conectado todavía. Por ejemplo, podés hacer públicas tus estadísticas mediante el acceso \"ver\" al usuario \"anónimo\".",
+        "ExceptionEditAnonymous": "El usuario anónimo no puede ser borrado o editado. lo utiliza para definir que usuario que no se ha conectado todavía. Por ejemplo, podés hacer públicas tus estadísticas mediante el acceso \"ver\" al usuario \"anónimo\".",
         "ExceptionEmailExists": "Ya existe un usuario con el correo electrónico \"%s\".",
         "ExceptionInvalidEmail": "El correo electrónico no tiene un formato válido.",
         "ExceptionInvalidLoginFormat": "El nombre de usuario debe tener una longitud de entre %1$s y %2$s caracteres y sólo contener letras sin signos diacríticos, números, o los caracteres subguión (\"_\"), guión (\"-\"), punto (\".\"), arroba (\"@\") o más (\"+\").",
@@ -129,7 +129,7 @@
         "ResetTwoFactorAuthenticationInfo": "Si el usuario no puede iniciar sesión porque perdió los códigos de recuperación o un dispositivo de autenticación, podés restablecer la autenticación de 2 factores para el usuario, así puede iniciar sesión de nuevo.",
         "Role": "Rol",
         "RoleFor": "Rol de",
-        "RolesHelp": "Los roles determinan lo que un usuario puede hacer en Matomo con respecto a un sitio web específico. Aprendé más sobre los roles de %1$svista%2$s y de %3$sadministración%4$s.",
+        "RolesHelp": "Los roles determinan lo que un usuario puede hacer en con respecto a un sitio web específico. Aprendé más sobre los roles de %1$svista%2$s y de %3$sadministración%4$s.",
         "SaveBasicInfo": "Guardar información básica",
         "SetPermission": "Establecer permiso",
         "SuperUserAccess": "Acceso de súperusuario",
@@ -159,7 +159,7 @@
         "WhenUsersAreNotLoggedInAndVisitPiwikTheyShouldAccess": "Cuando los usuarios que no hayan iniciado sesión visitan Matomo, deberían ver inicialmente",
         "YourCurrentPassword": "Tu contraseña actual",
         "YourUsernameCannotBeChanged": "No se puede cambiar tu nombre de usuario.",
-        "YourVisitsAreIgnoredOnDomain": "%1$sTus visitas son ignoradas por Matomo en %2$s%3$s (se encontró en tu navegador web la cookie para ignorar a Matomo).",
+        "YourVisitsAreIgnoredOnDomain": "%1$sTus visitas son ignoradas por en %2$s%3$s (se encontró en tu navegador web la cookie para ignorar a Matomo).",
         "YourVisitsAreNotIgnored": "%1$sTus visitas no son ignoradas por Matomo%2$s (no se encontró en tu navegador web la cookie para ignorar a Matomo)."
     }
 }

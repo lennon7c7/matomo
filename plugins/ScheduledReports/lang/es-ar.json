@@ -43,7 +43,7 @@
         "SentToMe": "Enviarme una copia",
         "TableOfContent": "Lista de informes",
         "ThereIsNoReportToManage": "No hay informess que administrar para el sitio web %s",
-        "TopLinkTooltip": "Creá informes de correo electrónico para que se envíen las estadísticas de Matomo a tu dirección de correo o a la de tus clientes, ¡automáticamente!",
+        "TopLinkTooltip": "Creá informes de correo electrónico para que se envíen las estadísticas de a tu dirección de correo o a la de tus clientes, ¡automáticamente!",
         "TopOfReport": "Volver arriba",
         "UpdateReport": "Actualizar informe",
         "WeeklyScheduleHelp": "Envío semanal: los informes serán enviados el primer lunes de cada semana.",

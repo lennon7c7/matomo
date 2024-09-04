@@ -9,7 +9,7 @@
         "LoadedAPIs": "%s APIs geladen",
         "MainMetricsReportDocumentation": "Dieser Bericht liefert eine Übersicht der wichtigsten Metriken über alle Kategorien und Plugins hinweg.",
         "MoreInformation": "Weitere Informationen über die Matomo-APIs sind in der %1$s Einführung zu Matomo-API %2$s und die %3$s Matomo-API-Referenz %4$s verfügbar.",
-        "PluginDescription": "Alle Daten in Matomo sind über einfache APIs verfügbar. Dieses Plugin ist der Web-Service-Eingangspunkt, welchen Sie nutzen können, um Ihre Webanalyse-Dateien in XML, JSON, PHP, CSV usw. abzufragen.",
+        "PluginDescription": "Alle Daten in sind über einfache APIs verfügbar. Dieses Plugin ist der Web-Service-Eingangspunkt, welchen Sie nutzen können, um Ihre Webanalyse-Dateien in XML, JSON, PHP, CSV usw. abzufragen.",
         "ReportingApiReference": "Reporting-API-Referenz",
         "TopLinkTooltip": "Greifen Sie auf Ihre Webanalyse-Daten über eine einfache API mit JSON, XML, usw. zu.",
         "UserAuthentication": "Benutzerauthentifizierung",

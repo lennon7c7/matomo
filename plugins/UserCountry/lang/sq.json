@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Që të sillen të dhëna për këtë raport, duhet të rregulloni GeoIP-në te skeda e përgjegjësit për Gjeovendëzimin. Bazat komerciale të të dhënave GeoIP %1$sMaxMind%2$s janë më të sakta se sa ato falas. Që të shihni se sa të sakta janë, klikoni %3$skëtu%4$s.",
         "GeoIpDbIpAccuracyNote": "Bazat e të dhënave DBIP të gjeolokalizimit janë falas dhe mund të shkarkohen automatikisht. MaxMind është më i përpiktë për qytete, por lyp %1$skrijimin e një llogarie%2$s.",
         "Geolocation": "Gjeovendëzim",
-        "GeolocationPageDesc": "Këtu mund të ndryshoni mënyrën se si përcakton Matomo vendndodhjet e vizitorëve.",
+        "GeolocationPageDesc": "Këtu mund të ndryshoni mënyrën se si përcakton vendndodhjet e vizitorëve.",
         "GeolocationProviderBroken": "Furnizuesi juaj për gjeolokalizim (%1$s) është i dëmtuar. Ju lutemi, ndreqni furnizuesin ose ujdisni një tjetër.",
         "GeolocationProviderUnavailable": "Furnizuesi i formësuar për gjeolokalizim (%1$s) s’është më i passshëm. Ju lutemi, ujdisni një tjetër.",
         "HowToInstallGeoIPDatabases": "Si të marr baza të dhënash gjeolokalizimi?",

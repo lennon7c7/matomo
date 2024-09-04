@@ -1,4 +1,4 @@
-# Matomo ExamplePlugin Plugin
+# ExamplePlugin Plugin
 
 ## Description
 

@@ -3,8 +3,8 @@
         "DatabaseUsage": "Datubāzes lietojums",
         "DataSize": "Datu izmērs",
         "IndexSize": "Indeksa izmērs",
-        "LearnMore": "Lai uzzinātu vairāk par to, kā Matomo apstrādā datus un kā Matomo tiek galā ar vidēja un augsta apmeklējuma vietnēm, apskatiet dokumentāciju %s.",
-        "MainDescription": "Matomo glabā visus Jūsu tīkla analīzes datus MySQL datubāzē. Pašlaik Matomo tabulas lieto %s.",
+        "LearnMore": "Lai uzzinātu vairāk par to, kā apstrādā datus un kā tiek galā ar vidēja un augsta apmeklējuma vietnēm, apskatiet dokumentāciju %s.",
+        "MainDescription": "Matomo glabā visus Jūsu tīkla analīzes datus MySQL datubāzē. Pašlaik tabulas lieto %s.",
         "RowCount": "Rindu skaits",
         "Table": "Tabula",
         "TotalSize": "Kopējais izmērs"

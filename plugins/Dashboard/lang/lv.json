@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Kopēt paneli uz lietotāju",
         "CreateNewDashboard": "Izveidot jaunu paneli",
         "Dashboard": "Panelis",
-        "DashboardCategoryHelp": "Šī ir paneļu lapa. Paneļi ir Matomo logrīku kolekcija, ko jūs pats izveidojat, lai tā atbilstu jūsu konkrētajām vajadzībām. Apvienojiet jebkurus Matomo logrīkus, lai iegūtu %1$s*jums*%2$s nepieciešamos datus ar vienu acu uzmetienu.",
+        "DashboardCategoryHelp": "Šī ir paneļu lapa. Paneļi ir logrīku kolekcija, ko jūs pats izveidojat, lai tā atbilstu jūsu konkrētajām vajadzībām. Apvienojiet jebkurus logrīkus, lai iegūtu %1$s*jums*%2$s nepieciešamos datus ar vienu acu uzmetienu.",
         "DashboardCopied": "Panelis sekmīgi kopēts atlasītajam lietotājam.",
         "DashboardEmptyNotification": "Jūsu panelī nav logrīku. Sāciet ar dažu logrīku pievienošanu vai vienkārši atiestatiet paneli uz noklusējuma logrīka atlasi.",
         "DashboardName": "Paneļa vārds:",

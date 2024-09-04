@@ -1,10 +1,10 @@
-# Matomo Platform Changelog
+# Platform Changelog
 
-This is the Developer Changelog for Matomo platform developers. All changes in our HTTP APIs, Plugins, Themes, SDKs, etc. are listed below.
+This is the Developer Changelog for platform developers. All changes in our HTTP APIs, Plugins, Themes, SDKs, etc. are listed below.
 
-The Product Changelog at **[matomo.org/changelog](https://matomo.org/changelog)** lets you see more details about any Matomo release, such as the list of new guides and FAQs, security fixes, and links to all closed issues. 
+The Product Changelog at **[matomo.org/changelog](https://matomo.org/changelog)** lets you see more details about any release, such as the list of new guides and FAQs, security fixes, and links to all closed issues. 
 
-## Matomo 5.2.0
+## 5.2.0
 
 ### Breaking Changes
 
@@ -15,7 +15,7 @@ The Product Changelog at **[matomo.org/changelog](https://matomo.org/changelog)*
 * The methods `Db::isOptimizeInnoDBSupported`, `Db::optimizeTables` have been deprecated. Use `Db\Schema::getInstance()->isOptimizeInnoDBSupported` and `Db\Schema::getInstance()->optimizeTables` instead
 * The method `TransactionLevel::setUncommitted` has been deprecated. Use `TransactionLevel::setTransactionLevelForNonLockingReads` instead
 
-## Matomo 5.1.0
+## 5.1.0
 
 ### Breaking Changes
 
@@ -23,7 +23,7 @@ The Product Changelog at **[matomo.org/changelog](https://matomo.org/changelog)*
 
 ### Deprecations
 
-The API method `Overlay.getExcludedQueryParameters` has been deprecated and will be removed in Matomo 6. Use the new method `SitesManager.getExcludedQueryParameters` instead.
+The API method `Overlay.getExcludedQueryParameters` has been deprecated and will be removed in 6. Use the new method `SitesManager.getExcludedQueryParameters` instead.
 
 ### JavaScript Tracker
 
@@ -31,7 +31,7 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 * The method `disableCampaignParameters` have been added to the JavaScript tracker. It allows to disable processing of campaign parameters and forwarding them to the tracking endpoint.
 
-## Matomo 5.0.0
+## 5.0.0
 
 ### Breaking Changes
 
@@ -50,7 +50,7 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 * The deprecated method `Piwik\Log::setLogLevel()` has been removed
 * The deprecated method `Piwik\Log::getLogLevel()` has been removed
 * A parameter `$login` has been added to the methods `setCompleted()`, `isCompleted()`, `skipChallenge()` and `isSkipped()` in the `Piwik\Plugins\Tour\Engagement\Challenge` class
-* In order to encapsulate Matomo's dependencies from direct usage in plugins we introduce some proxy classes and patterns that need to be used instead. For plugin development avoid using any external Matomo dependency directly. 
+* In order to encapsulate Matomo's dependencies from direct usage in plugins we introduce some proxy classes and patterns that need to be used instead. For plugin development avoid using any external dependency directly. 
   * Use `Piwik\Log\Logger` instead of `Monolog\Logger`
   * Use `Piwik\Log\LoggerInterface` instead of `Psr\Log\LoggerInterface`
   * Use `Piwik\Log\NullLogger` instead of `Psr\Log\NullLogger`
@@ -70,8 +70,8 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
       * For progress bars use the methods `initProgressBar`, `startProgressBar`, `advanceProgressBar` and `finishProgressBar`
       * Tables can be rendered using the new method `renderTable`
     * For executing another command within your command use the new method `runCommand`
-* Requests sent by Matomo to plugins.matomo.org will no longer include an `HTTP_X_FORWARDED_FOR` header containing the current user's IP address. If you use an outbound proxy rule that used this header to allow access for Matomo then it should be replaced with rule allowing access by IP and/or URL.    
-* Matomo does no longer include the jQuery browser plugin. If your plugin requires it, you need to include it yourself.
+* Requests sent by to plugins.matomo.org will no longer include an `HTTP_X_FORWARDED_FOR` header containing the current user's IP address. If you use an outbound proxy rule that used this header to allow access for then it should be replaced with rule allowing access by IP and/or URL.    
+* does no longer include the jQuery browser plugin. If your plugin requires it, you need to include it yourself.
 
 ### New APIs
 
@@ -81,8 +81,8 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 ### Deprecations
 
-* The method `Common::getRequestVar` is now deprecated, but will remain API until Matomo 6. You may already start using the new class `Piwik\Request` instead, but ensure to handle needed sanitizing / escaping yourself.
-* The brand related less variables for colors `color-black-piwik`, `color-blue-piwik`, `color-red-piwik` and `color-green-piwik` are now deprecated and will be removed in Matomo 6. New variables where `piwik` was replaced with `matomo` have been introduced. E.g. `color-black-matomo`
+* The method `Common::getRequestVar` is now deprecated, but will remain API until 6. You may already start using the new class `Piwik\Request` instead, but ensure to handle needed sanitizing / escaping yourself.
+* The brand related less variables for colors `color-black-piwik`, `color-blue-piwik`, `color-red-piwik` and `color-green-piwik` are now deprecated and will be removed in 6. New variables where `piwik` was replaced with `matomo` have been introduced. E.g. `color-black-matomo`
 * Support for jQuery UI is now depreated and might be removed in one of the next major releases. Please consider using Materialize CSS or Vue.js instead.
 
 ### Removed Config
@@ -103,23 +103,23 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 * By default, new authentication tokens will be restricted to be used in POST requests only. This is recommended for improved security. This option can be unselected when creating a new token. Existing tokens will continue to work with both, POST and GET requests.
 * A new config setting `only_allow_secure_auth_tokens`, defaulting to `0`, has been added. Enabling this option will prevent any use of tokens in GET API requests.
 
-## Matomo 4.14.0
+## 4.14.0
 
 ### HTTP Tracking API
 
 * The campaign attribution tracking parameters `_rcn` and `_rck` are no longer used to attribute visits. Those parameters will now only be used to attribute conversions. If you want to manually attribute a visit to a campaign ensure to attach camapign parameters to the tracked URL instead.
 
-## Matomo 4.13.1
+## 4.13.1
 
 ### New config.ini.php settings
 * Three new config settings `ssl_disallow_self_signed` ,`ssl_verify_peer`, `ssl_verify_peer_name` under [mail] to allow modifying the SSL handling in SMTP request.
 
-## Matomo 4.13.0
+## 4.13.0
 
 ### New config.ini.php settings
 * A new config setting `enable_opcache_reset` defaulting to `1`. Provides a configuration switch for `opcache_reset` when general caches are cleared. This may be useful for multi-tenant installations that would rather manage opcache resets by themselves. This could also be used by scripts to temporarily switch off opcache resets.
 
-## Matomo 4.12.0
+## 4.12.0
 
 ### Breaking Changes
 
@@ -134,7 +134,7 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 ### New Privacy Opt-Out Options
 
-* The privacy manager iframe opt-out UI has been replaced with a choice of either generating JavaScript opt-out code which uses the Matomo tracker, or generating self-contained JavaScript opt-out code which directly sets the consent cookies. Existing iframe opt-outs will still work, but iframe opt-out code will no longer be generated by the UI as support for third party cookies in iframes is being discontinued by most major browsers.     
+* The privacy manager iframe opt-out UI has been replaced with a choice of either generating JavaScript opt-out code which uses the tracker, or generating self-contained JavaScript opt-out code which directly sets the consent cookies. Existing iframe opt-outs will still work, but iframe opt-out code will no longer be generated by the UI as support for third party cookies in iframes is being discontinued by most major browsers.     
 
 ### JavaScript Tracker
 
@@ -142,14 +142,14 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 * The methods `setExcludedReferrers` and `getExcludedReferrers` have been added to the JavaScript tracker. They allow setting and receiving the referrers the JavaScript tracker should ignore. If a referrer matches an entry on that list, it will not be passed with the tracking requests and the attribution cookie will stay unchanged. This can for example be used if you need to forward your users to an external service like SSO or payment and don't want any visits or conversions being attributed to those services.
 
-## Matomo 4.11.0
+## 4.11.0
 
 ### Breaking Changes
 
 * The user management UI no longer allows direct creation of a new user (with a password). Instead an invitation can be sent via email. Directly creating a new user is still possible using the API.
 
 ### New config.ini.php settings
-* A general config setting `force_matomo_http_request` defaulting to 0. If the Matomo instance can't make requests to matomo.org via HTTPS this can be set to 1 to force matomo marketplace and matomo api requests to use HTTP instead of HTTPS.
+* A general config setting `force_matomo_http_request` defaulting to 0. If the instance can't make requests to matomo.org via HTTPS this can be set to 1 to force marketplace and api requests to use HTTP instead of HTTPS.
 
 #### New PHP events
 
@@ -161,13 +161,13 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 * The existing event `UsersManager.addUser.end` will only be triggered when a user is added using the API.
 
 
-## Matomo 4.10.0
+## 4.10.0
 
 ### Breaking Changes
 
 * As access to files like `plugin.json` might reveal version details, `json` files will now longer be considered as static files that can be served safely. Therefore `json` will no longer be included in the list of static file extensions in generated `.htaccess` files.
 
-## Matomo 4.8.0
+## 4.8.0
 
 ### New config.ini.php settings
 
@@ -177,11 +177,11 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 * Added new event `Segment.filterSegments`. Plugins can use this to filter segment definitions.
 
-## Matomo 4.7.0
+## 4.7.0
 
 ### Deprecated APIs
 
-* The `piwik-field` and related directives have been converted to Vue and the `template-file` attribute is now considered deprecated and will be removed in Matomo 5. Instead,
+* The `piwik-field` and related directives have been converted to Vue and the `template-file` attribute is now considered deprecated and will be removed in 5. Instead,
   the `component` property should be used to add a new form field, it should be an object with two properties that reference a Vue component, `plugin` and `name`, where `plugin`
   is the plugin the Vue component is located in and `name` is the Vue name of the component's export. 
 
@@ -190,7 +190,7 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 * Plugins can now provide a list of changes which will be displayed as part of the "What's New?" menu notification. Learn more about how this works in the [developer guide.](https://developer.matomo.org/guides/providing-updates) 
 
 
-## Matomo 4.6.0
+## 4.6.0
 
 ### New Framework
 
@@ -203,13 +203,13 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 * With the introduction of Vue 3 we are also dropping support for IE11. All new supported browsers are determined by the browserslist tool. Running `npx browserslist` will list the browsers currently supported.
 * When the Ecommerce feature is disabled for a site, then the Live API no longer returns the Ecommerce related visitor properties `totalEcommerceRevenue`, `totalEcommerceConversions`, `totalEcommerceItems`,  `totalAbandonedCartsRevenue`, `totalAbandonedCarts` and `totalAbandonedCartsItems`.
-* Content Security Policy (added in Matomo 4.4.0) is no longer in Report Only mode by default. 
+* Content Security Policy (added in 4.4.0) is no longer in Report Only mode by default. 
 
 ### New config.ini.php settings
 
 * The config setting `contact_email_address` in `General` has been added. It will be used as contact email address for users. If not defined (default) all email addresses of all super users will be used instead, which equals the behavior it used to be.
 
-## Matomo 4.4.0
+## 4.4.0
 
 ### Breaking Changes
 
@@ -218,26 +218,26 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 ### New config.ini.php settings
 
-* When determining the client IP address from proxy headers like X-Forwarded-For, Matomo will by default look at the first IP in the list. If you need to read the last IP instead, the new INI config option `[General] proxy_ip_read_last_in_list` be set to `1`. Using the last IP can be more secure when you are using proxy headers in combination with a load balancer.
-* Matomo logs can now be written into "errorlog" (logs using the error_log() php function) and "syslog" (logs to the syslog service) (to complement existing log writers: "screen", "file", "database"). [Learn more.](https://matomo.org/faq/troubleshooting/faq_115/)
+* When determining the client IP address from proxy headers like X-Forwarded-For, will by default look at the first IP in the list. If you need to read the last IP instead, the new INI config option `[General] proxy_ip_read_last_in_list` be set to `1`. Using the last IP can be more secure when you are using proxy headers in combination with a load balancer.
+* logs can now be written into "errorlog" (logs using the error_log() php function) and "syslog" (logs to the syslog service) (to complement existing log writers: "screen", "file", "database"). [Learn more.](https://matomo.org/faq/troubleshooting/faq_115/)
 
 ### New commands
 
-* Added new command `core:version` which returns the Matomo version number.
+* Added new command `core:version` which returns the version number.
 
-## Matomo 4.3.1
+## 4.3.1
 
 ### New commands
 
 * Added new command `core:create-security-files` which creates some web server security files if they haven't existed previously (useful when using for example Apache or IIS web server).
 
-## Matomo 4.3.0
+## 4.3.0
 
 ### JavaScript Tracker
 
-#### Breaking changes in Matomo JS tracker
+#### Breaking changes in JS tracker
 
-* Before the JS tracker method, `enableLinkTracking` did not follow the DOM changes, from this version when the DOM updates, Matomo automatically adds event listeners for new links on the page. It makes it easier to track clicks on links in SPAs. From this version, if we use the `addListener` method to add event listener manually after the DOM has changed and the `enableLinkTracking` is turned on we will track the click event for that element twice.
+* Before the JS tracker method, `enableLinkTracking` did not follow the DOM changes, from this version when the DOM updates, automatically adds event listeners for new links on the page. It makes it easier to track clicks on links in SPAs. From this version, if we use the `addListener` method to add event listener manually after the DOM has changed and the `enableLinkTracking` is turned on we will track the click event for that element twice.
 
 ### Breaking Changes
 
@@ -246,47 +246,47 @@ The API method `Overlay.getExcludedQueryParameters` has been deprecated and will
 
 ### Upcoming Breaking Changes
 
-* In Matomo 4.3.0 we have added a 'passwordConfirmation' parameter to the CorePluginsAdmin.setSystemSettings API method. It is currently optional, but will become mandatory in version 4.4.0. Plugin developers and users of the API should make sure to update their plugins and apps before this happens.
+* In 4.3.0 we have added a 'passwordConfirmation' parameter to the CorePluginsAdmin.setSystemSettings API method. It is currently optional, but will become mandatory in version 4.4.0. Plugin developers and users of the API should make sure to update their plugins and apps before this happens.
 
 ### New config.ini.php settings
 
 * The `password_hash_algorithm`, `password_hash_argon2_threads`, `password_hash_argon2_memory_cost` and `password_hash_argon2_time_cost` INI config options have been added to allow using specific `password_hash` algorithms and options if desired.
 * The `enable_php_profiler` INI config option was added. This must now be set to 1 before profiling is allowed in Matomo.
 
-## Matomo 4.2.0
+## 4.2.0
 
 ### New config.ini.php settings
 
 * A config setting `geolocation_download_from_trusted_hosts` was introduced. Downloading GeoIP databases will now be limited to those configured hosts only.
 
-## Matomo 4.1.1
+## 4.1.1
 
 ### Changed config.ini.php settings
 
 * The config settings `login_password_recovery_email_address` and `login_password_recovery_name` have been removed to avoid possible smtp problems when sending recovery mails. `noreply_email_address` and `noreply_email_name` will be used instead.
 
-## Matomo 4.0.0
+## 4.0.0
 
 ### JavaScript Tracker
 
-#### Breaking changes in Matomo JS tracker
+#### Breaking changes in JS tracker
 
-* Matomo no longer polyfills the `JSON` object in the JavaScript tracker. This means IE7 and older, Firefox 3 and older will be no longer suppported in the tracker. 
+* no longer polyfills the `JSON` object in the JavaScript tracker. This means IE7 and older, Firefox 3 and older will be no longer suppported in the tracker. 
 * The JavaScript tracker now uses `sendBeacon` by default if supported by the browser. You can disable this by calling the tracker method `disableAlwaysUseSendBeacon`. As a result, callback parameters won't work anymore and a tracking request might not appear in the developer tools. This will improve the load time of your website. Tracking requests will be sent as POST request instead of GET but the parameters are by default included in the URL so they don't go lost in a redirect. 
 * The JS tracker event `PiwikInitialized` has been renamed to `MatomoInitialized`
 * Support for tracking and reporting of these browser plugins has been discontinued: Gears, Director
 * Plugins that extend the JS tracker should now add their callback to `matomoPluginAsyncInit` instead of `piwikPluginAsyncInit`
-* The visitor ID cookie now contains less data (due to the _idvc, _idts, _viewts and _ects tracking parameters no longer being used). This is a breaking change if you use the Matomo PHP Tracker and forward the visitor cookie to it, and you will need to upgrade the PHP tracker to use with Matomo 4.
+* The visitor ID cookie now contains less data (due to the _idvc, _idts, _viewts and _ects tracking parameters no longer being used). This is a breaking change if you use the PHP Tracker and forward the visitor cookie to it, and you will need to upgrade the PHP tracker to use with 4.
 * The tracker method `setVisitStandardLength` has been removed as there is no need for it anymore.
 * The tracker method `setGenerationTimeMs(generationTime)` has been removed as the performance API is now used. Any calls to this method will be ignored. There is currently no replacement available yet.
 
-#### Deprecations in Matomo JS tracker
+#### Deprecations in JS tracker
 
 * The JS Tracker method `getPiwikUrl` has been deprecated and `getMatomoUrl` should be used instead.
 * The JS Tracker init method `piwikAsyncInit` has been deprecated and `matomoAsyncInit` should be used instead.
 * The JS object `window.Piwik` has been deprecated and `window.Matomo` should be used instead.
 
-#### Recommendations for Matomo JS tracker
+#### Recommendations for JS tracker
 
 These are only recommendations (because we will keep backward compatibility for many more years), but we do recommend you update your code for consistency and for future proofing your tracking:
 
@@ -303,7 +303,7 @@ These are only recommendations (because we will keep backward compatibility for 
 #### Breaking changes in HTTP API 
 
 ##### Format changes
-* The `JSON2` API format has now been deprecated and is now applied  by default. The JSON2 renderer will be removed in Matomo 5 and we recommend switching to the `JSON` renderer. 
+* The `JSON2` API format has now been deprecated and is now applied  by default. The JSON2 renderer will be removed in 5 and we recommend switching to the `JSON` renderer. 
 * The `JSON` renderer now behaves like the previous `JSON2` renderer did. This means arrays like `['a' => 0, 'b' => 1]` will be rendered in JSON as `{"a":0,"b":1}` instead of `[{"a":0,"b":1}]`. This impacts these API methods:
   * API.getSettings
   * Annotations.get
@@ -400,7 +400,7 @@ These are only recommendations (because we will keep backward compatibility for 
 
 ### Other Breaking changes
 
-* When embedding reports (widgets) into a different site, it is no longer possible to use authentication tokens of users with at least write access, unless the `[General] enable_framed_allow_write_admin_token_auth` is set. This means if you currently rely on this functionality, you will need to update your matomo config when updating to Matomo 4. Alternatively, create a user with `view` access and use the token of this user to embed the report.
+* When embedding reports (widgets) into a different site, it is no longer possible to use authentication tokens of users with at least write access, unless the `[General] enable_framed_allow_write_admin_token_auth` is set. This means if you currently rely on this functionality, you will need to update your config when updating to 4. Alternatively, create a user with `view` access and use the token of this user to embed the report.
 * The log importer in `misc/log-analytics` now supports Python 3 (3.5, 3.6, 3.7 or 3.8), it will no longer run with Python 2. If you have any automated scripts that run the importer, you will have to change them to use the Python 3 executable instead.
 * Deprecated `piwik` font was removed. Use `matomo` font instead
 * The JavaScript AjaxHelper does not longer support synchronous requests. All requests will be sent async instead.
@@ -421,10 +421,10 @@ These are only recommendations (because we will keep backward compatibility for 
 
 ### New config.ini.php settings
 
-* `host_validation_use_server_name = 0`, if set to 1, Matomo will prefer using SERVER_NAME variable over HTTP_HOST. This can add an additional layer of security, as SERVER_NAME can't be manipulated by sending custom host headers when configured correctly.
+* `host_validation_use_server_name = 0`, if set to 1, will prefer using SERVER_NAME variable over HTTP_HOST. This can add an additional layer of security, as SERVER_NAME can't be manipulated by sending custom host headers when configured correctly.
 
 
-## Matomo 3.14.0
+## 3.14.0
 
 ### New API
 
@@ -437,23 +437,23 @@ The following new JavaScript tracker methods have been added:
 * `_paq.push(['setCookieConsentGiven']);`. Call this method to let the tracker know consent was given for the current page view (won't be remembered across requests).
 * For more info on consent have a look at https://developer.matomo.org/guides/tracking-javascript-guide#asking-for-consent
 
-## Matomo 3.13.6
+## 3.13.6
 
 ### API Changes
 * The first parameter `userLogin` in the `UsersManager.getUserPreference` method is now optional and defaults to the currently authenticated user login.
 
-## Matomo 3.13.5
+## 3.13.5
 
 ### New API
 * A new event `ArchiveProcessor.ComputeNbUniques.getIdSites` was added so plugins can change which site IDs should be included when processing the number unique visitors and users for a specific site.
 
-## Matomo 3.13.1
+## 3.13.1
 
 ### Deprecations
 * The methods `\Piwik\Plugins\SitesManager\isSiteSpecificUserAgentExcludeEnabled()` and `\Piwik\Plugins\SitesManager\setSiteSpecificUserAgentExcludeEnabled()` have been deprecated.
-* The method `\Piwik\SettingsServer::isMatomoForWordPress()` has been added so plugins can detect if the plugin is being executed within Matomo for WordPress or Matomo On-Premise 
+* The method `\Piwik\SettingsServer::isMatomoForWordPress()` has been added so plugins can detect if the plugin is being executed within for WordPress or On-Premise 
 
-## Matomo 3.13.0
+## 3.13.0
 
 ### New API
 * New tracker method `setVisitStandardLength` which lets you configure a custom visit standard length in case a custom "visit_standard_length" is configured in the config. Setting only applies when heart beat is enabled.
@@ -462,45 +462,45 @@ The following new JavaScript tracker methods have been added:
 ### Other Changes
 * User ID is no longer linked to visitor ID. Actions with different user IDs will still be considered as part of different visits, irrespective of their visitor IDs, but the same visitor ID can be used with different user IDs.
 
-## Matomo 3.12.0
+## 3.12.0
 
 ### New API
 * Added new event `Visualization.beforeRender`, triggered after immediately before rendering a visualization.
 * Added new event `Http.sendHttpRequest` and `Http.sendHttpRequest.end` so plugins can listen to external HTTP requests, monitor them, or resolve the request themselves.
 * Added new event `CliMulti.supportsAsync` so plugins can force or disable the usage of archiving through the CLI
 
-## Matomo 3.10.0
+## 3.10.0
 
 ### Breaking Changes
 * When giving a user superuser access through the `UsersManager.setSuperUserAccess` API, a new parameter `passwordConfirmation` needs to be sent along with the request containing the current password of the user issuing the API request.
 * Website referrer URLs are now detected using domain only instead of domain and path. This means if you have two different websites on the same domain, but different paths, and a visitor visits from one to the other, it won't have a referrer website set.
-* Custom Dimensions values set with `setCustomDimension` are now URL encoded (they previously weren't). If you were manually URL encoding the custom dimension values before calling `setCustomDimension`, your custom dimension values appearing in reports and Visits log/Visitor profile may now be double URL encoded. To solve the double encoding issue, you can remove your URL encoding and trust that Matomo JavaScript Tracker will URL encode the values correctly.
+* Custom Dimensions values set with `setCustomDimension` are now URL encoded (they previously weren't). If you were manually URL encoding the custom dimension values before calling `setCustomDimension`, your custom dimension values appearing in reports and Visits log/Visitor profile may now be double URL encoded. To solve the double encoding issue, you can remove your URL encoding and trust that JavaScript Tracker will URL encode the values correctly.
 
 ### New APIs
 * A new tracker method `ping` has been added to send a ping request manually instead of using the heart beat timer.
 * Added new event `ViewDataTable.configure.end`, triggered after view configuration properties have been overwritten by saved settings and query parameters.
 
-## Matomo 3.9.0
+## 3.9.0
 
 ### Breaking Changes
-* `Referrers.getKeywordsForPageUrl` and `Referrers.getKeywordsForPageTitle` APIs have been deprecated and will be removed in Matomo 4.0.0
-* By default, Matomo [application logs](https://matomo.org/faq/troubleshooting/faq_115/) will now be logged in `tmp/logs/matomo.log` instead of `tmp/logs/piwik.log`. This log file path can be edited in your config/config.ini.php in the INI setting `logger_file_path`.
+* `Referrers.getKeywordsForPageUrl` and `Referrers.getKeywordsForPageTitle` APIs have been deprecated and will be removed in 4.0.0
+* By default, [application logs](https://matomo.org/faq/troubleshooting/faq_115/) will now be logged in `tmp/logs/matomo.log` instead of `tmp/logs/piwik.log`. This log file path can be edited in your config/config.ini.php in the INI setting `logger_file_path`.
 
 ### New Features
 * It is now possible to locate plugins in a custom directory by setting an environment variable `MATOMO_PLUGIN_DIRS` or a `$GLOBALS['MATOMO_PLUGIN_DIRS']` variable in `$MATOMO_ROOT/bootstrap.php`.
 * It is now possible to use monolog's FingersCrossedHandler which buffers all logs and logs all of them in case of warning or error.
 
 ### New APIs
-* New API methods `Piwik\Plugin\Manager::getPluginsDirectories()` and  `Piwik\Plugin\Manager::getPluginDirectory($pluginName)` have been added as it is now possible to locate Matomo plugins in different directories and it should be no longer assumed a plugin is located in the "/plugins" directory.
+* New API methods `Piwik\Plugin\Manager::getPluginsDirectories()` and  `Piwik\Plugin\Manager::getPluginDirectory($pluginName)` have been added as it is now possible to locate plugins in different directories and it should be no longer assumed a plugin is located in the "/plugins" directory.
 * A new tracker method `disableQueueRequest` has been added to disable queued requests which may be useful when logs are imported.
 * The event `LanguageManager.getAvailableLanguages` has been deprecated. Use `LanguagesManager.getAvailableLanguages` instead.
 
-## Matomo 3.8.0
+## 3.8.0
 
 ### Breaking Changes
 * When changing the email address or the password through the `UsersManager.updateUser` API, a new parameter `passwordConfirmation` needs to be sent along with the request containing the current password of the user issuing the API request.
 * The output type "save on disk" in the API method `ScheduledReport.generateReport` has been replaced by the download output type.
-* The method `Piwik\Piwik::doAsSuperUser` has been deprecated and will be removed in Matomo 4. Use `Piwik\Access::doAsSuperUser` instead.
+* The method `Piwik\Piwik::doAsSuperUser` has been deprecated and will be removed in 4. Use `Piwik\Access::doAsSuperUser` instead.
 
 ### New APIs
 
@@ -513,12 +513,12 @@ The following new JavaScript tracker methods have been added:
 * It is now possible to define different log levels for different log writers via INI config. Set log_level_file, for example, to set the log level for the file writer, or log_level_screen for the screen writer.
 
 ### Internal change
-* New Matomo installation will now use by default "matomo.js" and "matomo.php" as tracking endpoints. From Matomo 4.0 all installations will use "matomo.js" and "matomo.php" by default. We recommend you ensure those files can be accessed through the web and are not blocked.
+* New installation will now use by default "matomo.js" and "matomo.php" as tracking endpoints. From 4.0 all installations will use "matomo.js" and "matomo.php" by default. We recommend you ensure those files can be accessed through the web and are not blocked.
 
 ### Deprecations
 * The method `Piwik\SettingsPiwik::isPiwikInstalled()` has been deprecated and renamed to `isMatomoInstalled()`. It is still supported to use the method, but the method will be removed in Piwik 4.0.0
 
-## Matomo 3.6.1
+## 3.6.1
 
 ### New APIs
 
@@ -529,7 +529,7 @@ The following new JavaScript tracker methods have been added:
 
 * Logging to a file can now be easily enabled during tests. A new `[tests] enable_logging` INI option has been added, which you can set to `1` to enable logging for all tests. The `tests:run` and `tests:run-ui` commands now both have an `--enable-logging` option to enable logging for a specific run.
 
-## Matomo 3.6.0
+## 3.6.0
 
 ### New Features
 
@@ -542,7 +542,7 @@ The following new JavaScript tracker methods have been added:
 * `archiving_profile = 0`, if set to 1, core:archive profiling information will be recorded in a log file. the log file is determined by the `archive_profiling_log` option.
 * `archive_profiling_log = `, if set to an absolute path, core:archive profiling information will be logged to specified file.
 * `enable_internet_features=0` will now fully disable Internet access by preventing all outgoing connections. Note: changing this setting is not recommended for security, because you will lose the easy auto-update and email notifications.
-* `login_whitelist_ip[]` now supports hostnames so you can [whitelist](https://matomo.org/faq/how-to/faq_25543/) your IP addresses and/or Hostnames and keep your Matomo secure.
+* `login_whitelist_ip[]` now supports hostnames so you can [whitelist](https://matomo.org/faq/how-to/faq_25543/) your IP addresses and/or Hostnames and keep your secure.
 
 ### Updated commands
 
@@ -564,20 +564,20 @@ The following new JavaScript tracker methods have been added:
 
 ### Breaking Changes
 * Changed some menu items to use translation keys instead (see [PR #12885](https://github.com/matomo-org/matomo/pull/12885)).
-* The methods `assertResponseCode()` and `assertHttpResponseText()` in `Piwik\Tests\Framework\TestCase\SystemTestCase` have been deprecated and will be removed in Matomo 4.0. Please use `Piwik\Http` instead.
-* The classes `PHPUnit\Framework\Constraint\HttpResponseText` and `PHPUnit\Framework\Constraint\ResponseCode` have been deprecated and will be removed in Matomo 4.0. Please use `Piwik\Http` instead.
+* The methods `assertResponseCode()` and `assertHttpResponseText()` in `Piwik\Tests\Framework\TestCase\SystemTestCase` have been deprecated and will be removed in 4.0. Please use `Piwik\Http` instead.
+* The classes `PHPUnit\Framework\Constraint\HttpResponseText` and `PHPUnit\Framework\Constraint\ResponseCode` have been deprecated and will be removed in 4.0. Please use `Piwik\Http` instead.
 * Creating links through the Proxy has been deprecated. Use rel="nofollow" instead.
-* The console option `--piwik-domain` has been deprecated and will be removed in Matomo 4.0. Use `--matomo-domain` instead
+* The console option `--piwik-domain` has been deprecated and will be removed in 4.0. Use `--matomo-domain` instead
 * Social networks are now detected as new referrer type (ID=7), which allows improved reports and better segmentation
 * New settings form field UI component "Field Array" that lets users enter multiple values for one setting as a flat array
 
-## Matomo 3.5.1
+## 3.5.1
 
 ### New APIs
 
 * Added new method `Piwik\API\Request::isRootRequestApiRequest()` to detect if the root request is an API request.
 
-## Matomo 3.5.0
+## 3.5.0
 
 ### Breaking Changes
 
@@ -594,11 +594,11 @@ The following new JavaScript tracker methods have been added:
 * Reports and visualizations can now disable the 'all' rows limit selector: `$view->config->disable_all_rows_filter_limit`.
 * New settings form field UI component "Multi Tuple" that lets users enter multiple values for one setting
 
-## Matomo 3.4.0
+## 3.4.0
 
 ### Breaking Changes
-`piwik` font is deprecated and will be removed in Matomo 4.0. Please use new `matomo` font instead
-Sending synchronous requests using ajaxHelper is now deprecated. All requests will be send async as of Matomo 4.0
+`piwik` font is deprecated and will be removed in 4.0. Please use new `matomo` font instead
+Sending synchronous requests using ajaxHelper is now deprecated. All requests will be send async as of 4.0
 
 ### New APIs
 * A new JavaScript tracker method `resetUserId` has been added to allow clearing user and visitor id.
@@ -611,7 +611,7 @@ Sending synchronous requests using ajaxHelper is now deprecated. All requests wi
 * A new event `SitesManager.shouldPerformEmptySiteCheck` has been added to allow plugins to disable the empty site check for individual sites.
 * A new JavaScript tracker method `getCrossDomainLinkingUrlParameter` has been added so you can add cross domain tracking capability to dynamically created links. [Learn here how to append the result to said links' URLs, see the section "Advanced: Handling Dynamically Generated Links"](https://matomo.org/faq/how-to/faq_23654/) 
 
-## Matomo 3.3.0
+## 3.3.0
 
 Piwik is now Matomo. Read more about this change in the [official announcement](https://matomo.org/blog/2018/01/piwik-is-now-matomo).
 
@@ -1287,7 +1287,7 @@ We are using `@since` annotations in case we are introducing new API's to make i
 * `development:disable` lets you disable the development mode 
 
 <!--
-## Template: Matomo version number
+## Template: version number
 
 ### Breaking Changes
 ### Deprecations
@@ -1300,4 +1300,4 @@ We are using `@since` annotations in case we are introducing new API's to make i
 ### Internal change
  -->
 
-Find the general Matomo Changelogs for each release at [matomo.org/changelog](https://matomo.org/changelog/)
+Find the general Changelogs for each release at [matomo.org/changelog](https://matomo.org/changelog/)

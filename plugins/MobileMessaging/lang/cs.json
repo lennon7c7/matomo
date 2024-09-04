@@ -13,8 +13,8 @@
         "Settings_APIKey": "Klíč k API",
         "Settings_CountryCode": "Kód země",
         "Settings_CredentialInvalid": "Váš %1$s účet pro SMS je nastaven, ale při získávání dostupných kreditů došlo k chybě.",
-        "Settings_CredentialNotProvided": "Než budete moci vytvářet a spravovat telefonní čísla, musíte připojit Matomo ke svému SMS účtu výše.",
-        "Settings_CredentialNotProvidedByAdmin": "Než budete moci vytvářet a spravovat telefonní čísla, požádejte svého administrátora, aby připojil Matomo k SMS účtu.",
+        "Settings_CredentialNotProvided": "Než budete moci vytvářet a spravovat telefonní čísla, musíte připojit ke svému SMS účtu výše.",
+        "Settings_CredentialNotProvidedByAdmin": "Než budete moci vytvářet a spravovat telefonní čísla, požádejte svého administrátora, aby připojil k SMS účtu.",
         "Settings_CredentialProvided": "Váš %s SMS API účet je nastaven správně!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Nastavená telefonní čísla mohou být zobrazena a použita pouze vámi a žádnými dalšími uživateli.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Nastavený poskytovatel SMS bude použit pouze vámi a žádnými jinými uživateli.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Nechte si webové analýzy zasílat na e-mail nebo na svůj mobilní telefon.",
         "TopMenu": "Hlášení e-mailem a SMS",
         "UserKey": "Userkey",
-        "VerificationText": "Kód je %1$s. Pro ověření vašeh otelefonního čísla tento kód zkopírujte do formuláře přístupného na Matomo → %2$s → %3$s."
+        "VerificationText": "Kód je %1$s. Pro ověření vašeh otelefonního čísla tento kód zkopírujte do formuláře přístupného na → %2$s → %3$s."
     }
 }

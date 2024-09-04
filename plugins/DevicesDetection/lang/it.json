@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Questo report mostra i dispositivi utilizzati dai tuoi visitatori. Ogni modello viene visualizzato insieme alla marca del dispositivo poiché alcuni nomi di modello vengono utilizzati da più marchi.",
         "DeviceModels": "Modelli dispositivi",
         "DeviceType": "Tipo di dispositivo",
-        "DeviceTypeReportDocumentation": "Questo report mostra i tipi di dispositivi utilizzati dai tuoi visitatori. Esso mostrerà sempre tutti i tipi di dispositivi che Matomo è in grado di rilevare, anche se non ci sono state visite con un tipo specifico.",
+        "DeviceTypeReportDocumentation": "Questo report mostra i tipi di dispositivi utilizzati dai tuoi visitatori. Esso mostrerà sempre tutti i tipi di dispositivi che è in grado di rilevare, anche se non ci sono state visite con un tipo specifico.",
         "DeviceTypes": "Tipi di dispositivo",
         "Devices": "Dispositivi",
         "DevicesDetection": "Dispositivi visitatore",

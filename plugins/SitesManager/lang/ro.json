@@ -2,7 +2,7 @@
     "SitesManager": {
         "AddSite": "Adauga un site",
         "AdvancedTimezoneSupportNotFound": "Suportul avansat de fus orar nu a fost găsit în PHP-ul (susținută în PHP &gt;= 5.2). Puteți alege în continuare o UTC manual de offset.",
-        "AliasUrlHelp": "Este recomandat, dar nu este necesar, pentru a specifica diferite URL-uri, câte unul pe linie, pe care vizitatorii tai il folosesc pentru a accesa acest site. Alias URL-uri pentru un site web nu va apărea în referenți → raport website. Rețineți că nu este necesar să se specifice URL-uri cu și fără \\\"www\\\" ca Matomo le consideră automat pe ambele.",
+        "AliasUrlHelp": "Este recomandat, dar nu este necesar, pentru a specifica diferite URL-uri, câte unul pe linie, pe care vizitatorii tai il folosesc pentru a accesa acest site. Alias URL-uri pentru un site web nu va apărea în referenți → raport website. Rețineți că nu este necesar să se specifice URL-uri cu și fără \\\"www\\\" ca le consideră automat pe ambele.",
         "ChangingYourTimezoneWillOnlyAffectDataForward": "Modificarea fusului orar va afecta numai datele de acum incolo , și nu se va aplica retroactiv.",
         "Currency": "Unitate monetară",
         "CurrencySymbolWillBeUsedForGoals": "Simbolul valutar va fi afișat lângă veniturile golobale.",
@@ -56,7 +56,7 @@
         "SelectDefaultCurrency": "Puteți selecta moneda în mod implicit pentru site-uri noi",
         "SelectDefaultTimezone": "Puteți selecta fusul orar pentru a selecta în mod implicit pentru noul site.",
         "ShowTrackingTag": "Vizionare cod de urmarire",
-        "SiteSearchUse": "Puteți utiliza Matomo pentru a urmări și raporta ceea ce vizitatorii cauta în motorul de căutare intern al site-ul dvs..",
+        "SiteSearchUse": "Puteți utiliza pentru a urmări și raporta ceea ce vizitatorii cauta în motorul de căutare intern al site-ul dvs..",
         "Sites": "Siteuri",
         "SuperUserAccessCan": "Un utilizator cu acces la Super Utilizatorul poate, de asemenea,%1$s specifica setări globale%2$s pentru site-uri noi.",
         "Timezone": "Fus orar",

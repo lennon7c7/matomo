@@ -13,8 +13,8 @@
         "Settings_APIKey": "Eochair API",
         "Settings_CountryCode": "Cód Tíre",
         "Settings_CredentialInvalid": "Tá do chuntas SMS API %1$s cumraithe, ach tharla earráid agus tú ag iarraidh na creidmheasanna atá ar fáil a fháil.",
-        "Settings_CredentialNotProvided": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, ceangail Matomo le do Chuntas SMS thuas.",
-        "Settings_CredentialNotProvidedByAdmin": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, iarr ar do riarthóir Matomo a nascadh le Cuntas SMS.",
+        "Settings_CredentialNotProvided": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, ceangail le do Chuntas SMS thuas.",
+        "Settings_CredentialNotProvidedByAdmin": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, iarr ar do riarthóir a nascadh le Cuntas SMS.",
         "Settings_CredentialProvided": "Tá do chuntas API SMS %s cumraithe i gceart!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Ní féidir ach leatsa agus ní aon úsáideoir eile na huimhreacha gutháin cumraithe a fheiceáil agus a úsáid.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Ní úsáidfidh tú féin an soláthraí SMS cumraithe ach amháin agus ní úsáidfidh aon úsáideoirí eile é.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Faigh Tuairiscí Analytics Gréasáin seachadta chuig do bhosca isteach ríomhphoist nó chuig d’fhón póca.",
         "TopMenu": "Ríomhphost &amp; Tuarascálacha SMS",
         "UserKey": "Eochair Úsáideora",
-        "VerificationText": "Is é %1$s an cód. Chun d'uimhir theileafóin a bhailíochtú agus tuairiscí SMS Matomo a fháil, cóipeáil an cód seo san fhoirm atá inrochtana trí Matomo → %2$s → %3$s."
+        "VerificationText": "Is é %1$s an cód. Chun d'uimhir theileafóin a bhailíochtú agus tuairiscí SMS a fháil, cóipeáil an cód seo san fhoirm atá inrochtana trí → %2$s → %3$s."
     }
 }

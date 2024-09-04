@@ -2,9 +2,9 @@
 
 ## Security Bug Bounty Program
 
-The Matomo Security Bug Bounty Program is designed to encourage security research in Matomo software and to reward those who help us create the safest web analytics platform. 
+The Security Bug Bounty Program is designed to encourage security research in software and to reward those who help us create the safest web analytics platform. 
 
-Critical security issues will be rewarded up to 13,000 USD. Critical issue in Matomo means an issue in our latest official release at: https://builds.matomo.org/latest.zip as installed on a typical server (and possibly using any of our official plugins by Matomo or InnoCraft from the Marketplace). If you can gain remote code execution on the server (i.e. RCE), or if you're able to delete data with an HTTPS request (i.e. SQL Injection), this may qualify as a Critical issue.
+Critical security issues will be rewarded up to 13,000 USD. Critical issue in means an issue in our latest official release at: https://builds.matomo.org/latest.zip as installed on a typical server (and possibly using any of our official plugins by or InnoCraft from the Marketplace). If you can gain remote code execution on the server (i.e. RCE), or if you're able to delete data with an HTTPS request (i.e. SQL Injection), this may qualify as a Critical issue.
 
 (Note: If a Remote Code Execution (RCE) is only available when logged in as a Super User, the issue will qualify as "High" and not "Critical".)
 
@@ -19,12 +19,12 @@ Other issues will typically be rewarded by 777 USD (or more or less depending on
 We encourage you to responsibly report issues via our [Matomo Bug Bounty Program on HackerOne](https://hackerone.com/matomo) or you can also 
 [email us at security@matomo.org](mailto:security@matomo.org?subject=Reporting%20Vulnerability%20in%20Matomo).
 
-If you have found a security issue in Matomo please read [our security notes](https://matomo.org/security/) regarding responsible disclosures.
+If you have found a security issue in please read [our security notes](https://matomo.org/security/) regarding responsible disclosures.
 
 
-## Improve your Matomo Server Security 
+## Improve your Server Security 
 
-[Secure Matomo server](https://matomo.org/docs/security/): follow these steps to keep your Matomo data safe.
+[Secure server](https://matomo.org/docs/security/): follow these steps to keep your data safe.
 
 ## Security announcements
 

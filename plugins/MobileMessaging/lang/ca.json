@@ -13,8 +13,8 @@
         "Settings_APIKey": "Clau API",
         "Settings_CountryCode": "Codi de país",
         "Settings_CredentialInvalid": "El vostre compte de l'API SMS de %1$s està configurat, però s'ha produït un error en intentar rebre els crèdits disponibles.",
-        "Settings_CredentialNotProvided": "Abans de crear i gestionar els vostres nombres de telèfon, siusplau conecteu el Matomo a la vostra compta de SMS.",
-        "Settings_CredentialNotProvidedByAdmin": "Abans de poder crear i gestionar números de telèfon demaneu al vostre administrador que connecti Matomo a un compte d'SMS.",
+        "Settings_CredentialNotProvided": "Abans de crear i gestionar els vostres nombres de telèfon, siusplau conecteu el a la vostra compta de SMS.",
+        "Settings_CredentialNotProvidedByAdmin": "Abans de poder crear i gestionar números de telèfon demaneu al vostre administrador que connecti a un compte d'SMS.",
         "Settings_CredentialProvided": "La vostra compta de la API de SMS %s ha estat configurada correctament!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Els números de telèfon configurats només el pot veure i utilitzar vosté i cap altre usuari.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "El proveïdor d'SMS configurat només el farà servir vostè i cap altre usuari.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Obteniu informes d'anàlisi web a la vostra safata d'entrada de correu electrònic o al vostre telèfon mòbil.",
         "TopMenu": "Informes per Email i SMS",
         "UserKey": "Clau d'usuari",
-        "VerificationText": "El codi és %1$s. Per validar el vostre número de telèfon i rebre informes SMS de Matomo, copieu aquest codi en el formulari disponible mitjançant Matomo → %2$s → %3$s."
+        "VerificationText": "El codi és %1$s. Per validar el vostre número de telèfon i rebre informes SMS de Matomo, copieu aquest codi en el formulari disponible mitjançant → %2$s → %3$s."
     }
 }

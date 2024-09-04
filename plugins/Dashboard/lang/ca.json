@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Copiar tauler a l'usuari",
         "CreateNewDashboard": "Crear un nou tauler",
         "Dashboard": "Tauler",
-        "DashboardCategoryHelp": "Aquesta és una pàgina de tauler. Els taulers de control són una col·lecció de ginys de Matomo per afegir tu mateix per adaptar-los a les teves necessitats específiques. Barreja i combina qualsevol dels widgets de Matomo per obtenir les dades que %1$s*tu*%2$s necessites veure d'un cop d'ull.",
+        "DashboardCategoryHelp": "Aquesta és una pàgina de tauler. Els taulers de control són una col·lecció de ginys de per afegir tu mateix per adaptar-los a les teves necessitats específiques. Barreja i combina qualsevol dels widgets de per obtenir les dades que %1$s*tu*%2$s necessites veure d'un cop d'ull.",
         "DashboardCopied": "El tauler de control actual s'ha copiat correctament a l'usuari seleccionat.",
         "DashboardEmptyNotification": "El vostre tauler no conté cap giny. Comenceu per afegir alguns ginys o restablieu el tauler a la selecció de ginys per defecte.",
         "DashboardName": "Nom del tauler:",

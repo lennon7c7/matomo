@@ -13,4 +13,4 @@ You can help improve translations in Matomo, please read [contribute to translat
 
 ## How to submit code improvements via pull requests?
 
-You can help contribute to Matomo codebase via Pull Requests, see [Contributing to Matomo core](https://developer.matomo.org/guides/contributing-to-piwik-core)
+You can help contribute to codebase via Pull Requests, see [Contributing to core](https://developer.matomo.org/guides/contributing-to-piwik-core)

@@ -17,7 +17,7 @@
         "ExceptionDimensionIsNotActive": "Dimensio %1$d sivustolla %2$d ei ole aktiivinen.",
         "ExtractValue": "Hae arvo",
         "Extractions": "Otteet",
-        "ExtractionsHelp": "Valinnainen asetus. Voit käyttää säännöllistä lauseketta muokatun dimension arvon poimiseksi sivun URL:sta tai otsikosta. Silloin muokatun dimension arvoa ei tarvitse asettaa seurantakoodissa. Voit edelleen asettaa arvon Matomo Tracker API-rajapinnan avulla. Näin asetettu dimension arvo aina ohittaa otteena kerätyn dimension arvon. Jos on määritelty useita tapoja ottaa tieto, käytetään näistä viimeistä.",
+        "ExtractionsHelp": "Valinnainen asetus. Voit käyttää säännöllistä lauseketta muokatun dimension arvon poimiseksi sivun URL:sta tai otsikosta. Silloin muokatun dimension arvoa ei tarvitse asettaa seurantakoodissa. Voit edelleen asettaa arvon Tracker API-rajapinnan avulla. Näin asetettu dimension arvo aina ohittaa otteena kerätyn dimension arvon. Jos on määritelty useita tapoja ottaa tieto, käytetään näistä viimeistä.",
         "HowToCreateCustomDimension": "Lisää uusi muokattu dimensio suorittamalla seuraava komento Matomo-asennuksessa:",
         "HowToManyCreateCustomDimensions": "Jos haluat lisätä useita muokattuja dimensioita kerralla, käytä tässä lisättävien dimensioiden määrää. Tietokantamuutokset toteutetaan kerralla. Siksi useiden dimensioiden lisäämiseen ei kestä juuri kauemmin kuin yhden dimension lisääminen.",
         "HowToTrackManuallyTitle": "Määritä dimension arvo käsin",

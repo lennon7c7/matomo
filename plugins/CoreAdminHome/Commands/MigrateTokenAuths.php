@@ -24,7 +24,7 @@ class MigrateTokenAuths extends ConsoleCommand
     protected function configure()
     {
         $this->setName('core:matomo4-migrate-token-auths');
-        $this->setDescription('Only needed for the matomo 3 to matomo 4 migration');
+        $this->setDescription('Only needed for the 3 to 4 migration');
     }
 
     protected function doExecute(): int
@@ -60,7 +60,7 @@ class MigrateTokenAuths extends ConsoleCommand
             if (!empty($user['token_auth'])) {
                 $migrations[] = $migration->db->insert('user_token_auth', array(
                     'login' => $user['login'],
-                    'description' => 'Created by Matomo 4 migration',
+                    'description' => 'Created by 4 migration',
                     'password' => $userModel->hashTokenAuth($user['token_auth']),
                     'date_created' => Date::now()->getDatetime(),
                     'hash_algo' => 'sha512'

@@ -107,7 +107,7 @@
         "NewGoalIntro": "Helburuen bihurketaren jarraipena da zure negozio-helburuak neurtu eta hobetzeko modurik eraginkorrenetako bat.",
         "NewVisitorsConversionRateIs": "Bisitari berrien bihurketa-tasa %s da",
         "NoConversionsNoReportsMessage": "Txostenak ez dira erakusten, hautatutako helburu eta eperako ez dagoelako bihurketa daturik.",
-        "NoGoalsNeedAccess2": "Webgune jakin baten helburuak soilik hauetako batek kudeatu ditzake: idazteko baimena duen erabiltzaile batek, administratzaile batek edo super erabiltzaile sarbidea duen erabiltzaile batek. Eskatu zure Matomo administratzaileari zure webgunerako helburu bat konfiguratzeko. <br>Helburuen jarraipena modu bikaina da zure webgunearen errendimendua ulertzen eta maximizatzen laguntzeko!",
+        "NoGoalsNeedAccess2": "Webgune jakin baten helburuak soilik hauetako batek kudeatu ditzake: idazteko baimena duen erabiltzaile batek, administratzaile batek edo super erabiltzaile sarbidea duen erabiltzaile batek. Eskatu zure administratzaileari zure webgunerako helburu bat konfiguratzeko. <br>Helburuen jarraipena modu bikaina da zure webgunearen errendimendua ulertzen eta maximizatzen laguntzeko!",
         "Optional": "(aukerazkoa)",
         "OverallConversionRate": "bihurketa-tasa orokorra (helburu bat gauzatutako bisitak)",
         "OverallRevenue": "diru-sarrera orokorra",

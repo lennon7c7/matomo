@@ -521,8 +521,8 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
     private function dieIfPluginsAdminIsDisabled()
     {
         if (!CorePluginsAdmin::isPluginsAdminEnabled()) {
-            throw new \Exception('Enabling, disabling and uninstalling plugins has been disabled by Matomo admins.
-            Please contact your Matomo admins with your request so they can assist you.');
+            throw new \Exception('Enabling, disabling and uninstalling plugins has been disabled by admins.
+            Please contact your admins with your request so they can assist you.');
         }
     }
 

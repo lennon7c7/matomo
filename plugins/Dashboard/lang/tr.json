@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Panoyu kullanıcıya kopyala",
         "CreateNewDashboard": "Pano ekle",
         "Dashboard": "Pano",
-        "DashboardCategoryHelp": "Pano bölümü. Panolar, gereksinimlerinize göre Matomo pano bileşenlerini ekleyerek oluşturabileceğiniz görünümlerdir. %1$s\"Sizin\"%2$s gerek duyduğunuz verileri bir bakışta görebileceğiniz şekilde bir araya getirir.",
+        "DashboardCategoryHelp": "Pano bölümü. Panolar, gereksinimlerinize göre pano bileşenlerini ekleyerek oluşturabileceğiniz görünümlerdir. %1$s\"Sizin\"%2$s gerek duyduğunuz verileri bir bakışta görebileceğiniz şekilde bir araya getirir.",
         "DashboardCopied": "Geçerli pano seçilmiş kullanıcıya kopyalandı.",
         "DashboardEmptyNotification": "Panoda henüz bir bileşen yok. Başlamak için bazı pano bileşenleri ekleyin ya da panoyu varsayılan pano bileşeni seçimlerine sıfırlayın.",
         "DashboardName": "Pano adı:",

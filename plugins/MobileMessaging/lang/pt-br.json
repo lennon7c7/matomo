@@ -13,8 +13,8 @@
         "Settings_APIKey": "Chave da API",
         "Settings_CountryCode": "Código do país",
         "Settings_CredentialInvalid": "Sua conta API SMS %1$s está configurada, mas um erro ocorreu ao tentar receber os créditos disponíveis.",
-        "Settings_CredentialNotProvided": "Antes que você possa criar e gerenciar números de telefone, por favor conecte o Matomo à sua conta SMS acima.",
-        "Settings_CredentialNotProvidedByAdmin": "Antes que você possa criar e gerenciar números de telefone, por favor solicite ao seu administrador para conectar o Matomo a uma conta SMS.",
+        "Settings_CredentialNotProvided": "Antes que você possa criar e gerenciar números de telefone, por favor conecte o à sua conta SMS acima.",
+        "Settings_CredentialNotProvidedByAdmin": "Antes que você possa criar e gerenciar números de telefone, por favor solicite ao seu administrador para conectar o a uma conta SMS.",
         "Settings_CredentialProvided": "Sua conta API SMS %s está configurada corretamente!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Os números de telefone configurados somente podem ser visualizados e usados por você e não pelos outros usuários.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "O provedor de SMS configurado será usado somente por você e não pelos outros usuários.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Receba relatórios de web analytics em seu email ou telefone móvel.",
         "TopMenu": "Relatórios por e-mail e SMS",
         "UserKey": "Chave do usuário",
-        "VerificationText": "O código é %1$s. Para confirmar o seu número de telefone e receber relatórios por SMS do Matomo, por favor copie este código para o formulário disponível via Matomo → %2$s → %3$s."
+        "VerificationText": "O código é %1$s. Para confirmar o seu número de telefone e receber relatórios por SMS do Matomo, por favor copie este código para o formulário disponível via → %2$s → %3$s."
     }
 }

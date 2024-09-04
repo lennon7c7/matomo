@@ -1,4 +1,4 @@
-# Matomo SimpleTableVisualizationExample Plugin
+# SimpleTableVisualizationExample Plugin
 
 ## Description
 

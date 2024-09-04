@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Configureu GeoIP a la pestanya Administrador de geolocalització per proporcionar dades per a aquest informe. Les bases de dades geoIP comercials %1$sMaxMind%2$s són més precises que les gratuïtes. %3$sFeu clic aquí%4$s per veure la precisió que tenen.",
         "GeoIpDbIpAccuracyNote": "Les bases de dades de geolocalització DB-IP són gratuïtes i es poden descarregar automàticament. MaxMind és més precís per a les ciutats, però requereix %1$sobrir un compte%2$s.",
         "Geolocation": "Geolocalització",
-        "GeolocationPageDesc": "Aquí podeu canviar com el Matomo determina la localització dels vostres visitants.",
+        "GeolocationPageDesc": "Aquí podeu canviar com el determina la localització dels vostres visitants.",
         "GeolocationProviderBroken": "El vostre proveïdor de geolocalització (%1$s) s'ha malmès. Corregiu el proveïdor o configureu-ne un altre.",
         "GeolocationProviderUnavailable": "El vostre proveïdor de geolocalització (%1$s) ja no està disponible. Si us plau, configureu-ne un altre.",
         "HowToInstallGeoIPDatabases": "Com puc obtenir bases de dades de geolocalització?",

@@ -5,7 +5,7 @@
         "DatabaseUsage": "Datu-basearen erabilera",
         "EstimatedSize": "Estimatutako tamaina",
         "IndexSize": "Indizearen tamaina",
-        "LearnMore": "Matomok datuak nola prozesatzen dituen, eta Matomo trafiko ertain eta handiko webguneetarako nola moldatu jakiteko, emaiozu begirada dokumentazioari: %s.",
+        "LearnMore": "Matomok datuak nola prozesatzen dituen, eta trafiko ertain eta handiko webguneetarako nola moldatu jakiteko, emaiozu begirada dokumentazioari: %s.",
         "MainDescription": "Zure web analitiken datu guztiak MySQL datu-basean biltegiratzen ari da Matomo. Une honetan Matomoren taulek tamaina hau hartzen dute: %s.",
         "MetricDataByYear": "Metrika taulak urteko",
         "MetricTables": "Metrika taulak",

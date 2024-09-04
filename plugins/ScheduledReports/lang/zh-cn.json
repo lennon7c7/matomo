@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "您已成功取消订阅报告%1$s。",
         "TableOfContent": "报表列表",
         "ThereIsNoReportToManage": "网站%s没有报表",
-        "TopLinkTooltip": "创建报表邮件让 Matomo 自动将统计资料发到您或者客户的邮箱中！",
+        "TopLinkTooltip": "创建报表邮件让 自动将统计资料发到您或者客户的邮箱中！",
         "TopOfReport": "回到顶部",
         "Unsubscribe": "退订",
         "UnsubscribeFooter": "要退订该报告，请点击以下链接：%1$s",

@@ -18,7 +18,7 @@ class UnblockBlockedIps extends ConsoleCommand
     protected function configure()
     {
         $this->setName('login:unblock-blocked-ips');
-        $this->setDescription('Unblocks all currently blocked IPs. Useful if you cannot log in to your Matomo anymore because your own IP is blocked');
+        $this->setDescription('Unblocks all currently blocked IPs. Useful if you cannot log in to your anymore because your own IP is blocked');
     }
 
     protected function doExecute(): int

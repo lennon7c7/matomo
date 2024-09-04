@@ -1,6 +1,6 @@
 {
     "CoreHome": {
-        "AdblockIsMaybeUsed": "Jos käytät mainostenestoa (ad blocker), poista se käytöstä tällä sivulla, jotta Matomo toimii ongelmitta.",
+        "AdblockIsMaybeUsed": "Jos käytät mainostenestoa (ad blocker), poista se käytöstä tällä sivulla, jotta toimii ongelmitta.",
         "AddTotalsRowDataTable": "Tämä raportti ei näytä yhtenvetoriviä %s Näytä yhteenvetorivi",
         "CategoryNoData": "Tässä kategoriassa ei ole tietoja. Kokeile linkkiä \"Kaikki esiintymät\".",
         "ChangeCurrentWebsite": "Valitse sivusto, nyt valittuna %s",
@@ -41,9 +41,9 @@
         "IncludeRowsWithLowPopulation": "Vajaat rivit on piilotettu %s Näytä kaikki rivit",
         "InjectedHostEmailBody": "Hei, yritin käyttää tänään Matomoa ja sain varoituksen tuntemattomasta isäntänimestä.",
         "InjectedHostEmailSubject": "Matomoon otettiin yhteyttä tuntemattomalla isäntänimellä: %s",
-        "InjectedHostNonSuperUserWarning": "%1$sKlikkaa tästä avataksesi Matomo turvallisesti%2$s ja poistaaksesi tämä varoitus. Voit myös ottaa yhteyttä Matomon ylläpitäjään ja ilmoittaa ongelmasta (%3$sklikkaa tästä lähettääksesi sähköpostia%4$s).",
-        "InjectedHostSuperUserWarning": "Matomo saattaa olla väärin asennettu (esim. jos Matomo on hiljattain siirretty uuteen serveriin tai URL:ään). Voit joko %1$sklikata tästä ja lisätä %2$s ja lisätä päteväksi Matomo isäntänimeksi (jos luotat siihen)%3$s, tai %4$sklikata tästä ja %5$s siirtyäksesi Matomoon turvallisesti%6$s.",
-        "InjectedHostWarningIntro": "Käytät Matomoa osoitteesta %1$s, mutta Matomo on konfiguroitu ajettavaksi tässä osoitteessa: %2$s.",
+        "InjectedHostNonSuperUserWarning": "%1$sKlikkaa tästä avataksesi turvallisesti%2$s ja poistaaksesi tämä varoitus. Voit myös ottaa yhteyttä Matomon ylläpitäjään ja ilmoittaa ongelmasta (%3$sklikkaa tästä lähettääksesi sähköpostia%4$s).",
+        "InjectedHostSuperUserWarning": "Matomo saattaa olla väärin asennettu (esim. jos on hiljattain siirretty uuteen serveriin tai URL:ään). Voit joko %1$sklikata tästä ja lisätä %2$s ja lisätä päteväksi isäntänimeksi (jos luotat siihen)%3$s, tai %4$sklikata tästä ja %5$s siirtyäksesi Matomoon turvallisesti%6$s.",
+        "InjectedHostWarningIntro": "Käytät Matomoa osoitteesta %1$s, mutta on konfiguroitu ajettavaksi tässä osoitteessa: %2$s.",
         "JavascriptDisabled": "JavaScript on oltava käytössä, jotta Matomoa voi käyttää standardinäkymässä.<br />Vaikuttaa kuitenkin siltä, ettei JavaScript ole käytössä tai tuettu selaimessasi.<br />Käyttääksesi standardinäkymää, ota JavaScript käyttöön selaimen asetuksista, ja %1$syritä uudelleen%2$s.<br />",
         "JsDidntLoad": "Selaimesi ei saanut ladattua tämän sivun skriptejä.",
         "LeadingAnalyticsPlatformRespectsYourPrivacy": "Johtava avoimen lähdekoodin analytiikka-alusta, joka kunnioittaa yksityisyyttäsi.",

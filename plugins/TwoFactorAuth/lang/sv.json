@@ -14,7 +14,7 @@
         "InvalidAuthCode": "Felaktig kod för tvåfaktorsautentisering.",
         "LostAuthenticationDevice": "Hej,%1$sjag har aktiverat tvåfaktorsautentisering och tappat bort min autentiseringsenhet. Skulle du kunna återställa tvåfaktorsautentisering för mitt användarnamn \"%5$s\"? Instruktioner finns här: %6$s.%2$sMatomo-länken är %3$s.%4$sTack",
         "MissingAuthCodeAPI": "Ange din kod för tvåfaktorsautentisering.",
-        "NotPossibleToLogIn": "Kan inte logga in till Matomo Analytics",
+        "NotPossibleToLogIn": "Kan inte logga in till Analytics",
         "RecoveryCodes": "Koder för återställning",
         "RecoveryCodesAllUsed": "Alla återställningskoder har använts. Du måste skapa nya.",
         "RecoveryCodesExplanation": "Du kan använda återställningskoder för att komma åt ditt konto om du inte kan ta emot koder för tvåfaktorsautentisering (till exempel när du inte har din mobila enhet med dig).",

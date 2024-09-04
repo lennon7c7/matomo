@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Ce rapport indique les périphériques que vos visiteurs utilisent. Chaque modèle est affiché en associant la marque de l'appareil car certains noms de modèles sont utilisés par plusieurs marques.",
         "DeviceModels": "Modèles de périphérique",
         "DeviceType": "Type du périphérique",
-        "DeviceTypeReportDocumentation": "Ce rapport indique les types de périphériques que vos visiteurs ont utilisés. Ce rapport indiquera toujours tous les types de périphériques que Matomo est en mesure de détecter, même si aucun visiteur n'a utilisé un type particulier.",
+        "DeviceTypeReportDocumentation": "Ce rapport indique les types de périphériques que vos visiteurs ont utilisés. Ce rapport indiquera toujours tous les types de périphériques que est en mesure de détecter, même si aucun visiteur n'a utilisé un type particulier.",
         "DeviceTypes": "Types de périphérique",
         "Devices": "Périphériques",
         "DevicesDetection": "Périphériques du visiteur",

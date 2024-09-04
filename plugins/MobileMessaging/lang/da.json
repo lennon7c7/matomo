@@ -11,8 +11,8 @@
         "SettingsMenu": "Mobile beskeder",
         "Settings_APIKey": "API-nøgle",
         "Settings_CountryCode": "Landekode",
-        "Settings_CredentialNotProvided": "Før du kan oprette og administrere telefonnumre, skal du tilslutte Matomo til din sms-konto ovenfor.",
-        "Settings_CredentialNotProvidedByAdmin": "Før du kan oprette og administrere telefonnumre, skal du bede din administrator om at forbinde Matomo til en sms-konto.",
+        "Settings_CredentialNotProvided": "Før du kan oprette og administrere telefonnumre, skal du tilslutte til din sms-konto ovenfor.",
+        "Settings_CredentialNotProvidedByAdmin": "Før du kan oprette og administrere telefonnumre, skal du bede din administrator om at forbinde til en sms-konto.",
         "Settings_CredentialProvided": "Din %s SMS API-konto er korrekt konfigureret!",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Den konfigurerede sms-udbyder vil kun bliv brugt af dig og ikke af andre brugere.",
         "Settings_DeleteAccountConfirm": "Er du sikker på, at du vil slette denne sms-konto?",
@@ -34,6 +34,6 @@
         "Settings_ValidatePhoneNumber": "Bekræft",
         "TopLinkTooltip": "Få web analyse rapporter leveret til din indbakke eller din mobiltelefon!",
         "TopMenu": "E-mail- & sms-rapporter",
-        "VerificationText": "Koden er %1$s. For at validere dit telefonnummer og modtage Matomos sms-rapporter, kopier koden til formularen på Matomo → %2$s → %3$s."
+        "VerificationText": "Koden er %1$s. For at validere dit telefonnummer og modtage Matomos sms-rapporter, kopier koden til formularen på → %2$s → %3$s."
     }
 }

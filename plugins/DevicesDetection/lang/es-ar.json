@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Este agente de usuario es detectado como %1$s. Las visitas con esta cadena de agente de usuario no serán rastreadas por Matomo predeterminadamente.",
+        "BotDetected": "Este agente de usuario es detectado como %1$s. Las visitas con esta cadena de agente de usuario no serán rastreadas por predeterminadamente.",
         "BrowserEngine": "Motor del navegador",
         "BrowserEngineDocumentation": "Este informe muestra los navegadores web de tus visitantes divididos en sus respectivos motores. %s La información más importante para los desarrolladores de sitios web es saber qué motor de renderizado están usando sus visitantes. Las etiquetas contienen los nombres de los motores seguidos por el navegador web más usual utilizando dicho motor entre corchetes.",
         "BrowserEngines": "Motores de navegador",
@@ -33,7 +33,7 @@
         "DevicesDetection": "Dispositivos del visitante",
         "DeviceType": "Tipo de dispositivo",
         "DeviceTypes": "Tipos de dispositivo",
-        "DeviceTypeReportDocumentation": "Este informe muestra los tipos de dispositivos que tus visitantes están usando. Este informe siempre mostrará todos los tipos de dispositivos que Matomo sea capaz de detectar, incluso si no hubo visitas con un tipo específico.",
+        "DeviceTypeReportDocumentation": "Este informe muestra los tipos de dispositivos que tus visitantes están usando. Este informe siempre mostrará todos los tipos de dispositivos que sea capaz de detectar, incluso si no hubo visitas con un tipo específico.",
         "FeaturePhone": "Teléfono celular",
         "OperatingSystemFamilies": "Familias de sistema operativo",
         "OperatingSystemFamily": "Familia de sistema operativo",

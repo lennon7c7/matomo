@@ -13,8 +13,8 @@
         "Settings_APIKey": "Kunci API",
         "Settings_CountryCode": "Kode Negara",
         "Settings_CredentialInvalid": "Akun API SMS %1$s Anda telah dikonfigurasi, tetapi terjadi kesalahan saat mencoba untuk menerima kredit yang tersedia.",
-        "Settings_CredentialNotProvided": "Sebelum Anda dapat membuat dan mengelola nomor telepon, harap menghubungkan Matomo dengan Akun SMS Anda di atas.",
-        "Settings_CredentialNotProvidedByAdmin": "Sebelum Anda dapat membuat dan mengelola nomor telepon, harap tanyakan pengelola Anda untuk menghubungkan Matomo kepada sebuah Akun SMS.",
+        "Settings_CredentialNotProvided": "Sebelum Anda dapat membuat dan mengelola nomor telepon, harap menghubungkan dengan Akun SMS Anda di atas.",
+        "Settings_CredentialNotProvidedByAdmin": "Sebelum Anda dapat membuat dan mengelola nomor telepon, harap tanyakan pengelola Anda untuk menghubungkan kepada sebuah Akun SMS.",
         "Settings_CredentialProvided": "API SMS %s Anda berhasil diatur!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Nomor telepon yang dikonfigurasi hanya dapat dilihat dan digunakan oleh Anda dan bukan oleh pengguna lain.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Penyedia SMS yang dikonfigurasi hanya akan digunakan oleh Anda dan bukan oleh pengguna lainnya.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Dapatkan Laporan Analisis Web yang dikirimkan ke kotak masuk surel atau ponsel Anda.",
         "TopMenu": "Surel &amp; Laporan SMS",
         "UserKey": "Kunci pengguna",
-        "VerificationText": "Kodenya adalah %1$s. Untuk memvalidasi nomor telepon Anda dan menerima laporan SMS Matomo, silakan salin kode ini dalam formulir yang dapat diakses melalui Matomo → %2$s → %3$s."
+        "VerificationText": "Kodenya adalah %1$s. Untuk memvalidasi nomor telepon Anda dan menerima laporan SMS Matomo, silakan salin kode ini dalam formulir yang dapat diakses melalui → %2$s → %3$s."
     }
 }

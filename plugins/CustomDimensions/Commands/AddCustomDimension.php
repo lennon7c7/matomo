@@ -64,7 +64,7 @@ class AddCustomDimension extends ConsoleCommand
         $numDimensionsAvailable = $tracking->getNumInstalledIndexes();
 
         $this->writeSuccessMessage([
-            sprintf('Your Matomo is now configured for up to %d Custom Dimensions in scope %s.', $numDimensionsAvailable, $scope)
+            sprintf('Your is now configured for up to %d Custom Dimensions in scope %s.', $numDimensionsAvailable, $scope)
         ]);
 
         return self::SUCCESS;

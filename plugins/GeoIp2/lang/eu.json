@@ -2,7 +2,7 @@
     "GeoIp2": {
         "AssumingNonApache": "Ez da apache_get_modules funtzioa aurkitu, dirudienez web-zerbitzaria ez da Apache.",
         "AutomaticSetup": "Konfiguratu geolokalizazioa automatikoki dbip datu-base bat erabiliz",
-        "AutomaticSetupDescription": "Geolokalizazioa behar bezala egiteko Matomok kanpoko datu-base bat behar du. Aukera hau erabiliz, Matomo konfiguratuko da hiri mailako azken dbip datu-basea automatikoki deskargatu eta erabiltzeko. [%1$sIkusi lizentziaren baldintzak%2$s]",
+        "AutomaticSetupDescription": "Geolokalizazioa behar bezala egiteko Matomok kanpoko datu-base bat behar du. Aukera hau erabiliz, konfiguratuko da hiri mailako azken dbip datu-basea automatikoki deskargatu eta erabiltzeko. [%1$sIkusi lizentziaren baldintzak%2$s]",
         "CannotFindGeoIPDatabaseInArchive": "Ezin izan da baliozko DBIP / GeoIP datu-baserik aurkitu %1$s tar artxiboan!",
         "CannotFindGeoIPServerVar": "%s aldagaia ez dago ezarrita. Baliteke zure zerbitzaria behar bezala konfiguratu gabea egotea.",
         "CannotListContent": "Ezin izan da %1$s(r)en edukirik zerrendatu: %2$s",

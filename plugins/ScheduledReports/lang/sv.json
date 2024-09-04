@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "Du har nu avslutat prenumerationen från rapporten %1$s.",
         "TableOfContent": "Rapportlista",
         "ThereIsNoReportToManage": "Det finns ingen rapport att hantera för webbplatsen %s",
-        "TopLinkTooltip": "Skapa e-postrapporter för att få statistik från Matomo skickat till din e-post eller dina kunders adresser automatiskt!",
+        "TopLinkTooltip": "Skapa e-postrapporter för att få statistik från skickat till din e-post eller dina kunders adresser automatiskt!",
         "TopOfReport": "Tillbaka till toppen",
         "Unsubscribe": "Avprenumerera",
         "UnsubscribeFooter": "För att avsluta prenumerationen från denna rapport vänligen följ denna länk: %1$s",

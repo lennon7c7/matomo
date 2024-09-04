@@ -23,7 +23,7 @@
         "ColumnUniqueClicksDocumentation": "D'Zuel vun de Visite, déi op dëse Link geklickt hunn. Wann de Link puer mol während enger Visite geklickt gouf, gëtt en nëmmen eemol gezielt.",
         "ColumnUniqueDownloads": "Eemoleg Downloads",
         "ColumnUniqueOutlinks": "Eemoleg Austrëttslinks",
-        "DownloadsReportDocumentation": "An dësem Rapport kennt dir gesi wéineg Dokumenter vum Visiteur gedownloat goufen. %s Matomo zielt en Klick op en Download Link als Download. Op den Download fäerdeg gestallt gouf oder net, ass net vu Matomo gewosst.",
+        "DownloadsReportDocumentation": "An dësem Rapport kennt dir gesi wéineg Dokumenter vum Visiteur gedownloat goufen. %s zielt en Klick op en Download Link als Download. Op den Download fäerdeg gestallt gouf oder net, ass net vu gewosst.",
         "EntryPageTitles": "Antrëtts Säiten Titel",
         "EntryPageTitlesReportDocumentation": "Dësen Rapport enthält Informatiounen iwwert d'Titelen vun den Antrëtts Säiten, déi während enger gewesser Period benotzt goufen.",
         "ExitPageTitles": "Austrëtts Säiten Titel",

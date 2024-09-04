@@ -2,7 +2,7 @@
     "GeoIp2": {
         "AssumingNonApache": "No se puede encontrar la función apache_get_modules, asumiendo que posee un servidor de internet no-Apache.",
         "AutomaticSetup": "Configurar geolocalización automáticamente usando una base de datos dbip",
-        "AutomaticSetupDescription": "Para una geolocalización correcta, Matomo necesita una base de datos externa. Al usar esta opción, Matomo se configurará automáticamente para descargar y usar la última base de datos de nivel de ciudad dbip. [%1$sVer condiciones de licencia%2$s]",
+        "AutomaticSetupDescription": "Para una geolocalización correcta, necesita una base de datos externa. Al usar esta opción, se configurará automáticamente para descargar y usar la última base de datos de nivel de ciudad dbip. [%1$sVer condiciones de licencia%2$s]",
         "CannotFindGeoIPDatabaseInArchive": "No se encuentra una base de datos válida DBIP / GeoIP en el archivo tar %1$s!",
         "CannotFindGeoIPServerVar": "La variable %s no está especificada. Su servidor puede no estar configurado correctamente.",
         "CannotListContent": "No se pudo enumerar el contenido de %1$s: %2$s",

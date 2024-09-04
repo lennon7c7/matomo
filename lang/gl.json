@@ -1,7 +1,7 @@
 {
     "General": {
         "API": "API",
-        "AboutPiwikX": "Acerca de Matomo %s",
+        "AboutPiwikX": "Acerca de %s",
         "Action": "Acción",
         "Actions": "Accións",
         "Add": "Engadir",
@@ -82,7 +82,7 @@
         "Name": "Nome",
         "NbActions": "Numero de Accións",
         "Never": "Nunca",
-        "NewUpdatePiwikX": "Nova Actualización: Matomo %s",
+        "NewUpdatePiwikX": "Nova Actualización: %s",
         "NewVisitor": "Nova Visita",
         "Next": "Seguinte",
         "No": "Non",

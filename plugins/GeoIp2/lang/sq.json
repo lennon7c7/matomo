@@ -6,7 +6,7 @@
         "CannotFindGeoIPDatabaseInArchive": "S’u gjet dot bazë e vlefshme të dhënash DBIP / GeoIP te arkivi tar %1$s!",
         "CannotFindGeoIPServerVar": "Ndryshorja %s s’është rregulluar. Shërbyesi juaj mund të mos jetë formësuar si duhet.",
         "CannotListContent": "S’paraqet dot lëndën për %1$s: %2$s",
-        "CannotSetupGeoIPAutoUpdating": "Duket se bazat tuaja të të dhënave GeoIP i depozitoni jashtë Matomo-s (e dimë, ngaqë s’ka baza të dhënash te nëndrejtoria misc, por GeoIP-ja juaj funksionon). Matomo s’i përditëson dot vetvetiu bazat tuaja të të dhënave për gjeovendëzim, nëse gjenden jashtë drejtorisë misc.",
+        "CannotSetupGeoIPAutoUpdating": "Duket se bazat tuaja të të dhënave GeoIP i depozitoni jashtë Matomo-s (e dimë, ngaqë s’ka baza të dhënash te nëndrejtoria misc, por GeoIP-ja juaj funksionon). s’i përditëson dot vetvetiu bazat tuaja të të dhënave për gjeovendëzim, nëse gjenden jashtë drejtorisë misc.",
         "CannotUnzipGeoIPFile": "S’u shzipua dot kartela GeoIP te %1$s: %2$s",
         "DownloadNewDatabasesEvery": "Përditësoji bazat e të dhënave çdo",
         "DownloadingDb": "Po shkarkohet %s",

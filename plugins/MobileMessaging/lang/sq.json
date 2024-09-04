@@ -43,6 +43,6 @@
         "TopLinkTooltip": "Merrni Raporte Analizash Web drejt e te email-i ose celulari juaj.",
         "TopMenu": "Raporte me Email &amp; SMS",
         "UserKey": "Kyç përdoruesi",
-        "VerificationText": "Kodi është %1$s. Që të vleftësohet numri i telefonit tuaj dhe të merrni raporte Matomo me SMS, ju lutemi, kopjojeni këtë kod te formulari përkatës përmes Matomo → %2$s → %3$s."
+        "VerificationText": "Kodi është %1$s. Që të vleftësohet numri i telefonit tuaj dhe të merrni raporte me SMS, ju lutemi, kopjojeni këtë kod te formulari përkatës përmes → %2$s → %3$s."
     }
 }

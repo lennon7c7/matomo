@@ -37,7 +37,7 @@
         "License": "Licencë",
         "LicenseExceeded": "Licencë e tejkaluar",
         "LicenseExceededDescription": "Licencat për shtojcat vijuese s’janë më të vlefshme, ngaqë është tejkaluar numri i përdoruesve të autorizuar për licencë: %1$s. %2$sS’do të jeni në gjendje të shkarkoni përditësime për këto shtojca. Që ta zgjidhni këtë problem, ose fshini disa nga përdoruesit ose %3$spërmirësojeni pajtimin tani%4$s.",
-        "LicenseExceededPossibleCause": "Licenca është tejkaluar. Në këtë instalim Matomo ka gjasa të ketë më shumë përdorues se sa autorizon pajtimi.",
+        "LicenseExceededPossibleCause": "Licenca është tejkaluar. Në këtë instalim ka gjasa të ketë më shumë përdorues se sa autorizon pajtimi.",
         "LicenseExpired": "Licenca ka skaduar",
         "LicenseExpiredDescription": "Licencat për shtojcat vijuese kanë skaduar: %1$s. %2$sPër këto shtojca s’do të merrni më përditësime. Që ta zgjidhni këtë problem, %3$srinovojeni pajtimin tuaj tani%4$s, ose çaktivizojeni shtojcën, nëse nuk e përdorni më.",
         "LicenseKey": "Kyç licence",

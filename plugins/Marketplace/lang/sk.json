@@ -9,7 +9,7 @@
         "BackToMarketplace": "Naspäť na trh",
         "ByXDevelopers": "%s vývojárov",
         "Developer": "Vývojár",
-        "DevelopersLearnHowToDevelopPlugins": "Vývojári: Naučiť sa ako rozšíriť a prispôsobiť Matomo %1$s vývojarskými pluginmi alebo %2$s motívmi.",
+        "DevelopersLearnHowToDevelopPlugins": "Vývojári: Naučiť sa ako rozšíriť a prispôsobiť %1$s vývojarskými pluginmi alebo %2$s motívmi.",
         "FeaturedPlugin": "Hlavný plugin",
         "InstallingPlugin": "Inštalácia %s",
         "LastCommitTime": "(posledné rozhodnutie %s)",
@@ -36,7 +36,7 @@
         "StepUnzippingTheme": "Rozbaliť motív",
         "SubscriptionType": "Typ",
         "Support": "Podpora",
-        "TeaserExtendPiwikByUpload": "Rozšíriť Matomo nahratím ZIP súboru",
+        "TeaserExtendPiwikByUpload": "Rozšíriť nahratím ZIP súboru",
         "Updated": "Aktualizované",
         "UploadZipFile": "Nahrať ZIP súbor",
         "ViewRepositoryChangelog": "Prezeranie zmien"

@@ -6,7 +6,7 @@
         "ErrorNoSiteUrls": "Advarsel: Nettsiden har ingen side-nettadresser definert i Matomo. Dette kan forårsake at side-overlegg og andre funksjoner ikke fungerer helt eller delvis. For å fikse dette kan du legge til en nettadresse i innstillingene for denne nettsiden i delen for Matomo-administrasjon.",
         "ErrorNotLoading": "Side-overlagsøkten kunne ikke startes enda.",
         "ErrorNotLoadingDetails": "Kanskje siden innlastet til høyre ikke har Matomo-sporingskoden. I sådant fall kan du prøve å kjøre overlag for en annen side fra siderapporteringen.",
-        "ErrorNotLoadingDetailsSSL": "Siden du bruker Matomo over HTTPS er den mest sannsynlige årsaken at nettsiden din ikke støtter SSL. Prøv å bruke Matomo over HTTP.",
+        "ErrorNotLoadingDetailsSSL": "Siden du bruker over HTTPS er den mest sannsynlige årsaken at nettsiden din ikke støtter SSL. Prøv å bruke over HTTP.",
         "ErrorNotLoadingLink": "Klikk her for å få flere tips for feilsøking",
         "Link": "Lenke",
         "Location": "Sted",

@@ -1,8 +1,8 @@
 {
     "Diagnostics": {
         "BrowserAndAutoArchivingEnabledLabel": "瀏覽器與自動封存已經啟用",
-        "BrowserTriggeredArchivingEnabled": "為使 Matomo 能最佳化，我們強烈建議你設定 crontab 工作排程來自動彙整你的報告，且在 Matomo 一般設定內關閉瀏覽器的自動觸發彙整。%1$s 了解更多。%2$s",
-        "ConfigFileIntroduction": "你可以在這裡檢視 Matomo 組態設定。若你在負載平衡環境中執行 Matomo，此頁面可能依不同的伺服器而有所差異。不同顏色的欄位代表已修改過的設定值，如範例檔案 %1$s 內。",
+        "BrowserTriggeredArchivingEnabled": "為使 能最佳化，我們強烈建議你設定 crontab 工作排程來自動彙整你的報告，且在 一般設定內關閉瀏覽器的自動觸發彙整。%1$s 了解更多。%2$s",
+        "ConfigFileIntroduction": "你可以在這裡檢視 組態設定。若你在負載平衡環境中執行 Matomo，此頁面可能依不同的伺服器而有所差異。不同顏色的欄位代表已修改過的設定值，如範例檔案 %1$s 內。",
         "ConfigFileTitle": "設定檔",
         "CronArchivingHasNotRun": "報表尚未成功彙整過。",
         "CronArchivingHasNotRunInAWhile": "上次於 %1$s 時成功彙整了報表 ( %2$s 之前 )。",

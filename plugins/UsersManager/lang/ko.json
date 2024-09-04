@@ -26,7 +26,7 @@
         "ExceptionNoValueForUsernameOrEmail": "사용자 이름 혹은 이메일 주소를 넣어주세요.",
         "ExceptionPasswordMD5HashExpected": "UsersManager.getTokenAuth는 MD5 해시 값의 비밀번호 (32자 길이의 문자열)을 사용하고 있습니다. 이 메소드를 호출하기 전에 암호에 md5() 함수를 호출합니다.",
         "ExceptionRemoveSuperUserAccessOnlySuperUser": "사용자 '%s'의 슈퍼 유저 권한 제거가 가능하지 않습니다.",
-        "ExceptionSuperUserAccess": "해당 사용자는 슈퍼 유저 권한을 가지고 있기에 Matomo 내 모든 웹사이트에 대해서 접근 가능하고 수정 역시 가능합니다. 해당 유저의 슈퍼 유저 권한을 제거한 후 다시 시도해보세요.",
+        "ExceptionSuperUserAccess": "해당 사용자는 슈퍼 유저 권한을 가지고 있기에 내 모든 웹사이트에 대해서 접근 가능하고 수정 역시 가능합니다. 해당 유저의 슈퍼 유저 권한을 제거한 후 다시 시도해보세요.",
         "ExceptionUserDoesNotExist": "사용자 '%s' 님은 존재하지 않습니다.",
         "ExceptionUserHasViewAccessAlready": "이미 해당 사용자는 해당 웹사이트에 접근이 가능합니다.",
         "ExceptionYouMustGrantSuperUserAccessFirst": "최소 한 명의 사용자가 슈퍼 유저 권한을 가져야 합니다. 다른 사용자에게 먼저 슈퍼 유저 권한을 부여해주세요.",
@@ -66,7 +66,7 @@
         "UsersManagement": "사용자 관리",
         "UsersManagementMainDescription": "새로운 사용자를 생성하거나 또는 존재하는 사용자를 업데이트할 수 있습니다. 그리고 위에서 그들의 권한을 설정할 수 있습니다.",
         "YourUsernameCannotBeChanged": "당신의 사용자 이름을 변경할 수 없습니다.",
-        "YourVisitsAreIgnoredOnDomain": "%1$s당신의 방문은%2$s Matomo에 무시됩니다%3$s (브라우저에서 Matomo 무시 용 Cookie 발견).",
-        "YourVisitsAreNotIgnored": "%1$s당신의 방문은 Matomo에 무시하지 않습니다%2$s (브라우저에서 Matomo 무시의 Cookie를 찾을 수 없습니다)."
+        "YourVisitsAreIgnoredOnDomain": "%1$s당신의 방문은%2$s Matomo에 무시됩니다%3$s (브라우저에서 무시 용 Cookie 발견).",
+        "YourVisitsAreNotIgnored": "%1$s당신의 방문은 Matomo에 무시하지 않습니다%2$s (브라우저에서 무시의 Cookie를 찾을 수 없습니다)."
     }
 }

@@ -33,8 +33,8 @@
         "ChangePermToAllSitesConfirm2": "Merk: Dette har kun innvirkning på dine eksisterende nettsider. Nye nettsider du oppretter vil ikke være tilgjengelig for denne brukeren automatisk.",
         "ChangePermToSiteConfirmMultiple": "Endre %1$s sin rolle for de %2$s valgte nettsidene til %3$s?",
         "ChangePermToSiteConfirmSingle": "Endre %1$s sin rolle for %2$s til %3$s?",
-        "ClickHereToDeleteTheCookie": "Klikk her for å slette informasjonskapselen og la Matomo spore dine besøk",
-        "ClickHereToSetTheCookieOnDomain": "Klikk her for å sette en informasjonskapsel som vil ekskludere dine besøk på nettsteder som spores av Matomo på %s",
+        "ClickHereToDeleteTheCookie": "Klikk her for å slette informasjonskapselen og la spore dine besøk",
+        "ClickHereToSetTheCookieOnDomain": "Klikk her for å sette en informasjonskapsel som vil ekskludere dine besøk på nettsteder som spores av på %s",
         "ClickToSelectAll": "Klikk for å velge alle %1$s.",
         "ClickToSelectDisplayedUsers": "Klikk for å velge de %1$s viste brukerne.",
         "ClickToSelectDisplayedWebsites": "Klikk for å velge de %1$s viste nettsidene.",
@@ -73,7 +73,7 @@
         "ExceptionAnonymousNoCapabilities": "Du kan ikke innvilge noen rettigheter til den «anonyme» brukeren.",
         "ExceptionDeleteDoesNotExist": "Bruker «%s» eksisterer ikke og kan derfor ikke bli slettet.",
         "ExceptionDeleteOnlyUserWithSuperUserAccess": "Sletting av brukeren «%s» er ikke mulig.",
-        "ExceptionEditAnonymous": "Den anonyme brukeren kan ikke bli redigert eller slettet. Den blir brukt av Matomo for å definere en bruker som ikke har blitt logget inn ennå. Du kan for eksempel gjøre statistikken din offentlig ved å gi 'view'-tilgang til 'anonymous'-brukeren.",
+        "ExceptionEditAnonymous": "Den anonyme brukeren kan ikke bli redigert eller slettet. Den blir brukt av for å definere en bruker som ikke har blitt logget inn ennå. Du kan for eksempel gjøre statistikken din offentlig ved å gi 'view'-tilgang til 'anonymous'-brukeren.",
         "ExceptionEmailExists": "Bruker med e-post «%s» eksisterer allerede.",
         "ExceptionEmailExistsAsLogin": "E-posten «%s» er allerede i bruk som et brukernavn.",
         "ExceptionInvalidEmail": "E-postadressen er ikke i gyldig format.",
@@ -207,10 +207,10 @@
         "UsersManagement": "Administrasjon av brukere",
         "UsersManagementMainDescription": "Opprett nye brukere eller oppdater eksisterende. Du kan sette deres rettigheter over.",
         "UsesTwoFactorAuthentication": "Bruker to-faktoridentitetsbekreftelse",
-        "WhenUsersAreNotLoggedInAndVisitPiwikTheyShouldAccess": "Når brukere ikke er innlogget og besøker Matomo vil de først bli møtt med",
+        "WhenUsersAreNotLoggedInAndVisitPiwikTheyShouldAccess": "Når brukere ikke er innlogget og besøker vil de først bli møtt med",
         "YourCurrentPassword": "Ditt nåværende passord",
         "YourUsernameCannotBeChanged": "Brukernavnet ditt kan ikke endres.",
-        "YourVisitsAreIgnoredOnDomain": "%1$sDine besøk blir ignorert av Matomo på %2$s %3$s (informasjonskapselen for ekskludering fra Matomo ble funnet i din nettleser).",
-        "YourVisitsAreNotIgnored": "%1$sDine besøk blir ikke ignorert av Matomo%2$s (informasjonskapselen for ekskludering fra Matomo ble ikke funnet i din nettleser)."
+        "YourVisitsAreIgnoredOnDomain": "%1$sDine besøk blir ignorert av på %2$s %3$s (informasjonskapselen for ekskludering fra ble funnet i din nettleser).",
+        "YourVisitsAreNotIgnored": "%1$sDine besøk blir ikke ignorert av Matomo%2$s (informasjonskapselen for ekskludering fra ble ikke funnet i din nettleser)."
     }
 }

@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Socraigh GeoIP sa chluaisín riaracháin Geolocation chun sonraí a sholáthar don tuarascáil seo. Tá bunachair shonraí GeoIP tráchtála %1$sMaxMind%2$s níos cruinne ná na cinn in aisce. %3$s Cliceáil anseo %4$s chun a fháil amach cé chomh cruinn agus atá siad.",
         "GeoIpDbIpAccuracyNote": "Tá bunachair shonraí geolocation DB-IP saor in aisce agus is féidir iad a íoslódáil go huathoibríoch. Tá MaxMind níos cruinne do chathracha, ach caithfidh %1$s cuntas%2$s a dhéanamh.",
         "Geolocation": "Geoshuíomh",
-        "GeolocationPageDesc": "Anseo is féidir leat an chaoi a gcinneann Matomo láithreacha cuairteoirí a athrú.",
+        "GeolocationPageDesc": "Anseo is féidir leat an chaoi a gcinneann láithreacha cuairteoirí a athrú.",
         "GeolocationProviderBroken": "Tá do sholáthraí geoshuímh (%1$s) briste. Ceartaigh an soláthraí, nó socraigh ceann eile.",
         "GeolocationProviderUnavailable": "Níl do sholáthraí geolocation (%1$s) ar fáil a thuilleadh. Socraigh ceann eile le do thoil.",
         "HowToInstallGeoIPDatabases": "Conas a gheobhaidh mé bunachair shonraí geolocation?",

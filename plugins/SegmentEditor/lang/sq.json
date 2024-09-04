@@ -14,7 +14,7 @@
         "CurrentlySelectedSegment": "Segmenti i përzgjedhur tani: %s",
         "CustomSegment": "Segment Vetjak",
         "CustomUnprocessedSegmentApiError1": "Segmenti që kërkuat s’është krijuar ende te Përpunues Segmentesh, ndaj të dhënat e raportit s’janë parapërpunuar ende.",
-        "CustomUnprocessedSegmentApiError2": "Që të shihni të dhënat për këtë segment, duhet të shkoni te Matomo dhe ta krijoni dorazi këtë segment te Përpunuesi i Segmenteve.",
+        "CustomUnprocessedSegmentApiError2": "Që të shihni të dhënat për këtë segment, duhet të shkoni te dhe ta krijoni dorazi këtë segment te Përpunuesi i Segmenteve.",
         "CustomUnprocessedSegmentApiError3": "(Ndryshe, mund të krijoni programatikisht një segment të ri duke përdorur metodën API SegmentEditor.add).",
         "CustomUnprocessedSegmentApiError4": "Pasi segmenti të jetë krijuar te përpunuesi (ose përmes API-t), ky mesazh gabimi do të zhduket dhe brenda pak orësh do të shihni të dhënat e raportit për segmentin, pasi të dhënat e segmentit të jenë parapërpunuar. (Nëse s’ndodh, mund të ketë ndonjë problem.)",
         "CustomUnprocessedSegmentApiError5": "Ju lutemi, mbani parasysh që mund të testoni nëse segmenti juaj do të funksionojë apo jo, pa u dashur të pritni që ai të përpunohet duke përdorur API-n Live.getLastVisitsDetails.",

@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Bu rapora veri sağlamak için Coğrafi konum yönetici sekmesinden GeoIP kurulumunu yapın. Ticari %1$sMaxmind%2$s GeoIP veri tabanları ücretsiz olanlardan daha doğrudur. Bunların ne kadar doğru olduğunu görmek için %3$sburaya tıklayın%4$s.",
         "GeoIpDbIpAccuracyNote": "DB-IP coğrafi konum veri tabanları ücretsizdir ve otomatik olarak indirilebilir. MaxMind şehirlerde daha iyi çalışır ancak %1$sbir hesap açılmasını%2$s ister.",
         "Geolocation": "Coğrafi konum",
-        "GeolocationPageDesc": "Ziyaretçi konumun Matomo tarafından nasıl bulunacağı bu bölümden ayarlanabilir.",
+        "GeolocationPageDesc": "Ziyaretçi konumun tarafından nasıl bulunacağı bu bölümden ayarlanabilir.",
         "GeolocationProviderBroken": "Coğrafi konum hizmeti sağlayıcınız (%1$s) çalışmıyor. Lütfen hizmet sağlayıcıyı çalışır duruma getirin ya da başka bir hizmet sağlayıcı yapılandırın.",
         "GeolocationProviderUnavailable": "Coğrafi konum hizmeti sağlayıcınız (%1$s) artık kullanılamıyor. Lütfen başka bir hizmet sağlayıcı yapılandırın.",
         "HowToInstallGeoIPDatabases": "Coğrafi konum veri tabanları nasıl alınır?",

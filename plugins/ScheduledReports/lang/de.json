@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "Sie wurden erfolgreich vom Bericht %1$s abgemeldet.",
         "TableOfContent": "Liste der Berichte",
         "ThereIsNoReportToManage": "Es gibt keine Berichte für die Webseite %s",
-        "TopLinkTooltip": "Erstellen Sie E-Mailberichte, um Matomo Statistiken automatisch an Ihre E-Mailadresse oder die eines Kunden zu senden!",
+        "TopLinkTooltip": "Erstellen Sie E-Mailberichte, um Statistiken automatisch an Ihre E-Mailadresse oder die eines Kunden zu senden!",
         "TopOfReport": "Zurück zum Anfang",
         "Unsubscribe": "Abmelden",
         "UnsubscribeFooter": "Um sich von diesem Bericht abzumelden, klicken Sie bitte folgenden Link: %1$s",

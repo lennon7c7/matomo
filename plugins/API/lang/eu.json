@@ -5,7 +5,7 @@
         "GenerateVisits": "Gaurko daturik ez badaukazu, batzuk sortu ditzakezu %1$s plugina erabiliz. Horretarako erabili Matomoren administrazioko 'Garapena → Bisitari sortzailea'.",
         "Glossary": "Glosarioa",
         "KeepTokenSecret": "token_auth hau zure erabiltzaile-izen eta pasahitza bezain sekretua da, %1$s ez partekatu%2$s!",
-        "LearnAboutCommonlyUsedTerms2": "Ikasi maiz erabiltzen diren hitzen berri Matomo analitikak ahalik eta gehien aprobetxatzeko.",
+        "LearnAboutCommonlyUsedTerms2": "Ikasi maiz erabiltzen diren hitzen berri analitikak ahalik eta gehien aprobetxatzeko.",
         "LoadedAPIs": "%s API kargatu dira",
         "MainMetricsReportDocumentation": "Txosten honek kategoria eta plugin guztien metrika garrantzitsuenen ikuspegi orokorra ematen du.",
         "MoreInformation": "Matomoren APIari buruzko informazio gehiagorako: %1$sMatomoren APIrako sarrera%2$s eta %3$sMatomoren APIaren erreferentzia%4$s.",

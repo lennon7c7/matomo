@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Installieren Sie GeoIP im Standortbestimmung Administrations-Tab, um Daten für diesen Bericht bereitzustellen. Die kommerziellen %1$sMaxMind%2$s GeoIP Datenbanken sind genauer als die kostenlosen. Um zu sehen, wie genau sie sind, klicken Sie %3$shier%4$s.",
         "GeoIpDbIpAccuracyNote": "Die DB-IP Datenbanken sind frei und können automatisch heruntergeladen werden. MaxMind ist für Städte genauer, benötigt aber %1$sein Benutzerkonto%2$s.",
         "Geolocation": "Standorterkennung",
-        "GeolocationPageDesc": "Hier können Sie einstellen wie Matomo die Herkunft eines Besuchers ermittelt.",
+        "GeolocationPageDesc": "Hier können Sie einstellen wie die Herkunft eines Besuchers ermittelt.",
         "GeolocationProviderBroken": "Der konfigurierte Standorterkennungsdienst (%1$s) funktioniert nicht. Bitte korrigieren Sie die Einstellung, oder setzen Sie einen anderen Anbieter.",
         "GeolocationProviderUnavailable": "Der konfigurierte Anbieter (%1$s) zur Standortbestimmung ist nicht mehr verfügbar. Bitte setzen Sie einen anderen ein.",
         "HowToInstallGeoIPDatabases": "Woher bekommt man die Geolocation-Datenbanken?",

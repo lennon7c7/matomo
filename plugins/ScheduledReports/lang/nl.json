@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "U bent succesvol uitgeschreven voor het rapport %1$s.",
         "TableOfContent": "Rapport lijst",
         "ThereIsNoReportToManage": "Er is geen rapport te beheren voor website %s",
-        "TopLinkTooltip": "Creeer Email Rapporten om Matomo statistieken automatisch naar je email adres of die van een klant te versturen!",
+        "TopLinkTooltip": "Creeer Email Rapporten om statistieken automatisch naar je email adres of die van een klant te versturen!",
         "TopOfReport": "Terug naar boven",
         "Unsubscribe": "Uitschrijven",
         "UnsubscribeFooter": "Om uit te schrijven voor dit rapport, volg de link: %1$s",

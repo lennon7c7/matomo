@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Configure o GeoIP na guia de administração de geolocalização para fornecer dados para este relatório. Os bancos de dados GeoIP comerciais %1$sMaxMind%2$s são mais precisos do que os gratuitos. %3$sClique aqui%4$s para ver a precisão deles.",
         "GeoIpDbIpAccuracyNote": "Os bancos de dados de geolocalização DB-IP são gratuitos e podem ser descarregados automaticamente. MaxMind é mais preciso para cidades, mas requer %1$scriar uma conta%2$s.",
         "Geolocation": "Geolocalização",
-        "GeolocationPageDesc": "Aqui você pode alterar como o Matomo determina os locais dos visitantes.",
+        "GeolocationPageDesc": "Aqui você pode alterar como o determina os locais dos visitantes.",
         "GeolocationProviderBroken": "Seu provedor de geolocalização (%1$s) está quebrado. Corrija o provedor ou configure outro.",
         "GeolocationProviderUnavailable": "Seu provedor de geolocalização (%1$s) não está mais disponível. Por favor, configure outro.",
         "HowToInstallGeoIPDatabases": "Como obtenho bases de dados de geolocalização?",

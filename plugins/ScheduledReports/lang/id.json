@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "Anda telah berhasil berhenti berlangganan laporan %1$s.",
         "TableOfContent": "Daftar Laporan",
         "ThereIsNoReportToManage": "Tidak ada laporan yang dapat diatur untuk situs %s",
-        "TopLinkTooltip": "Buat Laporan Surel agar statistik Matomo dikirim ke surel Anda atau alamat pelanggan Anda secara otomatis!",
+        "TopLinkTooltip": "Buat Laporan Surel agar statistik dikirim ke surel Anda atau alamat pelanggan Anda secara otomatis!",
         "TopOfReport": "Kembali ke atas",
         "Unsubscribe": "Berhenti berlangganan",
         "UnsubscribeFooter": "Untuk berhenti berlangganan laporan ini, silakan ikuti tautan ini: %1$s",

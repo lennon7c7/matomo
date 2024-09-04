@@ -54,7 +54,7 @@
         "DaysToConv": "Dagen tot conversie",
         "DaysToConvReportDocumentation": "Dit rapport toont hoeveel dagen het duurt alvorens een bezoeker een doel converteerd.",
         "DefaultGoalConvertedOncePerVisit": "(standaard) De conversie van een doel is slechts éénmaal per bezoek mogelijk",
-        "DefaultRevenueHelp": "Bijvoorbeeld, een contactformulier dat is verzonden door een bezoeker kan gemiddeld €10,- waard zijn. Met de doelconversies zal Matomo u helpen begrijpen hoe goed de onderdelen van uw website presteren.",
+        "DefaultRevenueHelp": "Bijvoorbeeld, een contactformulier dat is verzonden door een bezoeker kan gemiddeld €10,- waard zijn. Met de doelconversies zal u helpen begrijpen hoe goed de onderdelen van uw website presteren.",
         "DefaultRevenueLabel": "Standaard inkomsten voor doelen",
         "DeleteGoalConfirm": "Weet u zeker dat u de doelstelling %s wilt verwijderen?",
         "Details": "Details doelstelling",

@@ -62,7 +62,7 @@
         "SettingBruteForceTimeRange": "Numëro prova hyrjesh brenda këtij intervali kohor në minuta",
         "SettingBruteForceTimeRangeHelp": "Jepni një numër minutash.",
         "SettingBruteForceWhitelistIp": "Mos u blloko kurrë hyrjen këtyre IP-ve",
-        "SuspiciousLoginAttemptsInLastHourEmail1": "Është bërë një numër i madh përpjekjesh për hyrje në llogarinë tuaj Matomo orën e fundit, që të bën të dyshosh. Më hollësisht, %1$s përpjekje për hyrje nga %2$s adresa të ndryshme IP. Dikush mund të jetë duke u përpjekur të hyjë në llogarinë tuaj.",
+        "SuspiciousLoginAttemptsInLastHourEmail1": "Është bërë një numër i madh përpjekjesh për hyrje në llogarinë tuaj orën e fundit, që të bën të dyshosh. Më hollësisht, %1$s përpjekje për hyrje nga %2$s adresa të ndryshme IP. Dikush mund të jetë duke u përpjekur të hyjë në llogarinë tuaj.",
         "SuspiciousLoginAttemptsInLastHourEmail2": "Bëni sa vijon:",
         "SuspiciousLoginAttemptsInLastHourEmail3": "Sigurohuni se fjalëkalimi juaj është i sigurt, kuturu, të paktën 30 shenja.",
         "SuspiciousLoginAttemptsInLastHourEmail4": "Ujdisni mirëfilltësim dyfaktorësh, në mënyrë që agresorëve t’u duhet më tepër informacion se sa thjesht fjalëkalimi juaj, për të mundur të bëjnë hyrjen në llogari.",

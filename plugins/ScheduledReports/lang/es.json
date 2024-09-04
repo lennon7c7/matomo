@@ -53,7 +53,7 @@
         "SuccessfullyUnsubscribed": "Se ha desuscripto exitosamente de este informe %1$s.",
         "TableOfContent": "Lista de informes",
         "ThereIsNoReportToManage": "No hay informes que administrar para el sitio de internet %s",
-        "TopLinkTooltip": "Cree informes por medio del correo electrónico para obtener las estadísticas de Matomo enviadas a su correo electrónico o las de sus clientes automáticamente!",
+        "TopLinkTooltip": "Cree informes por medio del correo electrónico para obtener las estadísticas de enviadas a su correo electrónico o las de sus clientes automáticamente!",
         "TopOfReport": "Volver arriba",
         "Unsubscribe": "Desuscribirse",
         "UnsubscribeFooter": "Para desuscribirse de este informe por favor siga este enlace: %1$s",

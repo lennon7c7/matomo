@@ -4,8 +4,8 @@
         "AnonymousUserHasViewAccess": "Notă: utilizatorul %1$s are acces %2$s la acest website.",
         "AnonymousUserHasViewAccess2": "Rapoartele de analiză și informațiile dvs. despre vizitatori sunt facute publice.",
         "ApplyToAllWebsites": "Aplica tuturor siteurilor",
-        "ClickHereToDeleteTheCookie": "Click aici pentru a șterge cookie-ul și puenti-l pe Matomo sa urmăreasca vizitele",
-        "ClickHereToSetTheCookieOnDomain": "Click aici pentru a stabili un cookie care va exclude vizitele dvs. de pe site-urile urmărite cu Matomo pe %s",
+        "ClickHereToDeleteTheCookie": "Click aici pentru a șterge cookie-ul și puenti-l pe sa urmăreasca vizitele",
+        "ClickHereToSetTheCookieOnDomain": "Click aici pentru a stabili un cookie care va exclude vizitele dvs. de pe site-urile urmărite cu pe %s",
         "ConfirmGrantSuperUserAccess": "Chiar vrei să se acorde '%s' acces de Super utilizator? Avertisment: utilizatorul va avea acces la toate site-urile și va fi capabil de a efectua sarcini administrative.",
         "ConfirmProhibitMySuperUserAccess": "%s, chiar vrei să eliminați propriul Super acces utilizator? Veți pierde toate permisiunile și acces la toate site-urile și vei fi deconectat de la Matomo.",
         "DeleteConfirm": "Eşti sigur că vrei să ştergi utilizatorul %s?",
@@ -37,7 +37,7 @@
         "ReportDateToLoadByDefault": "Data raportului pentru a încărca în mod implicit",
         "ReportToLoadByDefault": "Raport pentru a încărca în mod implicit",
         "SuperUserAccessManagement": "Gestionarea Super acces utilizator",
-        "SuperUserAccessManagementGrantMore": "Puteți acorda Super accesul utilizatorului la alți utilizatori de Matomo aici. Vă rugăm să folosiți cu atenție această caracteristică.",
+        "SuperUserAccessManagementGrantMore": "Puteți acorda Super accesul utilizatorului la alți utilizatori de aici. Vă rugăm să folosiți cu atenție această caracteristică.",
         "SuperUserAccessManagementMainDescription": "Super utilizatorii au cele mai mari permisiunile. Ele pot îndeplini toate sarcinile administrative, cum ar fi adăugarea de noi site-uri pentru a monitoriza, adăugarea de utilizatori, schimbarea permisiunilor de utilizator, activarea și dezactivarea plugin-uri și chiar instalarea de noi plugin-uri de pe piață.",
         "TheLoginScreen": "Pagina de autentificare",
         "ThereAreCurrentlyNRegisteredUsers": "La moment există %s utilizatori înregistraţi.",
@@ -47,7 +47,7 @@
         "UsersManagement": "Management useri",
         "UsersManagementMainDescription": "Creaza user nou sau actualizeaza userul existent. Poti seta permisiunile lor.",
         "YourUsernameCannotBeChanged": "Numele tău de utilizator nu poate fi schimbat.",
-        "YourVisitsAreIgnoredOnDomain": "%1$svizitele tale sunt ignorate de Matomo pe %2$s%3$s (Matomo ignora cookie care a fost găsit în browser-ul dvs.).",
+        "YourVisitsAreIgnoredOnDomain": "%1$svizitele tale sunt ignorate de pe %2$s%3$s (Matomo ignora cookie care a fost găsit în browser-ul dvs.).",
         "YourVisitsAreNotIgnored": "%1$s Vizitele tale nu sunt ignorate de Matomo%2$s (Matomo ignora cookie care nu au fost găsite în browser-ul dvs.)."
     }
 }

@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Kullanıcı uygulaması %1$s olarak algılandı. Bu kullanıcı uygulaması ile yapılan ziyaretler Matomo tarafından varsayılan olarak izlenmeyecek.",
+        "BotDetected": "Kullanıcı uygulaması %1$s olarak algılandı. Bu kullanıcı uygulaması ile yapılan ziyaretler tarafından varsayılan olarak izlenmeyecek.",
         "BrowserCode": "Tarayıcı kodu",
         "BrowserEngine": "Tarayıcı motoru",
         "BrowserEngineDocumentation": "Bu rapor ziyaretçilerin tarayıcılarının tarayıcı motorlarına göre dağılımını görüntüler. %s Site tasarımcıları için en önemli bilgi ziyaretçilerin kullandığı görüntüleme motorudur. Etiketlerde motorların adı ve yanında köşeli parantez içinde bu motoru en çok kullanan tarayıcı görüntülenir.",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Bu rapor, ziyaretçilerin kullandığı aygıtları içerir. Bazı model adları birden çok marka tarafından kullanıldığından, her model aygıt markasıyla birlikte görüntülenir.",
         "DeviceModels": "Aygıt modelleri",
         "DeviceType": "Aygıt türü",
-        "DeviceTypeReportDocumentation": "Bu rapor, ziyaretçilerin kullandığı aygıt türlerini içerir. Belirli bir aygıt türünde ziyaret olmasa da, Matomo tarafından algılanabilen tüm aygıt türleri her zaman görüntülenir.",
+        "DeviceTypeReportDocumentation": "Bu rapor, ziyaretçilerin kullandığı aygıt türlerini içerir. Belirli bir aygıt türünde ziyaret olmasa da, tarafından algılanabilen tüm aygıt türleri her zaman görüntülenir.",
         "DeviceTypes": "Aygıt türleri",
         "Devices": "Aygıtlar",
         "DevicesDetection": "Ziyaretçi aygıtları",

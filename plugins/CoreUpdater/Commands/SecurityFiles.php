@@ -23,7 +23,7 @@ class SecurityFiles extends ConsoleCommand
 
         $this->setDescription(
             'Creates some web server security files if they haven\'t existed previously. ' .
-            'Useful when using for example Apache or IIS web server and Matomo cannot create these ' .
+            'Useful when using for example Apache or IIS web server and cannot create these ' .
             'files automatically because of missing write permissions.'
         );
     }
@@ -35,7 +35,7 @@ class SecurityFiles extends ConsoleCommand
             'Done. To check if this worked please open the system report or run `./console diagnostics:run` and look ' .
             'out for the private directories check. If it doesn\'t work you may need to execute this command using a ' .
             'user that has write permissions or maybe you are not using Apache or IIS web server. Please note you ' .
-            'may need to execut this command every time you update Matomo to a newer version.'
+            'may need to execut this command every time you update to a newer version.'
         );
 
         return self::SUCCESS;

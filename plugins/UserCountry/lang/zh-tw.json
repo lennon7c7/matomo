@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "在地理定位管理中設定 GeoIP 以提供報表所需資料。商業版 %1$sMaxmind%2$s GeoIP 資料庫比免費版更精確。%3$s點擊這裡%4$s看看它們多精確。",
         "GeoIpDbIpAccuracyNote": "DB-IP 的地理定位資料庫是免費的，可以自動下載。MaxMind 對城市的精確性更高，但需要%1$s註冊帳戶%2$s。",
         "Geolocation": "地理位置",
-        "GeolocationPageDesc": "你可以在這裡改變 Matomo 推斷訪客位置的方式。",
+        "GeolocationPageDesc": "你可以在這裡改變 推斷訪客位置的方式。",
         "GeolocationProviderBroken": "您的地理定位供應程式（%1$s）已損壞。請修復它，或設定另一個供應程式。",
         "GeolocationProviderUnavailable": "您的地理定位供應器（%1$s）不再可用。請設定另一個。",
         "HowToInstallGeoIPDatabases": "我該如何取得地理位置資料庫？",

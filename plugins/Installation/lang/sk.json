@@ -14,11 +14,11 @@
         "DatabaseSetupLogin": "Prihlásenie",
         "DatabaseSetupServer": "Databázový server",
         "DatabaseSetupTablePrefix": "Prefix tabuľky",
-        "DefaultSettings": "Štandardné Matomo nastavania",
+        "DefaultSettings": "Štandardné nastavania",
         "Email": "E-mail",
         "Extension": "rozšírenie",
         "Filesystem": "Súborový systém",
-        "GoBackAndDefinePrefix": "Choďte späť a zadefinujte predponu pre Matomo tabuľky",
+        "GoBackAndDefinePrefix": "Choďte späť a zadefinujte predponu pre tabuľky",
         "HappyAnalysing": "Prajem veselú analýzu!",
         "Installation": "Inštalácia",
         "InstallationStatus": "Stav inštalácie",
@@ -70,7 +70,7 @@
         "Tables": "Vytváranie tabuliek",
         "TablesCreatedSuccess": "Tabuľky boli úspešne vytvorené!",
         "TablesDelete": "zmazanie delegovaných tabuliek",
-        "TablesDeletedSuccess": "Existujúce Matomo tabuľky boli úspešne zmazané",
+        "TablesDeletedSuccess": "Existujúce tabuľky boli úspešne zmazané",
         "TablesFound": "Nasledujúce tabuľky boli nájdené.",
         "TablesReuse": "Znovu použiť existujúce tabuľky",
         "TablesUpdatedSuccess": "Databáza bola úspešne aktualizovaná z %1$s na %2$s!",
@@ -78,6 +78,6 @@
         "TablesWithSameNamesFound": "Niektoré %1$s tabuľky vo vašej databáze %2$s majú rovnaké názvy, ako sa snaží vytvoriť Matomo",
         "Timezone": "Časové pásmo webovej stránky",
         "Welcome": "Vitajte",
-        "WelcomeToCommunity": "Vitajte v Matomo komunite"
+        "WelcomeToCommunity": "Vitajte v komunite"
     }
 }

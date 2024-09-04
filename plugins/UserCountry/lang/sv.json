@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Ställ in GeoIP i inställningarna, under fliken Geolocation för att ge data till denna rapport. Dom kommersiella versionerna av GeoIP-databaserna från %1$sMaxMind%2$s är mer exakta än dom som är gratis. Klicka %3$shär%4$s för att se hur exakta dom är.",
         "GeoIpDbIpAccuracyNote": "DB-IP-databaserna är gratis och kan laddas ner automatiskt. MaxMind är mer exakt för städer, men kräver att du skapar %1$sett konto%2$s.",
         "Geolocation": "Geografisk plats",
-        "GeolocationPageDesc": "Här kan du ändra hur Matomo avgör besökarnas platser.",
+        "GeolocationPageDesc": "Här kan du ändra hur avgör besökarnas platser.",
         "GeolocationProviderBroken": "Din geolokaliseringsleverantör (%1$s) är trasig. Vänligen åtgärda leverantören eller sätt upp en annan.",
         "GeolocationProviderUnavailable": "Din leverantör av geolokalisering (%1$s) är inte tillgänglig längre. Vänligen konfigurera en annan.",
         "HowToInstallGeoIPDatabases": "Hur får jag geolokaliseringsdatabaser?",

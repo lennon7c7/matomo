@@ -21,7 +21,7 @@ class BuildTracker extends ConsoleCommand
     protected function configure()
     {
         $this->setName('development:build-tracker-js');
-        $this->setDescription('Minifies tracker JavaScript for Matomo core or a single plugin.');
+        $this->setDescription('Minifies tracker JavaScript for core or a single plugin.');
         $this->addRequiredValueOption('plugin', null, 'The plugin to minify. If not supplied, minifies core tracker JS.');
     }
 

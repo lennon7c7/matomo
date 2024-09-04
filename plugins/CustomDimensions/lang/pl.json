@@ -34,7 +34,7 @@
         "NoCustomDimensionConfigured": "Brak skonfigurowanych Wymiarów Niestandardowych, skonfiguruj pierwszy.",
         "NoValue": "brak wartości",
         "PageUrlParam": "Parametr adresu strony",
-        "PluginDescription": "Dopasuj Matomo do swoich potrzeb definiując i śledząc Wymiary Niestandardowe w zakresie Akcji lub Wizyt",
+        "PluginDescription": "Dopasuj do swoich potrzeb definiując i śledząc Wymiary Niestandardowe w zakresie Akcji lub Wizyt",
         "ScopeDescriptionAction": "Wymiary Niestandardowe w zakresie 'Akcja' mogą być wysyłane dla każdej akcji (wyświetlenie strony, pobranie, wydarzenie, etc.).",
         "ScopeDescriptionActionMoreInfo": "Wyodrębnienia mogą być definiowane w ten sposób, że wartość Wymiaru Niestandardowego zostanie wyodrębniona z Adresu URL, Tytułu strony lub parametru zapytania wchodzącego w skład Adresu URL.",
         "ScopeDescriptionVisit": "Wymiary Niestandardowe w zakresie 'Odwiedziny' mogą być wysyłane jako dowolne żądanie śledzące i są przechowywane w odwiedzinach.",

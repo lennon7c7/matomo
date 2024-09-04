@@ -2,7 +2,7 @@
     "SegmentEditor": {
         "AddANDorORCondition": "%s の条件を追加",
         "AddNewSegment": "新しいセグメントを追加",
-        "AddThisToMatomo": "このセグメントを Matomo に追加する",
+        "AddThisToMatomo": "このセグメントを に追加する",
         "AddingSegmentForAllWebsitesDisabled": "全ウェブサイトに対するセグメントは追加できませんでした。",
         "AreYouSureDeleteSegment": "このセグメントを削除してもよろしいですか？",
         "AutoArchivePreProcessed": "セグメントレポートの事前処理（archive.php の cron 設定が必要）",
@@ -34,7 +34,7 @@
         "SegmentEditor": "セグメントエディタ",
         "SegmentIsDisplayedForWebsite": "処理された",
         "SegmentNotApplied": "セグメント '%s' が適用されませんでした",
-        "SegmentNotAppliedMessage": "Custom Segment '%s'のデータを要求していますが、この Matomo の設定では現在、パフォーマンス上の理由からレポートのリアルタイム処理ができません。",
+        "SegmentNotAppliedMessage": "Custom Segment '%s'のデータを要求していますが、この の設定では現在、パフォーマンス上の理由からレポートのリアルタイム処理ができません。",
         "SegmentOperatorIsNotNullNorEmpty": "null でも空でもありません",
         "SegmentOperatorIsNullOrEmpty": "は、null または空です",
         "SegmentXIsAUnionOf": "%s はこれらのセグメントの結合体です：",

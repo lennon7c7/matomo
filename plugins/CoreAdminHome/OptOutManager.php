@@ -365,7 +365,7 @@ HTML;
                 return;
             }
             
-            console.log('Matomo OptOutJS: failed to find Matomo tracker after '+(checkForTrackerTries*checkForTrackerInterval / 1000)+' seconds');
+            console.log('Matomo OptOutJS: failed to find tracker after '+(checkForTrackerTries*checkForTrackerInterval / 1000)+' seconds');
         }
         
         function showOptOutTracker() {             

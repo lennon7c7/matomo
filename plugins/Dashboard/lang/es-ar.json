@@ -33,6 +33,6 @@
         "TopLinkTooltip": "Ver informes de análisis web para %s.",
         "WidgetNotFound": "Widget no encontrado",
         "WidgetPreview": "Previsualización del Widget",
-        "DashboardCategoryHelp": "Esta es una página de panel. Los paneles son una colección de widgets de Matomo que agregas vos mismo para cubrir tus necesidades específicas. Mezclá y combiná cualquiera de los widgets de Matomo para obtener los datos que %1$sVOS%2$s necesitás de un saque."
+        "DashboardCategoryHelp": "Esta es una página de panel. Los paneles son una colección de widgets de que agregas vos mismo para cubrir tus necesidades específicas. Mezclá y combiná cualquiera de los widgets de para obtener los datos que %1$sVOS%2$s necesitás de un saque."
     }
 }

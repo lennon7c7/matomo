@@ -13,8 +13,8 @@
         "Settings_APIKey": "Clave API",
         "Settings_CountryCode": "Código de país",
         "Settings_CredentialInvalid": "Tu cuenta API de mensajes de texto de %1$s está configurada, pero ocurrió un error al intentar recibir los créditos disponibles.",
-        "Settings_CredentialNotProvided": "Antes que puedas crear y administrar números de teléfono, por favor, conectá Matomo a tu cuenta de mensajes de texto arriba.",
-        "Settings_CredentialNotProvidedByAdmin": "Antes que puedas crear y administrar números de teléfono, por favor, pedile a tu administrador que conecte Matomo a una cuenta de mensajes de texto.",
+        "Settings_CredentialNotProvided": "Antes que puedas crear y administrar números de teléfono, por favor, conectá a tu cuenta de mensajes de texto arriba.",
+        "Settings_CredentialNotProvidedByAdmin": "Antes que puedas crear y administrar números de teléfono, por favor, pedile a tu administrador que conecte a una cuenta de mensajes de texto.",
         "Settings_CredentialProvided": "¡Tu %s cuenta API SMS está correctamente configurada!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Los números de teléfono configurados sólo pueden ser vistos y usados por vos y por ningún otro usuario.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "El proveedor de mensajes de texto configurado sólo será usado por vos y por ningún otro usuario.",
@@ -43,6 +43,6 @@
         "TopLinkTooltip": "¡Obtené informes de análisis de tu sitio web enviados a tu casilla de correo electrónico o a tu teléfono celular!",
         "TopMenu": "Informes por correo electrónico y mensajes de texto",
         "UserKey": "Clave de usuario",
-        "VerificationText": "El código es: %1$s. Para validar tu número telefónico y recibir informes de Matomo vía mensajes de texto, por favor, copiá este código en el formulario que se encuentra en Matomo → %2$s → %3$s."
+        "VerificationText": "El código es: %1$s. Para validar tu número telefónico y recibir informes de vía mensajes de texto, por favor, copiá este código en el formulario que se encuentra en → %2$s → %3$s."
     }
 }

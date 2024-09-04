@@ -1,4 +1,4 @@
-# Matomo ExampleTheme Theme
+# ExampleTheme Theme
 
 ## Description
 

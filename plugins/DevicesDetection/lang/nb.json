@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Denne brukeragenten er oppdaget som %1$s. Besøk med denne brukeragenten vil ikke kunne spores i Matomo som forvalg.",
+        "BotDetected": "Denne brukeragenten er oppdaget som %1$s. Besøk med denne brukeragenten vil ikke kunne spores i som forvalg.",
         "BrowserCode": "Nettleserkode",
         "BrowserEngine": "Nettlesermotor",
         "BrowserEngineDocumentation": "Denne rapporten viser dine besøkeres nettlesere brutt ned etter nettlesermotorer. %s den viktigste informasjonen for web-utviklere er hva slags rendering-motor som besøkere bruker. Oppføringen inneholder navnene til motoren fulgt av den mest kjente nettleseren som bruker den motoren.",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Denne rapporten viser enhetene dine besøkende bruker. Hver modell vises kombinert med enhetsmerket, siden noen modellnavn brukes av flere merker.",
         "DeviceModels": "Enhetsmodeller",
         "DeviceType": "Enhetstype",
-        "DeviceTypeReportDocumentation": "Denne rapporten viser hvilke typer enheter dine besøkende bruker. Denne rapporten vil alltid vise enhetstypene Matomo kan oppdage, selv om det ikke er noen besøk av angitt type.",
+        "DeviceTypeReportDocumentation": "Denne rapporten viser hvilke typer enheter dine besøkende bruker. Denne rapporten vil alltid vise enhetstypene kan oppdage, selv om det ikke er noen besøk av angitt type.",
         "DeviceTypes": "Enhetstyper",
         "Devices": "Enheter",
         "DevicesDetection": "Besøkendes enheter",

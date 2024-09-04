@@ -589,10 +589,10 @@ export default defineComponent({
 });
 </script>',
             'vue_embed' => '<p>Or you can display a code block:</p>
-<div><pre v-copy-to-clipboard="{}">&lt;!-- Matomo --&gt;
+<div><pre v-copy-to-clipboard="{}">&lt;!-- --&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
 &lt;/script&gt;
-&lt;!-- End Matomo Code --&gt;</pre></div>',
+&lt;!-- End Code --&gt;</pre></div>',
             'directives' => [
                 ['plugin' => 'CoreHome', 'directive' => 'CopyToClipboard'],
             ],

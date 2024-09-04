@@ -12,7 +12,7 @@
         "GenerateNewRecoveryCodes": "Générer de nouveaux codes de récupération",
         "GenerateNewRecoveryCodesInfo": "Lorsque vous générez de nouveaux codes de récupération, les anciens ne fonctionneront plus. Assurez-vous de télécharger ou imprimer vos nouveaux codes.",
         "InvalidAuthCode": "Le code d'authentification à deux facteurs est incorrect.",
-        "LostAuthenticationDevice": "Bonjour, %1$s J'ai activé l'authentification à deux facteurs et perdu mon périphérique d'authentification. Pourriez-vous réinitialiser l'authentification à deux facteurs pour mon identifiant %5$s ? Ici les instructions : %6$s. %2$sL'URL Matomo est %3$s. %4$s Merci",
+        "LostAuthenticationDevice": "Bonjour, %1$s J'ai activé l'authentification à deux facteurs et perdu mon périphérique d'authentification. Pourriez-vous réinitialiser l'authentification à deux facteurs pour mon identifiant %5$s ? Ici les instructions : %6$s. %2$sL'URL est %3$s. %4$s Merci",
         "MissingAuthCodeAPI": "Veuillez spécifier un code d'authentification à deux facteurs.",
         "NotPossibleToLogIn": "Impossible de s'identifier auprès de Matomo",
         "RecoveryCodes": "Codes de récupération",

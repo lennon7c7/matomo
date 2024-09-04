@@ -9,7 +9,7 @@
         "IWantTo": "Jeg ønsker at:",
         "LearnWaysToParticipate": "Lær om alle de måder, du kan %1$s bidrage%2$s",
         "ManuallySendEmailTo": "Send din besked manuelt til",
-        "PluginDescription": "Send tilbagemelding til Matomo holdet. Del dine ideer og forslag til at gøre Matomo til den bedste analyseplatform i verden!",
+        "PluginDescription": "Send tilbagemelding til holdet. Del dine ideer og forslag til at gøre til den bedste analyseplatform i verden!",
         "PrivacyClaim": "Matomo respekterer dit %1$sprivatliv%2$s og giver dig fuld kontrol over dine data.",
         "ProfessionalHelp": "Professionel hjælp",
         "ProfessionalServicesOfferIntro": "Hvilke ydelser kan du gøre brug af?",
@@ -20,10 +20,10 @@
         "RateFeatureTitle": "Kan du lide '%s' funktionen? Bedøm og efterlade en kommentar",
         "SearchHelpResources": "Søg i hjælpeartikler på matomo.org",
         "SendFeedback": "Send tilbagemelding",
-        "ThankYou": "Tak, fordi du hjælper med at gøre Matomo bedre!",
+        "ThankYou": "Tak, fordi du hjælper med at gøre bedre!",
         "TopLinkTooltip": "Fortæl os hvad du mener eller anmod om professionel support",
         "ViewAnswersToFAQ": "Se svarene på %1$sOfte stillede spørgsmål%2$s",
-        "ViewUserGuides": "Lær at konfigurere Matomo og hvordan man effektivt analyserer data med vores %1$sbrugervejledninger%2$s",
+        "ViewUserGuides": "Lær at konfigurere og hvordan man effektivt analyserer data med vores %1$sbrugervejledninger%2$s",
         "VisitTheForums": "Besøg %1$sforummet%2$s og få hjælp fra andre Matomo-brugere"
     }
 }
