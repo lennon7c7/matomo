@@ -57,9 +57,5 @@ class Menu extends \Piwik\Plugin\Menu
         $ua = new OperatingSystem($_SERVER['HTTP_USER_AGENT']);
         $ua->setCache(StaticContainer::get('DeviceDetector\Cache\Cache'));
         $parsedOS = $ua->parse();
-
-        if (!empty($parsedOS['short_name']) && in_array($parsedOS['short_name'], array(self::DD_SHORT_NAME_ANDROID, self::DD_SHORT_NAME_IOS))) {
-            $menu->addItem('Mobile_MatomoMobile', null, Url::addCampaignParametersToMatomoLink('https://matomo.org/mobile/'), 4);
-        }
     }
 }
